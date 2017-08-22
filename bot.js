@@ -1,6 +1,8 @@
 // require
 var Discord = require('discord.io');
 var fs = require('fs');
+var gaussian = require('gaussian');
+var distribution = gaussian(0, 15);
 
 // bots
 var discordBot;
@@ -10,6 +12,9 @@ console.log("got credentials");
 // discord client params
 var discordToken = creds.token;
 var channelID = creds.channelID;
+
+// bot uptime tracking
+var startTime = new Date();
 
 // gogogogogogo
 init();
@@ -28,7 +33,6 @@ function createDiscordBot() {
         token: discordToken
     })
     console.log("-> discord bot initialized");  
-
     // start bot
     discordBot.on('ready', function (event) {
         console.log('-> logged in as %s - %s\n', discordBot.username, discordBot.id);
@@ -43,6 +47,17 @@ function createDiscordBot() {
     });
 }
 
+function getRandomPause() {
+    return Math.min((Math.abs(distribution.ppf(Math.random())) + 1) * 30000, 1500000) 
+}
+
+function shouldSleep() {
+    var currentTime = new Date();
+    console.log(currentTime.getTime() - startTime.getTime());
+    // TODO: implement day/night tracking and daytime periodic sleep
+}
+
+
 // as stated...
 function getFishy() {
     discordBot.sendMessage({
@@ -52,6 +67,8 @@ function getFishy() {
     
     console.log('fished');
     
-    setTimeout(getFishy, 30000);
-    console.log("queued self");
+    var nextInterval = getRandomPause();
+    setTimeout(getFishy, nextInterval);
+    
+    console.log("queued self to fire in " + nextInterval + "ms");
 }
