@@ -37,12 +37,9 @@ function createDiscordBot() {
         console.log('starting to fish');
         getFishy();
     });
-}
-
-function getMessage() {
-    console.log("get message");
+    
     discordBot.on('message', function(user, userID, channelID, message, event) {
-        console.log(message);
+        // do nothing...
     });
 }
 
