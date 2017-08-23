@@ -44,13 +44,25 @@ function createDiscordBot() {
 
     discordBot.on('message', function(user, userID, channelID, message, event) {
         // do nothing...
-        console.log("user ", user);
-        console.log("userID ", userID);
-        console.log("channelID ", channelID);
-        console.log("message ", message);
-        console.log("event mentions ", event.d.mentions);
-        console.log("event embeds" , event.d.embeds);
-        console.log("\n");
+        // console.log("user ", user);
+        // console.log("userID ", userID);
+        // console.log("channelID ", channelID);
+        // console.log("message ", message);
+        // console.log("event mentions ", event.d.mentions);
+        // console.log("event embeds" , event.d.embeds);
+        // console.log("\n");
+
+        var mentions = event.d.mentions;
+        mentions.forEach(function (mention) {
+            // console.log(mention.username);
+            if (mention.username === "charuri") {
+                discordBot.sendMessage({
+                    to: channelID,
+                    message: "no."
+                });
+                console.log("sassed");
+            }
+        });
 
         if (message.startsWith(".plant") || message.startsWith("5 random")) {
             pickFlower(channelID);
