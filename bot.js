@@ -52,18 +52,16 @@ function createDiscordBot() {
         // console.log("event embeds" , event.d.embeds);
         // console.log("\n");
 
+        // sass when ppl mention me
         var mentions = event.d.mentions;
         mentions.forEach(function (mention) {
             // console.log(mention.username);
             if (mention.username === "charuri") {
-                discordBot.sendMessage({
-                    to: channelID,
-                    message: "no."
-                });
-                console.log("sassed");
+                getSassy(channelID);
             }
         });
 
+        // take your life and their dreams
         if (message.startsWith(".plant") || message.startsWith("5 random")) {
             pickFlower(channelID);
         }
@@ -74,25 +72,11 @@ function getRandomPause() {
     return Math.min((Math.abs(distribution.ppf(Math.random())) + 1) * 30000, 1500000)
 }
 
+// for the "humans"
 function shouldSleep() {
     var currentTime = new Date();
     console.log(currentTime.getTime() - startTime.getTime());
     // TODO: implement day/night tracking and daytime periodic sleep
-}
-
-
-function pickFlower(channelID) {
-    // roll, if < 9. then pick flower
-    if (Math.random(Math.floor((Math.random()*10+1))) < 8) {
-        discordBot.sendMessage({
-            to: channelID,
-            message: ".pick"
-        });
-        console.log('picked flowers');
-    }
-    else {
-        console.log('spared flowers this time');
-    }
 }
 
 // as stated...
@@ -108,4 +92,28 @@ function getFishy() {
     setTimeout(getFishy, nextInterval*5);
 
     console.log("queued self to fire in " + nextInterval + "ms");
+}
+
+// heck
+function getSassy(channelID) {
+    discordBot.sendMessage({
+        to: channelID,
+        message: "no."
+    });
+    console.log("sassed");
+}
+
+// crush ppl but be nice
+function pickFlower(channelID) {
+    // roll, if < 8. then pick flower
+    if (Math.random(Math.floor((Math.random()*10+1))) < 8) {
+        discordBot.sendMessage({
+            to: channelID,
+            message: ".pick"
+        });
+        console.log('picked flowers');
+    }
+    else {
+        console.log('spared flowers, this time');
+    }
 }
