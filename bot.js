@@ -106,14 +106,24 @@ function getSassy(channelID) {
 // crush ppl but be nice
 function pickFlower(channelID) {
     // roll, if < 8. then pick flower
-    if (Math.random(Math.floor((Math.random()*10+1))) < 8) {
-        discordBot.sendMessage({
-            to: channelID,
-            message: ".pick"
-        });
+    if ((Math.floor((Math.random()*10+1))) < 5) {
+        setTimeout(function(){
+            // console.log('delay');
+            discordBot.sendMessage({
+                to: channelID,
+                message: ".pick"
+            });
+        }, 500);
         console.log('picked flowers');
     }
     else {
+        setTimeout(function(){
+            // console.log('delay');
+            discordBot.sendMessage({
+                to: channelID,
+                message: ".pink"
+            });
+        }, 500);
         console.log('spared flowers, this time');
     }
 }
