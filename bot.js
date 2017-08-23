@@ -89,7 +89,7 @@ function getFishy() {
     console.log('fished');
 
     var nextInterval = getRandomPause();
-    setTimeout(getFishy, nextInterval*5);
+    setTimeout(getFishy, nextInterval*2);
 
     console.log("queued self to fire in " + nextInterval + "ms");
 }
@@ -106,7 +106,7 @@ function getSassy(channelID) {
 // crush ppl but be nice
 function pickFlower(channelID) {
     // roll, if < 8. then pick flower
-    if ((Math.floor((Math.random()*10+1))) < 5) {
+    if ((Math.floor((Math.random()*10+1))) < 7) {
         setTimeout(function(){
             // console.log('delay');
             discordBot.sendMessage({
