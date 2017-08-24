@@ -1,21 +1,26 @@
 // require
-var Discord = require('discord.io');
-var fs = require('fs');
-var gaussian = require('gaussian');
-var distribution = gaussian(0, 15);
-var parseArgs = require('minimist');
+require('babel-register');
+
+export var Discord = require('discord.io');
+export var fs = require('fs');
+export var parseArgs = require('minimist');
+
+import updateFlagParams from "./js/utils.js";
+import getFishy from "./js/fishing.js";
+import getSassy from "./js/sassing.js";
+import pickFlower from "./js/flowerPicking.js";
 
 // default config
-var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+export var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 
 // bots
-var discordBot;
+export var discordBot;
 var creds = JSON.parse(fs.readFileSync('credentials.json', 'utf8'));
 console.log("got credentials");
 
 // discord client config
 var discordToken = creds.token;
-var channelID = creds.channelID;
+export var channelID = creds.channelID;
 
 // cmdline args
 updateFlagParams();
@@ -81,84 +86,4 @@ function startMessageWatchers() {
             }
         }
     });
-}
-
-function updateFlagParams() {
-    var argkeys = JSON.parse(fs.readFileSync('argkeys.json', 'utf8'));
-    var args = parseArgs(process.argv, argkeys);
-    console.log("got argkeys");
-
-    config.sassEnabled = args.s;
-    config.fishingEnabled = args.f;
-    config.pickingEnabled = args.p;
-    config.killMode = args.k;
-    config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
-
-    console.log("sassy bot: " + config.sassEnabled);
-    console.log("autofishing: " + config.fishingEnabled);
-    console.log("autopicking: " + config.pickingEnabled);
-    console.log("autopicking snipe probability: " + config.pickThreshold);
-    console.log("kill mode: " + config.killMode);
-}
-
-function getRandomPause() {
-    return Math.min((Math.abs(distribution.ppf(Math.random())) + 1) * 30000, 1500000)
-}
-
-// for the "humans"
-function shouldSleep() {
-    var currentTime = new Date();
-    console.log(currentTime.getTime() - startTime.getTime());
-    // TODO: implement day/night tracking and daytime periodic sleep
-}
-
-// as stated...
-function getFishy() {
-    discordBot.sendMessage({
-        to: channelID,
-        message: "t!fish"
-    });
-
-    console.log('fished');
-
-    var nextInterval = getRandomPause();
-    setTimeout(getFishy, nextInterval);
-
-    console.log("queued self to fire in " + nextInterval + "ms");
-}
-
-// heck
-function getSassy(channelID) {
-    discordBot.sendMessage({
-        to: channelID,
-        message: "no."
-    });
-    console.log("sassed");
-}
-
-// crush ppl but optionally be nice sometimes
-function pickFlower(channelID) {
-    var delay = (config.killMode ? 100 : 500);
-    // roll, if < 8. then pick flower
-
-    if (config.killMode || (Math.random() < config.pickThreshold)) {
-        setTimeout(function(){
-            // console.log('delay');
-            discordBot.sendMessage({
-                to: channelID,
-                message: ".pick"
-            });
-        }, delay);
-        console.log('sniped flowers');
-    }
-    else {
-        setTimeout(function(){
-            // console.log('delay');
-            discordBot.sendMessage({
-                to: channelID,
-                message: ".pink"
-            });
-        }, delay);
-        console.log('spared flowers, this time');
-    }
 }

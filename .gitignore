@@ -1,4 +1,7 @@
 node_modules
+dist
+
 credentials.json
-.DS_Store
 package-lock.json
+
+.DS_Store
