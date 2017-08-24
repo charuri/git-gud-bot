@@ -1,0 +1,7 @@
+{
+    "sassEnabled": false,
+    "fishingEnabled": true,
+    "pickingEnabled": true,
+    "pickThreshold": 0.5,
+    "killMode": false
+}
