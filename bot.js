@@ -9,7 +9,7 @@ var parseArgs = require('minimist');
 params = {
     sassEnabled: false,
     fishingEnabled: true,
-    pickingEnabled: false,
+    pickingEnabled: true,
     pickThreshold: 0.5,
     killMode: false
 };
@@ -96,7 +96,7 @@ function startMessageWatchers() {
 
         // take their life and their dreams
         if (params.pickingEnabled) {
-            if (message.startsWith(".plant") || message.startsWith("5 random")) {
+            if (message.endsWith("`.pick`")) {
                 pickFlower(channelID);
             }
         }
@@ -124,7 +124,7 @@ function getFishy() {
     console.log('fished');
 
     var nextInterval = getRandomPause();
-    setTimeout(getFishy, nextInterval*2);
+    setTimeout(getFishy, nextInterval);
 
     console.log("queued self to fire in " + nextInterval + "ms");
 }
@@ -140,16 +140,16 @@ function getSassy(channelID) {
 
 // crush ppl but optionally be nice sometimes
 function pickFlower(channelID) {
-    var delay = (params.killMode ? 300 : 500);
+    // var delay = (params.killMode ? 300 : 500);
     // roll, if < 8. then pick flower
     if (params.killMode || (Math.random() < threshold)) {
-        setTimeout(function(){
-            // console.log('delay');
-            discordBot.sendMessage({
-                to: channelID,
-                message: ".pick"
-            });
-        }, delay);
+        // setTimeout(function(){
+        //     // console.log('delay');
+        // }, delay);
+        discordBot.sendMessage({
+            to: channelID,
+            message: ".pick"
+        });
         console.log('sniped flowers');
     }
     else {
