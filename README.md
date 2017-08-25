@@ -21,7 +21,7 @@ In order to get user-token, login to web discord, open up dev console, under app
 In order to get the channelID, go into your Discord settings, Appearance menu, and enable Developer Mode. You should be able to see the ID when you right-click a channel now.
 
 ## Running the Bot
-`npm start [-- -sfpkma --threshold=<float> --reset=<int>]`
+`npm start [-- -sfpkma --threshold=<float> --reset=<int> --allowance=<int>]`
 
 ### Flags
 - "s": enables sassy responses to mentions
@@ -34,3 +34,4 @@ In order to get the channelID, go into your Discord settings, Appearance menu, a
 ### Parameters
 - "threshold": float between 0 and 1 (inclusive) representing the probability that the autopicker will fire.
 - "reset": int between 0 and 23 (inclusive) representing the hour of day that the allowance list should reset and update.
+- "allowance": int representing how much allowance users are rewarded for being active.

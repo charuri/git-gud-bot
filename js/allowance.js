@@ -5,7 +5,7 @@ export default function giveAllowance (userID, channelID) {
     var id = userID.toString();
     if (id in bucket) {
         var sass = "*Tsk, take your damn allowance-*";
-        var message = ".award 50 <@" + id + ">";
+        var message = ".award " + config.allowance + " <@" + id + ">";
 
         discordBot.sendMessage({
             to: channelID,

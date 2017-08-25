@@ -6,5 +6,6 @@
     "killMode": false,
     "mockingEnabled": false,
     "allowanceEnabled": false,
-    "resetTime": "00"
+    "resetTime": 0,
+    "allowance": 100
 }

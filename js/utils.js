@@ -14,6 +14,7 @@ export default function updateFlagParams() {
     config.allowanceEnabled = args.a;
     config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
+    config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
 
     console.log("sassy bot: " + config.sassEnabled);
     console.log("autofishing: " + config.fishingEnabled);
@@ -23,5 +24,6 @@ export default function updateFlagParams() {
     console.log("mocking ready" + config.mockingEnabled);
     console.log("allowance: " + config.allowanceEnabled);
     console.log("reset time: " + config.resetTime);
+    console.log("allowance amount: " + config.allowance);
     console.log("\n");
 }
