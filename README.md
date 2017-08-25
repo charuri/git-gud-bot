@@ -7,6 +7,7 @@ A Discord bot that automates certain commands for Tatsumaki and Nadeko bot.
 - flower picking (with optional kill mode)
 - sass to mentions
 - spongebob mocking
+- awards allowance for active users every day
 
 ## Getting Started
 1. `git clone <repo>`
@@ -27,6 +28,9 @@ In order to get the channelID, go into your Discord settings, Appearance menu, a
 - "f": enables autofishing
 - "p": enables merciful autopicking
 - "k": enables kill mode (autopick 100% with less delay)
+- "m": enables spongebob mocking
+- "a": enables allowance
 
 ### Parameters
 - "threshold": float between 0 and 1 (inclusive) representing the probability that the autopicker will fire.
+- "reset": int between 0 and 23 (inclusive) representing the hour of day that the allowance list should reset and update.

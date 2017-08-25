@@ -3,5 +3,8 @@
     "fishingEnabled": true,
     "pickingEnabled": true,
     "pickThreshold": 0.5,
-    "killMode": false
+    "killMode": false,
+    "mockingEnabled": false,
+    "allowanceEnabled": false,
+    "resetTime": "00"
 }

@@ -1,5 +1,6 @@
 import { Discord, discordBot } from "../bot.js";
 
+// mock mock mock
 export default function mockify(message, channelID) {
     var input = message.toLowerCase();
     var output = "";
@@ -19,17 +20,11 @@ export default function mockify(message, channelID) {
     }
 
     output = "***```fix\n" + output.substr(6) + "```***";
-    // var event = {d: {embeds: {}}};
-    // event.d.embeds = {
-    //     type: 'rich',
-    //     description: output,
-    //     color: 7458112
-    // };
 
+    // TODO: figure out how to send event embeds instead of message
     discordBot.sendMessage({
         to: channelID,
         message: output
-        // event: event
     });
 }
 

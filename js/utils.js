@@ -1,7 +1,8 @@
 import { fs, parseArgs, config } from "../bot.js";
 
+// gets the key params from cmdline and updates the configs
 export default function updateFlagParams() {
-    var argkeys = JSON.parse(fs.readFileSync('flag-params.json', 'utf8'));
+    var argkeys = JSON.parse(fs.readFileSync('./json/flag-params.json', 'utf8'));
     var args = parseArgs(process.argv, argkeys);
     console.log("got argkeys");
 
@@ -9,11 +10,18 @@ export default function updateFlagParams() {
     config.fishingEnabled = args.f;
     config.pickingEnabled = args.p;
     config.killMode = args.k;
+    config.mockingEnabled = args.m;
+    config.allowanceEnabled = args.a;
     config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
+    config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
 
     console.log("sassy bot: " + config.sassEnabled);
     console.log("autofishing: " + config.fishingEnabled);
     console.log("autopicking: " + config.pickingEnabled);
     console.log("autopicking snipe probability: " + config.pickThreshold);
     console.log("kill mode: " + config.killMode);
+    console.log("mocking ready" + config.mockingEnabled);
+    console.log("allowance: " + config.allowanceEnabled);
+    console.log("reset time: " + config.resetTime);
+    console.log("\n");
 }

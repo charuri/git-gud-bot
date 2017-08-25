@@ -4,27 +4,25 @@ require('babel-register');
 export var Discord = require('discord.io');
 export var fs = require('fs');
 export var parseArgs = require('minimist');
+export var _ = require('lodash');
 
 import updateFlagParams from "./js/utils.js";
 import getFishy from "./js/fishing.js";
 import getSassy from "./js/sassing.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
+import giveAllowance, { bucketTimer } from "./js/allowance.js";
 
-// default config
-export var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+// read json files - config, creds, users
+var creds = JSON.parse(fs.readFileSync('./json/credentials.json', 'utf8'));
+export var config = JSON.parse(fs.readFileSync('./json/config.json', 'utf8'));
+export var users = JSON.parse(fs.readFileSync('./json/users.json', 'utf8'));
+export var bucket = users.bucket;
 
 // bots
-export var discordBot;
-var creds = JSON.parse(fs.readFileSync('credentials.json', 'utf8'));
-console.log("got credentials");
-
-// discord client config
 var discordToken = creds.token;
 export var channelID = creds.channelID;
-
-// cmdline args
-updateFlagParams();
+export var discordBot;
 
 // bot uptime tracking
 var startTime = new Date();
@@ -34,7 +32,12 @@ init();
 
 // init client
 function init() {
+    updateFlagParams();
     createDiscordBot();
+
+    if (config.allowanceEnabled) {
+        bucketTimer();
+    }
 }
 
 // init discord bot
@@ -51,8 +54,11 @@ function createDiscordBot() {
         console.log('-> logged in as %s - %s\n', discordBot.username, discordBot.id);
 
         // begin fishing
-        console.log('starting to fish');
-        getFishy();
+        if (config.fishingEnabled) {
+            console.log('starting to fish');
+            getFishy();
+        }
+
         startMessageWatchers();
     });
 }
@@ -88,8 +94,17 @@ function startMessageWatchers() {
         }
 
         // $mock
-        if (message.startsWith("$mock")) {
-            mockify(message, channelID);
+        if (config.mockingEnabled) {
+            if (message.startsWith("$mock")) {
+                mockify(message, channelID);
+            }
+        }
+
+        // allowance
+        if (config.allowanceEnabled) {
+            if (!(_.isEmpty(bucket))) {
+                giveAllowance(userID, channelID);
+            }
         }
     });
 }
