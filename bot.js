@@ -9,6 +9,7 @@ import updateFlagParams from "./js/utils.js";
 import getFishy from "./js/fishing.js";
 import getSassy from "./js/sassing.js";
 import pickFlower from "./js/flowerPicking.js";
+import mockify from "./js/spongebob.js";
 
 // default config
 export var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
@@ -84,6 +85,11 @@ function startMessageWatchers() {
             if (message.endsWith("`.pick`")) {
                 pickFlower(channelID);
             }
+        }
+
+        // $mock
+        if (message.startsWith("$mock")) {
+            mockify(message, channelID);
         }
     });
 }

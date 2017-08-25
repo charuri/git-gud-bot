@@ -6,6 +6,7 @@ A Discord bot that automates certain commands for Tatsumaki and Nadeko bot.
 - endless fishing (now operating on a humanized schedule!)
 - flower picking (with optional kill mode)
 - sass to mentions
+- spongebob mocking
 
 ## Getting Started
 1. `git clone <repo>`
