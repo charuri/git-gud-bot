@@ -109,6 +109,21 @@
             "name": "thatsthatgoodlag",
             "presence": "active",
             "inactivity": 0
+        },
+        "173939062556590080": {
+            "name": "Thran",
+            "presence": "active",
+            "inactivity": 0
+        },
+        "218574137356976128": {
+            "name": "Drunk",
+            "presence": "active",
+            "inactivity": 0
+        },
+        "191108016890839040": {
+            "name": "Lagmo",
+            "presence": "active",
+            "inactivity": 0
         }
     },
     "bucket": {
@@ -214,6 +229,21 @@
         },
         "300469175736991755": {
             "name": "thatsthatgoodlag",
+            "presence": "active",
+            "inactivity": 0
+        },
+        "173939062556590080": {
+            "name": "Thran",
+            "presence": "active",
+            "inactivity": 0
+        },
+        "218574137356976128": {
+            "name": "Drunk",
+            "presence": "active",
+            "inactivity": 0
+        },
+        "191108016890839040": {
+            "name": "Lagmo",
             "presence": "active",
             "inactivity": 0
         }
