@@ -11,7 +11,7 @@ import getFishy from "./js/fishing.js";
 import getSassy from "./js/sassing.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
-import giveAllowance, { bucketTimer } from "./js/allowance.js";
+import giveAllowance, {bucketTimer} from "./js/allowance.js";
 
 // read json files - config, creds, users
 var creds = JSON.parse(fs.readFileSync('./json/credentials.json', 'utf8'));
@@ -44,13 +44,10 @@ function init() {
 function createDiscordBot() {
     // get discord client
     console.log("initializing discord bot");
-    discordBot = new Discord.Client({
-        autorun: true,
-        token: discordToken
-    })
+    discordBot = new Discord.Client({autorun: true, token: discordToken})
     console.log("-> discord bot initialized");
     // start bot
-    discordBot.on('ready', function (event) {
+    discordBot.on('ready', function(event) {
         console.log('-> logged in as %s - %s\n', discordBot.username, discordBot.id);
 
         // begin fishing
@@ -60,6 +57,12 @@ function createDiscordBot() {
         }
 
         startMessageWatchers();
+    });
+
+    // Automatically reconnect if the bot disconnects due to inactivity
+    discordBot.on('disconnect', function(err, code) {
+        console.log('----- Bot disconnected from Discord with code', code, 'for reason:', err, '-----');
+        discordBot.connect();
     });
 }
 
@@ -78,7 +81,7 @@ function startMessageWatchers() {
         // sass when ppl mention user
         if (config.sassEnabled) {
             var mentions = event.d.mentions;
-            mentions.forEach(function (mention) {
+            mentions.forEach(function(mention) {
                 // console.log(mention.username);
                 if (mention.username === discordBot.username) {
                     getSassy(channelID);
