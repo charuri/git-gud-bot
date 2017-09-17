@@ -106,6 +106,17 @@ function fillBucket () {
     updateAllowance();
 }
 
+export function addToBucket (userID) {
+    if (users[userID] && !allowance[userID] && !users[userID].permission == 0) {
+        allowance[userID] = users[userID];
+        updateAllowance();
+    }
+    else {
+        console.log("was unable to add to bucket");
+    }
+
+}
+
 function clearBucket () {
     console.log("in clear bucket");
     for (const key of Object.keys(allowance)) {

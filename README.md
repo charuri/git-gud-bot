@@ -21,9 +21,10 @@ In order to get user-token, login to web discord, open up dev console, under app
 In order to get the channelID, go into your Discord settings, Appearance menu, and enable Developer Mode. You should be able to see the ID when you right-click a channel now. (having a set channel ID is mainly for choosing a designated channel to do autofishing in)
 
 ## Running the Bot
-`npm start [-- -sfpkma --threshold=<float> --reset=<int> --allowance=<int>]`
+`npm start [-- -csfpkma --threshold=<float> --reset=<int> --allowance=<int>]`
 
 ### Flags
+- "c": enabled chorobot
 - "s": enables sassy responses to mentions
 - "f": enables autofishing
 - "p": enables merciful autopicking

@@ -6,6 +6,7 @@ export default function updateFlagParams() {
     var args = parseArgs(process.argv, argkeys);
     console.log("got argkeys");
 
+    config.chorobotEnabled = args.c;
     config.sassEnabled = args.s;
     config.fishingEnabled = args.f;
     config.pickingEnabled = args.p;
@@ -16,6 +17,7 @@ export default function updateFlagParams() {
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
 
+    console.log("chorobot enabled: " + config.chorobotEnabled);
     console.log("sassy bot: " + config.sassEnabled);
     console.log("autofishing: " + config.fishingEnabled);
     console.log("autopicking: " + config.pickingEnabled);

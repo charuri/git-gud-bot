@@ -13,6 +13,7 @@ import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
 import handleAllowance, {allowanceTimer} from "./js/allowance.js";
+import handleUsers from "./js/users.js";
 
 // read json files - config, creds, users
 var creds = JSON.parse(fs.readFileSync('./json/credentials.json', 'utf8'));
@@ -21,8 +22,6 @@ export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'
 export var users = (JSON.parse(fs.readFileSync('./json/users.json', 'utf8'))).users;
 export var permissions = (JSON.parse(fs.readFileSync('./json/permissions.json', 'utf8'))).permissions;
 export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf8'))).allowance;
-
-// console.log(permissions);
 
 // bots
 var discordToken = creds.token;
@@ -83,8 +82,10 @@ function startMessageWatchers() {
         // // console.log("event embeds" , event.d.embeds);
         // console.log("\n");
 
-
-        handleChannels(channelID, userID, message);
+        if (config.chorobotEnabled) {
+            handleChannels(channelID, userID, message);
+            handleUsers(user, userID, channelID);
+        }
 
         // sass when ppl mention user
         if (config.sassEnabled) {

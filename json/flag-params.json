@@ -1,4 +1,4 @@
 {
     "string": ["threshold", "reset", "allowance"],
-    "boolean": ["s", "f", "p", "k", "m", "a"]
+    "boolean": ["c", "s", "f", "p", "k", "m", "a"]
 }

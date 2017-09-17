@@ -1,4 +1,5 @@
 {
+    "chorobotEnabled": false,
     "sassEnabled": false,
     "fishingEnabled": true,
     "pickingEnabled": true,
