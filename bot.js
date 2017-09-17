@@ -11,13 +11,17 @@ import getFishy from "./js/fishing.js";
 import getSassy from "./js/sassing.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
+import handleChannels from "./js/channels.js";
 import giveAllowance, {bucketTimer} from "./js/allowance.js";
 
 // read json files - config, creds, users
 var creds = JSON.parse(fs.readFileSync('./json/credentials.json', 'utf8'));
 export var config = JSON.parse(fs.readFileSync('./json/config.json', 'utf8'));
+export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'))).channels;
 export var users = JSON.parse(fs.readFileSync('./json/users.json', 'utf8'));
 export var bucket = users.bucket;
+
+console.log(channels);
 
 // bots
 var discordToken = creds.token;
@@ -74,9 +78,12 @@ function startMessageWatchers() {
         // console.log("userID ", userID);
         // console.log("channelID ", channelID);
         // console.log("message ", message);
-        // console.log("event mentions ", event.d.mentions);
-        // console.log("event embeds" , event.d.embeds);
+        // // console.log("event ", event);
+        // // console.log("event embeds" , event.d.embeds);
         // console.log("\n");
+
+
+        handleChannels(channelID, message);
 
         // sass when ppl mention user
         if (config.sassEnabled) {
