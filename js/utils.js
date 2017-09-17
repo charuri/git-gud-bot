@@ -21,7 +21,7 @@ export default function updateFlagParams() {
     console.log("autopicking: " + config.pickingEnabled);
     console.log("autopicking snipe probability: " + config.pickThreshold);
     console.log("kill mode: " + config.killMode);
-    console.log("mocking ready" + config.mockingEnabled);
+    console.log("mocking: " + config.mockingEnabled);
     console.log("allowance: " + config.allowanceEnabled);
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);
