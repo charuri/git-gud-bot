@@ -28,7 +28,7 @@ function enable (channelID) {
         // console.log("channel is already enabled");
         discordBot.sendMessage({
             to: channelID,
-            message: "***```fix\n" + "This channel has already been enabled." + "```***"
+            message: "```fix\nThis channel has already been enabled.```"
         });
     }
     else {
@@ -36,7 +36,7 @@ function enable (channelID) {
         update();
         discordBot.sendMessage({
             to: channelID,
-            message: "***```fix\n" + "This channel has been enabled." + "```***"
+            message: "```fix\nThis channel has been enabled.```"
         });
         // console.log("channels ", channels);
         // console.log("channel enabled");
@@ -48,7 +48,7 @@ function disable (channelID) {
     if (isEnabled(channelID)) {
         discordBot.sendMessage({
             to: channelID,
-            message: "***```fix\n" + "This channel has been disabled." + "```***"
+            message: "```fix\nThis channel has been disabled.```"
         });
         channels[channelID] = "disabled";
         update();
@@ -59,7 +59,7 @@ function disable (channelID) {
         // console.log("channel is already disabled/doesn't exist");
         discordBot.sendMessage({
             to: channelID,
-            message: "***```fix\n" + "This channel has not been enabled yet." + "```***"
+            message: "```fix\nThis channel has not been enabled yet.```"
         });
     }
 }

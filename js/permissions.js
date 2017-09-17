@@ -7,7 +7,7 @@ export default function checkPermissions (userID, channelID) {
     else {
         discordBot.sendMessage({
             to: channelID,
-            message: "***```fix\n" + "You must be an admin or manager to use this command." + "```***"
+            message: "```fix\nYou must be an admin or manager to use this command.```"
         });
         return false;
     }
