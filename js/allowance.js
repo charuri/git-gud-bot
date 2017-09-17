@@ -8,12 +8,13 @@ export default function handleAllowance (userID, channelID, message) {
         giveAllowance(userID, channelID);
     }
 
-    // if (message === "$resetAllowance") {
-    //     if (checkPermissions(userID, channelID)) {
-    //         clearBucket();
-    //         fillBucket();
-    //     }
-    // }
+    if (message === "$resetAllowance") {
+        if (checkPermissions(userID, channelID)) {
+            console.log("in reset allowance");
+            clearBucket();
+            fillBucket();
+        }
+    }
 }
 
 // gives the user allowance if it's their first time messaging in the server
@@ -77,11 +78,13 @@ function emptyBucket() {
     // remove from allowance list one by one
     for (const key of Object.keys(allowance)) {
         // console.log(users[key]);
-        users[key].inactivity = users[key].inactivity+1;
+        if (!users[key].permission == 0) {
+            users[key].inactivity = users[key].inactivity+1;
+        }
         if (users[key].inactivity == 5) {
             users[key].presence = "inactive";
         }
-        console.log("removed -> ", users[key]);
+        // console.log("removed -> ", users[key]);
         delete allowance[key];
     }
     updateUsers();
@@ -90,10 +93,11 @@ function emptyBucket() {
 
 // updates the user inactivity and refill allowance
 function fillBucket () {
+    console.log("in fillbucket");
     // go through list of users and add to allowance if presence == active.
     for (const key of Object.keys(users)) {
         // console.log(key, users[key]);
-        if (users[key].presence == "active" && !users[permission] == "0") {
+        if (users[key].presence === "active" && !users[key].permission == 0) {
             allowance[key] = users[key];
         }
     }
@@ -103,9 +107,11 @@ function fillBucket () {
 }
 
 function clearBucket () {
-    console.log(allowance);
-    // allowance = empty;
-    // updateAllowance();
+    console.log("in clear bucket");
+    for (const key of Object.keys(allowance)) {
+        delete allowance[key];
+    }
+    updateAllowance();
 }
 
 function updateAllowance () {
