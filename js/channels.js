@@ -1,17 +1,22 @@
-import { discordBot, fs, channels } from "../bot.js";
+import { discordBot, fs, channels, users, permissions } from "../bot.js";
+import checkPermissions from "./permissions.js";
 
 
-export default function handleChannels(channelID, message) {
+export default function handleChannels(channelID, userID, message) {
     // console.log("in handle channels");
 
     // enable
     if (message === "$enable") {
-        enable(channelID);
+        if (checkPermissions(userID, channelID)) {
+            enable(channelID);
+        }
     }
 
     // disable
     if (message === "$disable") {
-        disable(channelID);
+        if (checkPermissions(userID, channelID)) {
+            disable(channelID);
+        }
     }
 
 }

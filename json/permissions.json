@@ -1,0 +1,16 @@
+{
+    "permissions": {
+        "0": {
+            "title": "admin"
+        },
+        "1": {
+            "title": "manager"
+        },
+        "2": {
+            "title": "member"
+        },
+        "3": {
+            "title": "shitter"
+        }
+    }
+}
