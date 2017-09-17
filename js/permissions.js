@@ -12,3 +12,7 @@ export default function checkPermissions (userID, channelID) {
         return false;
     }
 }
+
+function getPermissions (userID) {
+    return permissions[users[userID].permissions].title;
+}

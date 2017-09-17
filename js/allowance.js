@@ -1,9 +1,25 @@
-import { Discord, discordBot, fs, config, users, bucket } from "../bot.js";
+import { Discord, discordBot, fs, _, config, users, allowance } from "../bot.js";
+import { updateUsers } from "./users.js";
+import { isEnabled } from "./channels.js";
+import checkPermissions from "./permissions.js";
+
+export default function handleAllowance (userID, channelID, message) {
+    if (isEnabled(channelID) && !(_.isEmpty(allowance))) {
+        giveAllowance(userID, channelID);
+    }
+
+    // if (message === "$resetAllowance") {
+    //     if (checkPermissions(userID, channelID)) {
+    //         clearBucket();
+    //         fillBucket();
+    //     }
+    // }
+}
 
 // gives the user allowance if it's their first time messaging in the server
-export default function giveAllowance (userID, channelID) {
+function giveAllowance (userID, channelID) {
     var id = userID.toString();
-    if (id in bucket) {
+    if (id in allowance) {
         var sass = "*Tsk, take your damn allowance-*";
         var message = ".award " + config.allowance + " <@" + id + ">";
 
@@ -16,63 +32,88 @@ export default function giveAllowance (userID, channelID) {
             message: message
         });
 
-        delete bucket[id];
-        users.bucket = bucket;
-        users.users[id].presence = "active";
-        users.users[id].inactivity = 0;
-        fs.writeFile('./json/users.json', JSON.stringify(users, null, 4), (error) => { /* handle error */ });
+        delete allowance[id];
+        users[id].presence = "active";
+        users[id].inactivity = 0;
+        updateUsers();
+        updateAllowance();
     }
 }
 
-// timer that resets the bucket every day at 00:00:00
-export function bucketTimer () {
-    // calculate reset bucket timer
+// timer that resets the allowance every day at 00:00:00
+export function allowanceTimer () {
+    // calculate reset allowance timer
     var now = new Date();
     var nowMS = (now.getHours()*60*60 + now.getMinutes()*60 + now.getSeconds())*1000;
     var reset = config.resetTime;
     if (reset == 0){
         reset = 24;
     }
-    var resetMS = reset*60*60*1000;
     var delay = 10000;
-    if (nowMS > resetMS) {
-        var diff = Math.abs(resetMS - nowMS);
-        delay = (24*60*60*1000) - diff;
-    }
-    else {
-        delay = (resetMS - nowMS);
+    if (reset) {
+        var resetMS = reset*60*60*1000;
+        if (nowMS > resetMS) {
+            var diff = Math.abs(resetMS - nowMS);
+            delay = (24*60*60*1000) - diff;
+        }
+        else {
+            delay = (resetMS - nowMS);
+        }
     }
 
     console.log("Next Reset in ms ", delay);
-    setTimeout(fillBucket, delay);
+    setTimeout(resetBucket, delay);
 }
 
-// updates the user inactivity and refill bucket
-function fillBucket () {
-    // go through bucket list and inactivity++ users,
+function resetBucket() {
+    emptyBucket();
+    fillBucket();
+    setTimeout(allowanceTimer, 10000);
+}
+
+function emptyBucket() {
+    // go through allowance list and inactivity++ users,
     // set inactive if inactivity == 5
-    // remove from bucket list one by one
-    for (const key of Object.keys(bucket)) {
-        // console.log(users.users[key]);
-        users.users[key].inactivity = users.users[key].inactivity+1;
-        if (users.users[key].inactivity == 5) {
-            users.users[key].presence = "inactive";
+    // remove from allowance list one by one
+    for (const key of Object.keys(allowance)) {
+        // console.log(users[key]);
+        users[key].inactivity = users[key].inactivity+1;
+        if (users[key].inactivity == 5) {
+            users[key].presence = "inactive";
         }
-        console.log("removed -> ", users.users[key]);
-        delete bucket[key];
+        console.log("removed -> ", users[key]);
+        delete allowance[key];
     }
+    updateUsers();
+    updateAllowance();
+}
 
-    // go through list of users and add to bucket if presence == active.
-    for (const key of Object.keys(users.users)) {
+// updates the user inactivity and refill allowance
+function fillBucket () {
+    // go through list of users and add to allowance if presence == active.
+    for (const key of Object.keys(users)) {
         // console.log(key, users[key]);
-        if (users.users[key].presence == "active") {
-            bucket[key] = users.users[key];
+        if (users[key].presence == "active" && !users[permission] == "0") {
+            allowance[key] = users[key];
         }
     }
-    console.log("added to bucket -> ", bucket);
+    // console.log("added to allowance -> ", allowance);
 
-    users.bucket = bucket;
-    fs.writeFile('./json/users.json', JSON.stringify(users, null, 4), (error) => { /* handle error */ });
+    updateAllowance();
+}
 
-    setTimeout(bucketTimer, 6000);
+function clearBucket () {
+    console.log(allowance);
+    // allowance = empty;
+    // updateAllowance();
+}
+
+function updateAllowance () {
+    var updateFile = { allowance: allowance };
+    fs.writeFile('./json/allowance.json', JSON.stringify(updateFile, null, 4), (error) => {
+        /* handle error */
+        if (error) {
+            console.log("There has been an error updating allowance.json: ", error);
+        }
+    });
 }

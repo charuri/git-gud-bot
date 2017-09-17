@@ -12,16 +12,17 @@ import getSassy from "./js/sassing.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
-import giveAllowance, {bucketTimer} from "./js/allowance.js";
+import handleAllowance, {allowanceTimer} from "./js/allowance.js";
 
 // read json files - config, creds, users
 var creds = JSON.parse(fs.readFileSync('./json/credentials.json', 'utf8'));
 export var config = JSON.parse(fs.readFileSync('./json/config.json', 'utf8'));
 export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'))).channels;
-export var users = JSON.parse(fs.readFileSync('./json/users.json', 'utf8'));
-export var bucket = users.bucket;
+export var users = (JSON.parse(fs.readFileSync('./json/users.json', 'utf8'))).users;
+export var permissions = (JSON.parse(fs.readFileSync('./json/permissions.json', 'utf8'))).permissions;
+export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf8'))).allowance;
 
-console.log(channels);
+// console.log(permissions);
 
 // bots
 var discordToken = creds.token;
@@ -40,7 +41,7 @@ function init() {
     createDiscordBot();
 
     if (config.allowanceEnabled) {
-        bucketTimer();
+        allowanceTimer();
     }
 }
 
@@ -83,7 +84,7 @@ function startMessageWatchers() {
         // console.log("\n");
 
 
-        handleChannels(channelID, message);
+        handleChannels(channelID, userID, message);
 
         // sass when ppl mention user
         if (config.sassEnabled) {
@@ -112,9 +113,7 @@ function startMessageWatchers() {
 
         // allowance
         if (config.allowanceEnabled) {
-            if (!(_.isEmpty(bucket))) {
-                giveAllowance(userID, channelID);
-            }
+            handleAllowance(userID, channelID, message);
         }
     });
 }

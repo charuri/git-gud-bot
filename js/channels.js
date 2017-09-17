@@ -33,7 +33,7 @@ function enable (channelID) {
     }
     else {
         channels[channelID] = "enabled";
-        update();
+        updateChannel();
         discordBot.sendMessage({
             to: channelID,
             message: "```fix\nThis channel has been enabled.```"
@@ -51,7 +51,7 @@ function disable (channelID) {
             message: "```fix\nThis channel has been disabled.```"
         });
         channels[channelID] = "disabled";
-        update();
+        updateChannel();
         // console.log("channels ", channels);
         // console.log("channel enabled");
     }
@@ -64,7 +64,7 @@ function disable (channelID) {
     }
 }
 
-function isEnabled (channelID) {
+export function isEnabled (channelID) {
     if (channels[channelID] === "enabled") {
         return true;
     }
@@ -73,9 +73,10 @@ function isEnabled (channelID) {
     }
 }
 
-function update () {
+function updateChannel () {
     var updateFile = { channels: channels };
-    fs.writeFile('./json/channels.json', JSON.stringify(updateFile, null, 4), (error) => { /* handle error */
+    fs.writeFile('./json/channels.json', JSON.stringify(updateFile, null, 4), (error) => {
+        /* handle error */
         if (error) {
             console.log("There has been an error updating channels.json: ", error);
         }
