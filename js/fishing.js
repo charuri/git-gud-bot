@@ -1,9 +1,9 @@
 import { Discord, discordBot, channelID } from "../bot.js";
-var gaussian = require('gaussian');
-var distribution = gaussian(0, 15);
+const gaussian = require('gaussian');
+const distribution = gaussian(0, 15);
 
 function getRandomPause() {
-    return Math.min((Math.abs(distribution.ppf(Math.random())) + 1) * 30000, 1500000)
+    return Math.min((Math.abs(distribution.ppf(Math.random())) + 1) * 30000, 1500000);
 }
 
 // for the "humans"

@@ -1,37 +1,7 @@
 {
     "allowance": {
-        "137864364844777472": {
-            "name": "charuri",
-            "permission": 1,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "152238227225313281": {
-            "name": "Marika",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "95227428992983040": {
-            "name": "Minty",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "92001588930953216": {
-            "name": "zanyth",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
         "101540601438142464": {
             "name": "Gentleman_Cho_Gath",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "124045066296623104": {
-            "name": "PR",
             "permission": 2,
             "presence": "active",
             "inactivity": 0
@@ -42,20 +12,8 @@
             "presence": "active",
             "inactivity": 0
         },
-        "93461417851621376": {
-            "name": "Liray",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
         "57292384576221184": {
             "name": "Wish",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "192516664540135425": {
-            "name": "momomochu",
             "permission": 2,
             "presence": "active",
             "inactivity": 0
@@ -64,25 +22,13 @@
             "name": "chelloki",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
-        },
-        "319339050706141184": {
-            "name": "lulugazzoo",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "102908213078274048": {
-            "name": "Logic",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "inactivity": 2
         },
         "121315234420883456": {
             "name": "hijlkmno",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
+            "inactivity": 3
         },
         "107751955127898112": {
             "name": "Ray",
@@ -90,65 +36,17 @@
             "presence": "active",
             "inactivity": 0
         },
-        "152572102774489088": {
-            "name": "LEXITY",
+        "150840212124073984": {
+            "name": "Kuroノ",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
+            "inactivity": 1
         },
-        "141405391408988160": {
-            "name": "Mii",
+        "110462073074388992": {
+            "name": "WildBot",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
-        },
-        "95342700869451776": {
-            "name": "insertnickname",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "165626400269664256": {
-            "name": "Etikwa",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "329835323234189314": {
-            "name": "PvtParts",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "222533130035134475": {
-            "name": "rrdeluna",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "300469175736991755": {
-            "name": "thatsthatgoodlag",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "173939062556590080": {
-            "name": "Thran",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "218574137356976128": {
-            "name": "Drunk",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
-        },
-        "191108016890839040": {
-            "name": "Lagmo",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "inactivity": 4
         }
     }
 }

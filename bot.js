@@ -9,6 +9,7 @@ export var _ = require('lodash');
 import updateFlagParams from "./js/utils.js";
 import getFishy from "./js/fishing.js";
 import getSassy from "./js/sassing.js";
+import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
@@ -61,6 +62,10 @@ function createDiscordBot() {
         }
 
         startMessageWatchers();
+        
+        if (config.airsoftSnipeEnabled) {
+            refreshScanLoop();
+        }
     });
 
     // Automatically reconnect if the bot disconnects due to inactivity

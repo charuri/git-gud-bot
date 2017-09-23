@@ -1,5 +1,6 @@
 {
     "chorobotEnabled": false,
+    "airsoftSnipeEnabled": false,
     "sassEnabled": false,
     "fishingEnabled": true,
     "pickingEnabled": true,
@@ -8,5 +9,6 @@
     "mockingEnabled": false,
     "allowanceEnabled": false,
     "resetTime": 0,
-    "allowance": 100
+    "allowance": 200,
+    "url": "http://www.airsoftgi.com/product/1-Cent-24-Hour-Deal-Classic-Army-Elite-Nemesis-DE-10-M4-Carbine-AEG-Airsoft-Gun-Black-26-32895/"
 }

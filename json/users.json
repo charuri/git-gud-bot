@@ -76,7 +76,7 @@
             "name": "chelloki",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
+            "inactivity": 2
         },
         "319339050706141184": {
             "name": "lulugazzoo",
@@ -87,14 +87,14 @@
         "102908213078274048": {
             "name": "Logic",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "121315234420883456": {
             "name": "hijlkmno",
             "permission": 2,
             "presence": "active",
-            "inactivity": 0
+            "inactivity": 3
         },
         "107751955127898112": {
             "name": "Ray",
@@ -105,62 +105,86 @@
         "152572102774489088": {
             "name": "LEXITY",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "141405391408988160": {
             "name": "Mii",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "95342700869451776": {
             "name": "insertnickname",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "165626400269664256": {
             "name": "Etikwa",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "329835323234189314": {
             "name": "PvtParts",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "222533130035134475": {
             "name": "rrdeluna",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "300469175736991755": {
             "name": "thatsthatgoodlag",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "173939062556590080": {
             "name": "Thran",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "218574137356976128": {
             "name": "Drunk",
             "permission": 2,
-            "presence": "active",
-            "inactivity": 0
+            "presence": "inactive",
+            "inactivity": 5
         },
         "191108016890839040": {
             "name": "Lagmo",
             "permission": 2,
+            "presence": "inactive",
+            "inactivity": 5
+        },
+        "150840212124073984": {
+            "name": "Kuroノ",
+            "permission": 2,
+            "presence": "active",
+            "inactivity": 1
+        },
+        "172002275412279296": {
+            "name": "Tatsumaki",
+            "permission": 2,
             "presence": "active",
             "inactivity": 0
+        },
+        "217011866411597825": {
+            "name": "iriel",
+            "permission": 2,
+            "presence": "active",
+            "inactivity": 0
+        },
+        "110462073074388992": {
+            "name": "WildBot",
+            "permission": 2,
+            "presence": "active",
+            "inactivity": 4
         }
     }
 }
