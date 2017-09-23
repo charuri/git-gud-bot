@@ -8,6 +8,7 @@ A Discord bot that automates certain commands for Tatsumaki and Nadeko bot.
 - sass to mentions
 - spongebob mocking
 - awards allowance for active users every day
+- AirsoftGI 1-cent deal monitoring
 
 ## Getting Started
 1. `git clone <repo>`
@@ -21,7 +22,7 @@ In order to get user-token, login to web discord, open up dev console, under app
 In order to get the channelID, go into your Discord settings, Appearance menu, and enable Developer Mode. You should be able to see the ID when you right-click a channel now. (having a set channel ID is mainly for choosing a designated channel to do autofishing in)
 
 ## Running the Bot
-`npm start [-- -csfpkma --threshold=<float> --reset=<int> --allowance=<int>]`
+`npm start [-- -csfpkmaz --threshold=<float> --reset=<int> --allowance=<int> --url=<string>]`
 
 ### Flags
 - "c": enabled chorobot
@@ -31,8 +32,10 @@ In order to get the channelID, go into your Discord settings, Appearance menu, a
 - "k": enables kill mode (autopick 100% with less delay)
 - "m": enables spongebob mocking
 - "a": enables allowance
+- "z": enables AirsoftGI 1-cent deal monitoring
 
 ### Parameters
 - "threshold": float between 0 and 1 (inclusive) representing the probability that the autopicker will fire.
 - "reset": int between 0 and 23 (inclusive) representing the hour of day that the allowance list should reset and update.
 - "allowance": int representing how much allowance users are rewarded for being active.
+- "url": url of the AirsoftGI 1-cent deal product page (http only).
