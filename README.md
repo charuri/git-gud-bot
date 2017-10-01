@@ -39,5 +39,3 @@ In order to get the channelID, go into your Discord settings, Appearance menu, a
 - "reset": int between 0 and 23 (inclusive) representing the hour of day that the allowance list should reset and update.
 - "allowance": int representing how much allowance users are rewarded for being active.
 - "url": url of the AirsoftGI 1-cent deal product page (http only).
-
-why isn't the webhook working
