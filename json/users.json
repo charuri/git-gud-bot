@@ -76,7 +76,7 @@
             "name": "chelloki",
             "permission": 2,
             "presence": "active",
-            "inactivity": 2
+            "inactivity": 1
         },
         "319339050706141184": {
             "name": "lulugazzoo",
@@ -94,7 +94,7 @@
             "name": "hijlkmno",
             "permission": 2,
             "presence": "active",
-            "inactivity": 3
+            "inactivity": 2
         },
         "107751955127898112": {
             "name": "Ray",
@@ -166,7 +166,7 @@
             "name": "Kuroノ",
             "permission": 2,
             "presence": "active",
-            "inactivity": 1
+            "inactivity": 0
         },
         "172002275412279296": {
             "name": "Tatsumaki",
@@ -183,8 +183,14 @@
         "110462073074388992": {
             "name": "WildBot",
             "permission": 2,
+            "presence": "inactive",
+            "inactivity": 5
+        },
+        "122845207233429504": {
+            "name": "hummusgoat",
+            "permission": 2,
             "presence": "active",
-            "inactivity": 4
+            "inactivity": 0
         }
     }
 }

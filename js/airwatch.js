@@ -1,4 +1,7 @@
-import { Discord, discordBot, channelID, config } from "../bot.js";
+import {
+    Discord, discordBot, channelID, config
+}
+from "../bot.js";
 
 const http = require('http');
 const gaussian = require('gaussian');
@@ -19,11 +22,11 @@ function notify(count) {
         to: channelID,
         message: "<@107720430126661632> <@124045066296623104> <@93461417851621376> GO GET YOUR GUN AT " + config.url
     });
-    
+
     if (count < 10) {
         console.log("queueing notification");
-        setTimeout(function() { 
-            notify(++count); 
+        setTimeout(function () {
+            notify(++count);
         }, 6000);
     }
 }
@@ -44,7 +47,7 @@ function scan() {
         let data = '';
 
         resp.on('data', (chunk) => {
-          data += chunk;
+            data += chunk;
         });
 
         resp.on('end', () => {
