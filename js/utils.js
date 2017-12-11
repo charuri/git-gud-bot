@@ -14,9 +14,11 @@ export default function updateFlagParams() {
     config.killMode = args.k;
     config.mockingEnabled = args.m;
     config.allowanceEnabled = args.a;
+    config.betFlipperEnabled = args.b;
     config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
+    config.betAmount = args.hasOwnProperty('betAmount') ? args.betAmount : config.betAmount;
     config.url = args.hasOwnProperty('url') ? args.url : config.url;
 
     console.log("chorobot enabled: " + config.chorobotEnabled);
@@ -28,8 +30,10 @@ export default function updateFlagParams() {
     console.log("kill mode: " + config.killMode);
     console.log("mocking: " + config.mockingEnabled);
     console.log("allowance: " + config.allowanceEnabled);
+    console.log("autoFlipper: " + config.betFlipperEnabled);
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);
+    console.log("bet amount: " + config.betAmount);
     console.log("airsoft snipe URL: " + config.url);
     console.log("\n");
 }

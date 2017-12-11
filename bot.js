@@ -13,6 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
+import betFlipper from "./js/betFlipper.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -31,6 +32,8 @@ export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf
 var discordToken = creds.token;
 export var channelID = creds.channelID;
 export var discordBot;
+
+var bet = config.betAmount;
 
 // bot uptime tracking
 var startTime = new Date();
@@ -109,6 +112,23 @@ function processTextMessage(user, userID, channelID, message, event) {
                 getSassy(channelID);
             }
         });
+    }
+    if (config.betFlipperEnabled) {
+        if (message.startsWith(".startFlip")){ //start
+            console.log("starting flipping")
+            betFlipper(channelID, bet);
+        }
+        if (message.startsWith("<@!107751955127898112> You guessed it!")) { //victory
+            bet = config.betAmount;
+            betFlipper(channelID, bet);
+        }
+        if (message.startsWith("<@!107751955127898112> Better luck next time")) { //loser
+            bet = bet*2;
+            if (bet == 2*2*2*2*2*2*config.betAmount) {
+                bet = config.betAmount;
+            }
+            betFlipper(channelID, bet);
+        }
     }
 
     // take their life and their dreams
