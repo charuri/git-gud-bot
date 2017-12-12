@@ -7,7 +7,7 @@ export default function triviaSolver(channelID, event) {
         if (embed.title=="Trivia Game" && embed.fields) {
             var temp = embed.fields[1].value;
             var question = temp.replace(/\\/g,'');
-            console.log(question);
+            //console.log(question);
             var tqLen = triviaQuestions.length;
             for (var i = 0; i < tqLen; i++) {
                 if (triviaQuestions[i].Question.replace(/\\/g,'') == question) {
