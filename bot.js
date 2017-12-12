@@ -13,7 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
-// import triviaSolver from "./js/triviaSolver.js";
+import triviaSolver from "./js/triviaSolver.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -34,7 +34,6 @@ var discordToken = creds.token;
 export var channelID = creds.channelID;
 export var discordBot;
 
-var startedTrivia = false;
 // bot uptime tracking
 var startTime = new Date();
 
@@ -83,7 +82,6 @@ function createDiscordBot() {
                 channel: channelID,
                 message: ".t"
             });
-            startedTrivia = true;
         }
     });
 
@@ -143,28 +141,6 @@ function processTextMessage(user, userID, channelID, message, event) {
     }
     
     if (config.triviaSolverEnabled) {
-        event.d.embeds.forEach((embed) => {
-            console.log(embed);
-            if (embed.title=="Trivia Game" && embed.fields) {
-                var temp = embed.fields[1].value;
-                var question = temp.replace(/\\/g,'');
-                console.log(question);
-                triviaQuestions.forEach(function(q) {
-                    if (q.Question.replace(/\\/g,'') == question) {
-                        discordBot.sendMessage({
-                            to: channelID,
-                            message: q.Answer.replace(/\\/g,'')
-                        });
-                    }
-                });
-            }
-            if (embed.title == "Final Results" || !startedTrivia) {
-                discordBot.sendMessage({
-                    to: channelID,
-                    message: '.t'
-                });
-                startedTrivia = true;
-            }
-        });
+        triviaSolver(channelID, event);
     }
 }
