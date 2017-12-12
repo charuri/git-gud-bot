@@ -94,8 +94,8 @@ function processTextMessage(user, userID, channelID, message, event) {
     // console.log("userID ", userID);
     // console.log("channelID ", channelID);
     // console.log("message ", message);
-    // // console.log("event ", event);
-    // // console.log("event embeds" , event.d.embeds);
+    //console.log("event ", event);
+    //console.log("event embeds" , event.d.embeds);
     // console.log("\n");
 
     if (config.chorobotEnabled) {
@@ -115,6 +115,7 @@ function processTextMessage(user, userID, channelID, message, event) {
     }
     if (config.betFlipperEnabled) {
         if (message.startsWith(".startFlip")){ //start
+            bet = config.betAmount;
             console.log("starting flipping")
             betFlipper(channelID, bet);
         }
@@ -124,7 +125,7 @@ function processTextMessage(user, userID, channelID, message, event) {
         }
         if (message.startsWith("<@!107751955127898112> Better luck next time")) { //loser
             bet = bet*2;
-            if (bet == 2*2*2*2*2*2*config.betAmount) {
+            if (bet == 2*2*2*2*2*2*2*2*2*2*config.betAmount) {
                 bet = config.betAmount;
             }
             betFlipper(channelID, bet);
