@@ -14,6 +14,7 @@ export default function updateFlagParams() {
     config.killMode = args.k;
     config.mockingEnabled = args.m;
     config.allowanceEnabled = args.a;
+    config.triviaSolverEnabled = args.t;
     config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
@@ -28,6 +29,7 @@ export default function updateFlagParams() {
     console.log("kill mode: " + config.killMode);
     console.log("mocking: " + config.mockingEnabled);
     console.log("allowance: " + config.allowanceEnabled);
+    console.log("trivia solver: " + config.triviaSolverEnabled);
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);
     console.log("airsoft snipe URL: " + config.url);

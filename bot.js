@@ -13,6 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
+// import triviaSolver from "./js/triviaSolver.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -26,12 +27,14 @@ export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'
 export var users = (JSON.parse(fs.readFileSync('./json/users.json', 'utf8'))).users;
 export var permissions = (JSON.parse(fs.readFileSync('./json/permissions.json', 'utf8'))).permissions;
 export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf8'))).allowance;
+export var triviaQuestions = (JSON.parse(fs.readFileSync('./json/trivia_questions.json', 'utf8')));
 
 // bots
 var discordToken = creds.token;
 export var channelID = creds.channelID;
 export var discordBot;
 
+var startedTrivia = false;
 // bot uptime tracking
 var startTime = new Date();
 
@@ -73,6 +76,14 @@ function createDiscordBot() {
         // airsoft deal sniping modules
         if (config.airsoftSnipeEnabled) {
             refreshScanLoop();
+        }
+        if (config.triviaSolverEnabled) {
+            console.log("start trivia");
+            discordBot.sendMessage({
+                channel: channelID,
+                message: ".t"
+            });
+            startedTrivia = true;
         }
     });
 
@@ -118,6 +129,7 @@ function processTextMessage(user, userID, channelID, message, event) {
         }
     }
 
+
     // $mock
     if (config.mockingEnabled) {
         if (message.startsWith("$mock")) {
@@ -128,5 +140,31 @@ function processTextMessage(user, userID, channelID, message, event) {
     // allowance
     if (config.allowanceEnabled) {
         handleAllowance(userID, channelID, message);
+    }
+    
+    if (config.triviaSolverEnabled) {
+        event.d.embeds.forEach((embed) => {
+            console.log(embed);
+            if (embed.title=="Trivia Game" && embed.fields) {
+                var temp = embed.fields[1].value;
+                var question = temp.replace(/\\/g,'');
+                console.log(question);
+                triviaQuestions.forEach(function(q) {
+                    if (q.Question.replace(/\\/g,'') == question) {
+                        discordBot.sendMessage({
+                            to: channelID,
+                            message: q.Answer.replace(/\\/g,'')
+                        });
+                    }
+                });
+            }
+            if (embed.title == "Final Results" || !startedTrivia) {
+                discordBot.sendMessage({
+                    to: channelID,
+                    message: '.t'
+                });
+                startedTrivia = true;
+            }
+        });
     }
 }
