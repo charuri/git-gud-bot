@@ -32,6 +32,9 @@ var discordToken = creds.token;
 export var channelID = creds.channelID;
 export var discordBot;
 
+var takeFlowers = false;
+
+
 // bot uptime tracking
 var startTime = new Date();
 
@@ -84,6 +87,14 @@ function createDiscordBot() {
     });
 }
 
+function findAmount(amt) {
+    if (!isNaN(amt)) {
+        return amt
+    } else {
+        return findAmount(amt.substring(0, amt.length-1));
+    }
+}
+
 // run message watchers
 function processTextMessage(user, userID, channelID, message, event) {
     // logging
@@ -128,5 +139,30 @@ function processTextMessage(user, userID, channelID, message, event) {
     // allowance
     if (config.allowanceEnabled) {
         handleAllowance(userID, channelID, message);
+    }
+    // console.log(users);
+    //can abstract for other users i guess
+    if (config.badLirayEnabled) {
+        if (message.startsWith("$badLiray")) {
+            if (checkPermissions(userID, channelID)) { //if admin invoking badliray
+                discordBot.sendMessage({
+                    to: channelID,
+                    message: "<@" + id + "> has invoked badLiray! Taking his flowers and sharing the wealth."
+                });
+                discordBot.sendMessage({
+                    to: channelID,
+                    message: ".$ <@" + 93461417851621376 + ">"
+                });
+                takeFlowers = true;
+            }
+        }
+        
+        event.d.embeds.forEach((embed) => {
+            var desc = embed.description;
+            if (desc.includes("**Liray#8609** has") && takeFlowers) {
+                var amt = desc.substring((desc.indexOf("has") + 5));
+                badLiray(findAmount(amt), channelID);
+            }
+        });
     }
 }
