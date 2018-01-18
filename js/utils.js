@@ -14,6 +14,7 @@ export default function updateFlagParams() {
     config.killMode = args.k;
     config.mockingEnabled = args.m;
     config.allowanceEnabled = args.a;
+    config.wordCloudEnabled = args.w;
     config.pickThreshold = args.hasOwnProperty('threshold') ? args.threshold : config.pickThreshold;
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
@@ -27,6 +28,7 @@ export default function updateFlagParams() {
     console.log("autopicking snipe probability: " + config.pickThreshold);
     console.log("kill mode: " + config.killMode);
     console.log("mocking: " + config.mockingEnabled);
+    console.log("word cloud: " + config.wordCloudEnabled);
     console.log("allowance: " + config.allowanceEnabled);
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);

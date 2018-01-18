@@ -3,6 +3,7 @@ require('babel-register');
 
 export var Discord = require('discord.io');
 export var fs = require('fs');
+export var stopword = require('stopword');
 export var parseArgs = require('minimist');
 export var _ = require('lodash');
 
@@ -17,6 +18,7 @@ import handleAllowance, {
     allowanceTimer
 }
 from "./js/allowance.js";
+import generateCloud, addToCloud from "./js/wordCloud.js";
 import handleUsers from "./js/users.js";
 
 // read json files - config, creds, users
@@ -26,6 +28,7 @@ export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'
 export var users = (JSON.parse(fs.readFileSync('./json/users.json', 'utf8'))).users;
 export var permissions = (JSON.parse(fs.readFileSync('./json/permissions.json', 'utf8'))).permissions;
 export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf8'))).allowance;
+// export var cloudStore = JSON.parse(fs.readFileSync('./json/cloudStore.json', 'utf8'));
 
 // bots
 var discordToken = creds.token;
@@ -34,6 +37,7 @@ export var discordBot;
 
 // bot uptime tracking
 var startTime = new Date();
+var wordStats = {};
 
 // gogogogogogo
 init();
@@ -128,5 +132,13 @@ function processTextMessage(user, userID, channelID, message, event) {
     // allowance
     if (config.allowanceEnabled) {
         handleAllowance(userID, channelID, message);
+    }
+
+    if (config.wordCloudEnabled) {
+        if (message.startsWith("$wordCloud")) {
+            generateCloud(channelID, wordStats);
+        } else {
+            addToCloud(message, wordStats);
+        }
     }
 }
