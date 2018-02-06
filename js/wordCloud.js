@@ -1,6 +1,6 @@
 import { discordBot, fs, cloudStore, stopword} from "../bot.js";
 
-export function addToCloud(message, userID, wordStats) {
+export function addToCloud(message) {
 	//need to remove sheepBot msgs 
 	var filteredMsg = stopword.removeStopwords(message).toLowerCase();
 	filteredMsg = filteredMsg.replace(/[,.?!]+/, '');
@@ -12,32 +12,44 @@ export function addToCloud(message, userID, wordStats) {
 		if (word.includes("http")) {
 			continue;
 		}
-		if (wordStats[word] === undefined) {
-			wordStats[word] = 1;
+		if (!cloudStore[word]) {
+			cloudStore[word] = {
+				"count": 1;
+			};
+			updateCloud();
 		} else {
-			wordStats[word]++;
+			var prev = cloudStore[word].count;
+			cloudStore[word] = {
+				"count": prev + 1;
+			};
+			updateCloud();
 		}
 
 	});
-	// fs.writeFile('./json/cloudStore.json', message, (error) => {
- //        /* handle error */
- //        if (error) {
- //            console.log("There has been an error updating cloudStore.json: ", error);
- //        }
- //    });
 }
-export function generateCloud(channelID, wordStats) {
-	var sortedWordStatsKeys = Object.keys(wordStats).sort(function (a, b) {
-	    return wordStats[b] - wordStats[a];
+export function updateCloud () {
+	var updateFile = {cloudStore: cloudStore};
+	fs.writeFile('./json/cloudStore.json', JSON.stringify(updateFile, null, 4), (error) => {
+		if (error) {
+			console.log("There has been an error updating cloudStore.json: ", error);
+		}
 	});
-	var msg = "Showing 30 most commmon words in this channel: \n";
-	for (var i = 0; i < 31; i++) {
-		var key = sortedWordStatsKeys[i];
-		msg += key + ": " + wordStats[key] + ", ";
+}
+
+
+export function generateCloud(channelID) {
+	var sort_array = [];
+	for (var word in cloudStore) {
+		sort_array.push({word:word, count:cloudStore[word].count});
 	}
-	// sortedWordStatsKeys.forEach(function (key) { 
-		
-	// });
+	sort_array.sort(function(x,y){return x.count - y.count});
+
+	var msg = "Showing 30 most commmon words in this channel: \n";
+	for (var i=0;i<31;i++) {
+	    var wordName = sort_array[i].word;
+	    var wordCount = sort_array[i].count;
+	    msg += (wordName + ": " + wordCount + ", "); 
+	}
 	discordBot.sendMessage({
 	    to: channelID,
 	    message: msg

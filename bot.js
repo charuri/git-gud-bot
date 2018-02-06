@@ -28,7 +28,7 @@ export var channels = (JSON.parse(fs.readFileSync('./json/channels.json', 'utf8'
 export var users = (JSON.parse(fs.readFileSync('./json/users.json', 'utf8'))).users;
 export var permissions = (JSON.parse(fs.readFileSync('./json/permissions.json', 'utf8'))).permissions;
 export var allowance = (JSON.parse(fs.readFileSync('./json/allowance.json', 'utf8'))).allowance;
-// export var cloudStore = JSON.parse(fs.readFileSync('./json/cloudStore.json', 'utf8'));
+export var cloudStore = JSON.parse(fs.readFileSync('./json/cloudStore.json', 'utf8')).cloudStore;
 
 // bots
 var discordToken = creds.token;
@@ -37,7 +37,6 @@ export var discordBot;
 
 // bot uptime tracking
 var startTime = new Date();
-var wordStats = {};
 
 // gogogogogogo
 init();
@@ -136,9 +135,9 @@ function processTextMessage(user, userID, channelID, message, event) {
 
     if (config.wordCloudEnabled) {
         if (message.startsWith("$wordCloud")) {
-            generateCloud(channelID, wordStats);
+            generateCloud(channelID);
         } else {
-            addToCloud(message, wordStats);
+            addToCloud(message);
         }
     }
 }
