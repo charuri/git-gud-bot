@@ -18,7 +18,8 @@
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
     "morgan": "^1.9.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "stopword": "^0.1.9"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",

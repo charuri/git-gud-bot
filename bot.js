@@ -18,7 +18,7 @@ import handleAllowance, {
     allowanceTimer
 }
 from "./js/allowance.js";
-import generateCloud, addToCloud from "./js/wordCloud.js";
+import generateCloud, {addToCloud, clearCloud} from "./js/wordCloud.js";
 import handleUsers from "./js/users.js";
 
 // read json files - config, creds, users
@@ -135,9 +135,12 @@ function processTextMessage(user, userID, channelID, message, event) {
 
     if (config.wordCloudEnabled) {
         if (message.startsWith("$wordCloud")) {
-            generateCloud(channelID);
+            var num = message.substring(11) ? parseInt(message.substring(11), 10): 0;
+            generateCloud(channelID, num);
+        } else if (message.startsWith("$clearCloud")){
+            clearCloud();
         } else {
-            addToCloud(message);
+            addToCloud(message, userID, channelID);
         }
     }
 }
