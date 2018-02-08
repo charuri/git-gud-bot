@@ -69,7 +69,6 @@ export default function generateCloud(channelID, arg) {
 		count++;
 	}
 	sort_array.sort(function(x,y){return y.count - x.count});
-	console.log(isNaN(NaN));
 	if (!isNaN(arg)) {
 		var length = arg >= sort_array.length ? sort_array.length : arg;
 		if (length == 0) { //default
