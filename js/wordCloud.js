@@ -62,8 +62,10 @@ export function clearCloud () {
 
 export default function generateCloud(channelID, num) {
 	var sort_array = [];
+	var count = 0;
 	for (var word in cloudStore) {
 		sort_array.push({word:word, count:cloudStore[word].count});
+		count++;
 	}
 	sort_array.sort(function(x,y){return y.count - x.count});
 	// sort_array.forEach(function(wordObj) {
@@ -74,14 +76,61 @@ export default function generateCloud(channelID, num) {
 		length = sort_array.length >= 30 ? 30 : sort_array.length;
 	}
 	var msg = "WordCloud: Showing the " + length + " most common words in this channel: \n";
+	console.log(msg);
 	for (var i=0;i<length;i++) {
 		//console.log(sort_array[i]);
 	    var wordName = sort_array[i].word;
 	    var wordCount = sort_array[i].count;
 	    msg += (wordName + ": " + wordCount + ", "); 
+	    // console.log(i);
+	    // console.log(msg.length);
 	}
-	discordBot.sendMessage({
-	    to: channelID,
-	    message: msg
-	});
+	var msgLen = msg.length;
+
+	if (msgLen > 2000) {
+		var stopInd = msg.substring(0, 2000).lastIndexOf(", ") + 2;
+		console.log("AAAAAAAAAAAAA " + msg.substring(0,stopInd));
+		discordBot.sendMessage({
+		    to: channelID,
+		    message: msg.substring(0, stopInd)
+		});
+		msg = msg.substring(stopInd, msgLen);
+
+
+
+		sleep(500).then(() => {
+			console.log();
+			while (msgLen > 2000) {
+				stopInd = msg.substring(0, 2000).lastIndexOf(", ") + 2;
+				discordBot.sendMessage({
+				    to: channelID,
+				    message: msg.substring(0, stopInd)
+				});
+				console.log("BBBBBBBB " + msg.substring(0, stopInd));
+				msg = msg.substring(stopInd, msgLen);
+				msgLen = msg.length;
+				sleep(500).then(() => {
+					return;
+				});
+			}
+			console.log();
+			console.log("CCCCCC " + msg);
+			sleep(500).then(() => {
+				discordBot.sendMessage({
+				    to: channelID,
+				    message: msg.substring(0, msgLen-2)
+				});
+			});
+			
+		});
+	} else {
+		discordBot.sendMessage({
+		    to: channelID,
+		    message: msg.substring(0, msgLen-2)
+		});
+	}
+}
+
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
 }
