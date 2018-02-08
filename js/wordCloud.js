@@ -74,7 +74,7 @@ export default function generateCloud(channelID, num) {
 		length = sort_array.length >= 30 ? 30 : sort_array.length;
 	}
 	var msg = "WordCloud: Showing the " + length + " most common words in this channel: \n";
-	console.log(msg);
+
 	for (var i=0;i<length;i++) {
 
 	    var wordName = sort_array[i].word;
