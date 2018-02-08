@@ -68,9 +68,7 @@ export default function generateCloud(channelID, num) {
 		count++;
 	}
 	sort_array.sort(function(x,y){return y.count - x.count});
-	// sort_array.forEach(function(wordObj) {
-	// 	console.log(wordObj.word + " "+ wordObj.count)
-	// });
+
 	var length = num >= sort_array.length ? sort_array.length : num;
 	if (length == 0) { //default
 		length = sort_array.length >= 30 ? 30 : sort_array.length;
@@ -78,43 +76,37 @@ export default function generateCloud(channelID, num) {
 	var msg = "WordCloud: Showing the " + length + " most common words in this channel: \n";
 	console.log(msg);
 	for (var i=0;i<length;i++) {
-		//console.log(sort_array[i]);
+
 	    var wordName = sort_array[i].word;
 	    var wordCount = sort_array[i].count;
 	    msg += (wordName + ": " + wordCount + ", "); 
-	    // console.log(i);
-	    // console.log(msg.length);
+
 	}
 	var msgLen = msg.length;
 
 	if (msgLen > 2000) {
 		var stopInd = msg.substring(0, 2000).lastIndexOf(", ") + 2;
-		console.log("AAAAAAAAAAAAA " + msg.substring(0,stopInd));
 		discordBot.sendMessage({
 		    to: channelID,
 		    message: msg.substring(0, stopInd)
 		});
 		msg = msg.substring(stopInd, msgLen);
 
-
-
 		sleep(500).then(() => {
-			console.log();
 			while (msgLen > 2000) {
 				stopInd = msg.substring(0, 2000).lastIndexOf(", ") + 2;
 				discordBot.sendMessage({
 				    to: channelID,
 				    message: msg.substring(0, stopInd)
 				});
-				console.log("BBBBBBBB " + msg.substring(0, stopInd));
+
 				msg = msg.substring(stopInd, msgLen);
 				msgLen = msg.length;
 				sleep(500).then(() => {
 					return;
 				});
 			}
-			console.log();
-			console.log("CCCCCC " + msg);
+
 			sleep(500).then(() => {
 				discordBot.sendMessage({
 				    to: channelID,
