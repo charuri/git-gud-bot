@@ -135,8 +135,9 @@ function processTextMessage(user, userID, channelID, message, event) {
 
     if (config.wordCloudEnabled) {
         if (message.startsWith("$wordCloud")) {
-            var num = message.substring(11) ? parseInt(message.substring(11), 10): 0;
-            generateCloud(channelID, num);
+            var arg = message.substring(11);
+            var arg = arg ? (isNaN(parseInt(arg, 10)) ? arg : parseInt(arg, 10)): 0;
+            generateCloud(channelID, arg);
         } else if (message.startsWith("$clearCloud")){
             clearCloud();
         } else {
