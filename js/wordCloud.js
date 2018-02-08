@@ -4,7 +4,7 @@ export function addToCloud(message, userID, channelID) {
 	if (channelID == 308643303014793216) {
 		if (userID != 194260124263514112) {
 			if (!message.startsWith("WordCloud") && !message.startsWith(".pick")){
-				var filteredMsg = message.replace(/[,.?!$:]+/g, '').toLowerCase();
+				var filteredMsg = message.replace(/[,.?!$:)(\\"-'/]+/g, '').toLowerCase();
 				var filterArr = filteredMsg.split(' ');
 				var strArr = stopword.removeStopwords(filterArr);
 				strArr.forEach(function (word) {
@@ -19,12 +19,13 @@ export function addToCloud(message, userID, channelID) {
 							return;
 						}
 						if (!cloudStore[word]) {
-							//console.log(word);
+							// console.log(word);
 							cloudStore[word] = {
 								"count": 1
 							};
 							updateCloud();
 						} else {
+							// console.log(word);
 							var prev = cloudStore[word].count;
 							cloudStore[word] = {
 								"count": prev + 1
@@ -110,7 +111,7 @@ export default function generateCloud(channelID, num) {
 			sleep(500).then(() => {
 				discordBot.sendMessage({
 				    to: channelID,
-				    message: msg.substring(0, msgLen-2)
+				    message: msg.substring(0, msgLen)
 				});
 			});
 			
@@ -118,7 +119,7 @@ export default function generateCloud(channelID, num) {
 	} else {
 		discordBot.sendMessage({
 		    to: channelID,
-		    message: msg.substring(0, msgLen-2)
+		    message: msg.substring(0, msgLen)
 		});
 	}
 }
