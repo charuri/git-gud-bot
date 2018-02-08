@@ -124,6 +124,7 @@ export default function generateCloud(channelID, arg) {
 			});
 		}
 	} else {
+		arg = arg.toLowerCase();
 		var wordFreq = cloudStore[arg].count;
 		var msg = "WordCloud: The frequency of \"" + arg + "\" in this channel is " + wordFreq + ".";
 		discordBot.sendMessage({
