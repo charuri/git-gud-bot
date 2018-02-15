@@ -1,20 +1,22 @@
-import { Discord, discordBot, channelID, config } from "../bot.js";
+import { Discord, discordBot, channelID, config, responded } from "../bot.js";
 
 export default function summonUser(channelID, person) {
     console.log("test");
-    var delay = 10000;
-    for (var i = 0; i < 10; i++) {
+    var delay = 2000;
+    async function sendMsg() {
+        await sleep(delay);
         discordBot.sendMessage({
             to: channelID,
-            message: person
+            message: "<@" + person + ">"
         });
-        sleep(delay).then(() => {
-            return;
-        });
-
-
     }
-    
+    async function sum() {
+        while(!responded.get(person)) {
+            console.log("3" + responded.get(person));
+            await sendMsg();
+        }
+    }
+    sum();
 }
 
 function sleep (time) {

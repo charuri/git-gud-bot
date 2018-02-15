@@ -36,6 +36,8 @@ export var discordBot;
 // bot uptime tracking
 var startTime = new Date();
 
+
+export var responded = new Map();
 // gogogogogogo
 init();
 
@@ -131,12 +133,16 @@ function processTextMessage(user, userID, channelID, message, event) {
         handleAllowance(userID, channelID, message);
     }
     if (config.summonEnabled) {
-        if (channelID == 349718076360622080){
+        if (channelID == 308643303014793216){
             console.log(message);
+            var person = message.substring(10, message.lastIndexOf(">"));
             if (message.startsWith("$summon")) {
-                var person = message.substring(8);
-                console.log(person);
-                summonUser(channelID, person);
+                responded.set(person, false);
+                console.log("1" + responded.get());
+                summonUser(channelID, person);person
+            } else if (message == "WHAT") {
+                responded.set(userID.toString(), true);
+                console.log("2" + responded.get(userID.toString()));
             }
         }
         
