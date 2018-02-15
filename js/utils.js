@@ -18,6 +18,7 @@ export default function updateFlagParams() {
     config.resetTime = args.hasOwnProperty('reset') ? args.reset : config.resetTime;
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
     config.url = args.hasOwnProperty('url') ? args.url : config.url;
+    config.summonEnabled = args.x;
 
     console.log("chorobot enabled: " + config.chorobotEnabled);
     console.log("airsoft snipe enabled: " + config.airsoftSnipeEnabled);
@@ -31,5 +32,6 @@ export default function updateFlagParams() {
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);
     console.log("airsoft snipe URL: " + config.url);
+    console.log("summon: " + config.summon);
     console.log("\n");
 }

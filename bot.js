@@ -13,6 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
+import summonUser from "./js/summon.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -128,5 +129,18 @@ function processTextMessage(user, userID, channelID, message, event) {
     // allowance
     if (config.allowanceEnabled) {
         handleAllowance(userID, channelID, message);
+    }
+    if (config.summonEnabled) {
+        console.log("here");
+        if (channelID == 308643303014793216){
+            console.log(message);
+            if (message.startsWith("$summon")) {
+                console.log("ding dong");
+                var person = message.substring(8);
+                console.log(person);
+                summonUser(channelID, person);
+            }
+        }
+        
     }
 }
