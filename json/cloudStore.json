@@ -1,28 +1,28 @@
 {
     "cloudStore": {
         "just": {
-            "count": 36
+            "count": 81
         },
         "used": {
-            "count": 2
+            "count": 7
         },
         "giphy": {
             "count": 1
         },
         "im": {
-            "count": 18
+            "count": 71
         },
         "trying": {
-            "count": 7
+            "count": 11
         },
         "streamable": {
             "count": 1
         },
         "video": {
-            "count": 2
+            "count": 4
         },
         "right": {
-            "count": 8
+            "count": 17
         },
         "website": {
             "count": 1
@@ -31,49 +31,49 @@
             "count": 1
         },
         "dick": {
-            "count": 2
+            "count": 3
         },
         "taking": {
-            "count": 4
+            "count": 5
         },
         "forever": {
-            "count": 3
-        },
-        "play": {
-            "count": 6
-        },
-        "back": {
-            "count": 13
-        },
-        "try": {
-            "count": 3
-        },
-        "does": {
-            "count": 12
-        },
-        "work": {
-            "count": 13
-        },
-        "ya": {
-            "count": 2
-        },
-        "played": {
-            "count": 3
-        },
-        "double": {
-            "count": 1
-        },
-        "tap": {
-            "count": 1
-        },
-        "oh": {
-            "count": 39
-        },
-        "bb": {
             "count": 4
         },
-        "god": {
+        "play": {
+            "count": 24
+        },
+        "back": {
+            "count": 22
+        },
+        "try": {
+            "count": 8
+        },
+        "does": {
+            "count": 18
+        },
+        "work": {
+            "count": 16
+        },
+        "ya": {
+            "count": 8
+        },
+        "played": {
+            "count": 7
+        },
+        "double": {
+            "count": 3
+        },
+        "tap": {
+            "count": 2
+        },
+        "oh": {
+            "count": 68
+        },
+        "bb": {
             "count": 5
+        },
+        "god": {
+            "count": 12
         },
         "stuck": {
             "count": 1
@@ -85,76 +85,76 @@
             "count": 1
         },
         "times": {
-            "count": 4
+            "count": 7
         },
         "youtube": {
-            "count": 1
+            "count": 2
         },
         "twitch": {
-            "count": 1
+            "count": 2
         },
         "fine": {
             "count": 4
         },
         "shit": {
-            "count": 18
+            "count": 33
         },
         "load": {
-            "count": 1
+            "count": 2
         },
         "first": {
-            "count": 17
+            "count": 22
         },
         "time": {
-            "count": 10
+            "count": 24
         },
         "ended": {
             "count": 2
         },
         "really": {
-            "count": 13
+            "count": 20
         },
         "fast": {
-            "count": 1
-        },
-        "driving": {
-            "count": 6
-        },
-        "boost": {
             "count": 2
         },
+        "driving": {
+            "count": 8
+        },
+        "boost": {
+            "count": 5
+        },
         "second": {
-            "count": 6
+            "count": 7
         },
         "worked": {
             "count": 1
         },
         "damn": {
-            "count": 2
+            "count": 6
         },
         "wasd": {
             "count": 1
         },
         "control": {
-            "count": 3
+            "count": 5
         },
         "don't": {
             "count": 16
         },
         "forget": {
-            "count": 2
+            "count": 4
         },
         "register": {
-            "count": 1
+            "count": 3
         },
         "tournament": {
             "count": 2
         },
         "year": {
-            "count": 5
+            "count": 6
         },
         "watch": {
-            "count": 6
+            "count": 10
         },
         "player": {
             "count": 1
@@ -166,40 +166,40 @@
             "count": 1
         },
         "team": {
-            "count": 1
+            "count": 4
         },
         "kim": {
-            "count": 17
+            "count": 31
         },
         "we're": {
             "count": 2
         },
         "gonna": {
-            "count": 8
+            "count": 30
         },
         "win": {
-            "count": 1
+            "count": 2
         },
         "rocket": {
-            "count": 2
+            "count": 3
         },
         "league": {
-            "count": 2
+            "count": 4
         },
         "100k": {
             "count": 1
         },
         "wait": {
-            "count": 16
+            "count": 32
         },
         "hmm": {
             "count": 1
         },
         "its": {
-            "count": 11
+            "count": 50
         },
         "slow": {
-            "count": 2
+            "count": 3
         },
         "soi": {
             "count": 1
@@ -217,7 +217,7 @@
             "count": 1
         },
         "colitis": {
-            "count": 3
+            "count": 5
         },
         "\"oh": {
             "count": 3
@@ -226,25 +226,25 @@
             "count": 24
         },
         "sorry": {
-            "count": 3
+            "count": 9
         },
         "want": {
-            "count": 16
+            "count": 30
         },
         "today\"": {
             "count": 1
         },
         "wow": {
-            "count": 12
+            "count": 27
         },
         "least": {
-            "count": 5
+            "count": 9
         },
         "canadian": {
             "count": 1
         },
         "boss": {
-            "count": 1
+            "count": 4
         },
         "manufacturing": {
             "count": 1
@@ -262,16 +262,16 @@
             "count": 1
         },
         "pain": {
-            "count": 2
+            "count": 5
         },
         "\"go": {
             "count": 1
         },
         "hotel": {
-            "count": 1
+            "count": 2
         },
         "need": {
-            "count": 9
+            "count": 18
         },
         "to\"": {
             "count": 1
@@ -286,25 +286,25 @@
             "count": 1
         },
         "not": {
-            "count": 33
+            "count": 64
         },
         "even": {
-            "count": 8
+            "count": 20
         },
         "half": {
-            "count": 2
+            "count": 4
         },
         "hour": {
-            "count": 6
+            "count": 8
         },
         "cab": {
-            "count": 2
+            "count": 4
         },
         "ride": {
-            "count": 2
+            "count": 4
         },
         "so": {
-            "count": 47
+            "count": 116
         },
         "convinces": {
             "count": 1
@@ -313,82 +313,82 @@
             "count": 11
         },
         "feel": {
-            "count": 4
+            "count": 9
         },
         "guilty": {
             "count": 4
         },
         "go": {
-            "count": 14
+            "count": 39
         },
         "hellish": {
             "count": 1
         },
         "life": {
-            "count": 5
+            "count": 9
         },
         "o": {
-            "count": 5
+            "count": 28
         },
         "thought": {
-            "count": 4
-        },
-        "going": {
             "count": 7
         },
+        "going": {
+            "count": 15
+        },
         "soon": {
-            "count": 1
+            "count": 2
         },
         "felt": {
             "count": 1
         },
         "better": {
-            "count": 6
+            "count": 14
         },
         "that's": {
             "count": 7
         },
         "works": {
-            "count": 3
+            "count": 4
         },
         "eat": {
-            "count": 3
+            "count": 6
         },
         "smol": {
             "count": 1
         },
         "breakfast": {
-            "count": 2
+            "count": 4
         },
         "accident": {
             "count": 1
         },
         "four": {
-            "count": 1
+            "count": 3
         },
         "hours": {
-            "count": 1
+            "count": 3
         },
         "say": {
-            "count": 13
+            "count": 15
         },
         "know": {
-            "count": 16
+            "count": 37
         },
         "other's": {
             "count": 1
         },
         "different": {
-            "count": 1
-        },
-        "everyone": {
-            "count": 3
-        },
-        "apparently": {
             "count": 4
         },
+        "everyone": {
+            "count": 4
+        },
+        "apparently": {
+            "count": 6
+        },
         "people": {
-            "count": 11
+            "count": 21
         },
         "broccoli": {
             "count": 1
@@ -400,7 +400,7 @@
             "count": 1
         },
         "breaking": {
-            "count": 1
+            "count": 2
         },
         "raisin": {
             "count": 1
@@ -415,37 +415,37 @@
             "count": 1
         },
         "kind": {
-            "count": 5
+            "count": 7
         },
         "hot": {
-            "count": 1
+            "count": 3
         },
         "dogs": {
-            "count": 1
+            "count": 4
         },
         "naize": {
             "count": 1
         },
         "mean": {
-            "count": 10
+            "count": 15
         },
         "kevin": {
-            "count": 6
+            "count": 12
         },
         "carbol": {
-            "count": 1
+            "count": 3
         },
         "us": {
-            "count": 6
+            "count": 15
         },
         "again": {
-            "count": 5
+            "count": 7
         },
         "duh": {
-            "count": 1
+            "count": 3
         },
         "good": {
-            "count": 22
+            "count": 44
         },
         "screming": {
             "count": 1
@@ -454,46 +454,46 @@
             "count": 1
         },
         "game": {
-            "count": 2
+            "count": 15
         },
         "pinched": {
             "count": 1
         },
         "super": {
-            "count": 3
+            "count": 8
         },
         "hard": {
-            "count": 4
+            "count": 10
         },
         "boomeranged": {
             "count": 1
         },
         "off": {
-            "count": 10
+            "count": 14
         },
         "corner": {
-            "count": 2
-        },
-        "goal": {
-            "count": 2
-        },
-        "love": {
             "count": 4
         },
+        "goal": {
+            "count": 4
+        },
+        "love": {
+            "count": 9
+        },
         "one": {
-            "count": 42
+            "count": 67
         },
         "own": {
-            "count": 1
+            "count": 2
         },
         "hit": {
-            "count": 2
+            "count": 6
         },
         "backwards": {
-            "count": 2
+            "count": 4
         },
         "nothing": {
-            "count": 1
+            "count": 4
         },
         "\"ahhhhhhhhh\"": {
             "count": 1
@@ -508,13 +508,13 @@
             "count": 3
         },
         "no": {
-            "count": 30
+            "count": 63
         },
         "jump": {
-            "count": 1
+            "count": 2
         },
         "gone": {
-            "count": 1
+            "count": 2
         },
         "deer": {
             "count": 1
@@ -526,7 +526,7 @@
             "count": 3
         },
         "word": {
-            "count": 9
+            "count": 20
         },
         "fordividingequally": {
             "count": 1
@@ -535,7 +535,7 @@
             "count": 1
         },
         "when": {
-            "count": 22
+            "count": 45
         },
         "you're": {
             "count": 2
@@ -544,43 +544,43 @@
             "count": 1
         },
         "gotta": {
-            "count": 4
+            "count": 15
         },
         "stack": {
             "count": 1
         },
         "takes": {
-            "count": 1
+            "count": 3
         },
         "little": {
             "count": 5
         },
         "damage": {
-            "count": 1
+            "count": 2
         },
         "communism": {
             "count": 1
         },
         "<kappa337294069933932544>": {
-            "count": 2
+            "count": 4
         },
         "maybe": {
-            "count": 2
+            "count": 9
         },
         "sleep": {
-            "count": 2
-        },
-        "smith": {
-            "count": 1
-        },
-        "normal": {
-            "count": 1
-        },
-        "let": {
             "count": 5
         },
+        "smith": {
+            "count": 2
+        },
+        "normal": {
+            "count": 2
+        },
+        "let": {
+            "count": 8
+        },
         "alone": {
-            "count": 1
+            "count": 2
         },
         "delirious": {
             "count": 1
@@ -589,25 +589,25 @@
             "count": 1
         },
         "distribute": {
-            "count": 2
+            "count": 4
         },
         "forgot": {
             "count": 2
         },
         "getting": {
-            "count": 5
+            "count": 7
         },
         "lol": {
-            "count": 89
+            "count": 191
         },
         "yeah": {
-            "count": 12
+            "count": 25
         },
         "sick": {
-            "count": 3
+            "count": 6
         },
         "easily": {
-            "count": 1
+            "count": 2
         },
         "avoided": {
             "count": 1
@@ -616,7 +616,7 @@
             "count": 1
         },
         "tasty": {
-            "count": 1
+            "count": 2
         },
         "cook": {
             "count": 1
@@ -628,34 +628,34 @@
             "count": 1
         },
         "golden": {
-            "count": 2
+            "count": 7
         },
         "eggs": {
-            "count": 2
+            "count": 3
         },
         "upgraded": {
             "count": 1
         },
         "egg": {
-            "count": 1
+            "count": 2
         },
         "anyone": {
-            "count": 5
+            "count": 9
         },
         "else": {
-            "count": 2
+            "count": 6
         },
         "ever": {
-            "count": 3
+            "count": 10
         },
         "test": {
-            "count": 2
+            "count": 9
         },
         "later": {
-            "count": 1
+            "count": 6
         },
         "today": {
-            "count": 3
+            "count": 14
         },
         "goodluck": {
             "count": 1
@@ -664,13 +664,13 @@
             "count": 1
         },
         "cute": {
-            "count": 2
+            "count": 5
         },
         "hope": {
-            "count": 3
+            "count": 5
         },
         "yah": {
-            "count": 1
+            "count": 2
         },
         "dingus": {
             "count": 1
@@ -685,34 +685,34 @@
             "count": 1
         },
         "pass": {
-            "count": 1
-        },
-        "timely": {
-            "count": 8
-        },
-        "br": {
-            "count": 5
-        },
-        "allin": {
-            "count": 7
-        },
-        "wheel": {
             "count": 2
         },
+        "timely": {
+            "count": 38
+        },
+        "br": {
+            "count": 32
+        },
+        "allin": {
+            "count": 46
+        },
+        "wheel": {
+            "count": 20
+        },
         "holy": {
-            "count": 9
+            "count": 24
         },
         "look": {
-            "count": 7
+            "count": 18
         },
         "disappointment": {
             "count": 1
         },
         "dog": {
-            "count": 1
+            "count": 2
         },
         "sad": {
-            "count": 2
+            "count": 8
         },
         "greater": {
             "count": 1
@@ -721,49 +721,49 @@
             "count": 1
         },
         "wat": {
-            "count": 7
+            "count": 20
         },
         "learn": {
-            "count": 1
+            "count": 2
         },
         "m8": {
-            "count": 2
+            "count": 4
         },
         "i've": {
             "count": 4
         },
         "seen": {
-            "count": 2
+            "count": 5
         },
         "already": {
-            "count": 4
+            "count": 10
         },
         "pls": {
-            "count": 11
+            "count": 22
         },
         "car": {
-            "count": 15
+            "count": 19
         },
         "fixing": {
             "count": 1
         },
         "something": {
-            "count": 10
+            "count": 16
         },
         "nor": {
             "count": 1
         },
         "ray": {
-            "count": 2
+            "count": 6
         },
         "wtffffff": {
             "count": 1
         },
         "boi": {
-            "count": 1
+            "count": 5
         },
         "gon": {
-            "count": 2
+            "count": 5
         },
         "aston": {
             "count": 1
@@ -775,28 +775,28 @@
             "count": 1
         },
         "inb4": {
-            "count": 3
+            "count": 5
         },
         "they're": {
             "count": 6
         },
         "sound": {
-            "count": 5
+            "count": 6
         },
         "sex": {
             "count": 1
         },
         "rip": {
-            "count": 7
+            "count": 17
         },
         "looool": {
-            "count": 2
+            "count": 3
         },
         "wtf": {
-            "count": 8
+            "count": 18
         },
         "why": {
-            "count": 9
+            "count": 25
         },
         "share": {
             "count": 1
@@ -805,25 +805,25 @@
             "count": 2
         },
         "keeps": {
-            "count": 1
+            "count": 2
         },
         "truckin": {
             "count": 1
         },
         "moment": {
-            "count": 2
+            "count": 3
         },
         "silence": {
-            "count": 2
+            "count": 3
         },
         "please": {
-            "count": 6
+            "count": 10
         },
         "f": {
-            "count": 1
+            "count": 4
         },
         "thing": {
-            "count": 4
+            "count": 10
         },
         "10s": {
             "count": 4
@@ -832,7 +832,7 @@
             "count": 1
         },
         "basically": {
-            "count": 2
+            "count": 10
         },
         "universally": {
             "count": 1
@@ -841,37 +841,37 @@
             "count": 1
         },
         "_": {
-            "count": 1
+            "count": 2
         },
         "heard": {
-            "count": 3
+            "count": 6
         },
         "emma": {
             "count": 5
         },
         "watson": {
-            "count": 2
+            "count": 5
         },
         "speak": {
             "count": 1
         },
         "lolol": {
-            "count": 6
+            "count": 13
         },
         "talk": {
-            "count": 9
+            "count": 12
         },
         "best": {
-            "count": 3
+            "count": 8
         },
         "10's": {
             "count": 1
         },
         "pretty": {
-            "count": 5
+            "count": 9
         },
         "throwing": {
-            "count": 3
+            "count": 5
         },
         "shade": {
             "count": 1
@@ -880,49 +880,49 @@
             "count": 1
         },
         "listen": {
-            "count": 3
+            "count": 5
         },
         "u": {
-            "count": 22
+            "count": 48
         },
         "lil": {
             "count": 1
         },
         "she": {
-            "count": 71
+            "count": 89
         },
         "saying": {
-            "count": 3
+            "count": 5
         },
         "fugly": {
-            "count": 1
+            "count": 4
         },
         "tho": {
-            "count": 6
+            "count": 11
         },
         "sigh": {
-            "count": 1
+            "count": 5
         },
         "amirite": {
             "count": 1
         },
         "jesus": {
-            "count": 2
+            "count": 5
         },
         "fire": {
             "count": 1
         },
         "pr": {
-            "count": 2
+            "count": 5
         },
         "boyfriend": {
             "count": 1
         },
         "sure": {
-            "count": 6
+            "count": 13
         },
         "talking": {
-            "count": 7
+            "count": 10
         },
         "wocao": {
             "count": 1
@@ -931,7 +931,7 @@
             "count": 1
         },
         "part": {
-            "count": 3
+            "count": 5
         },
         "pr's": {
             "count": 1
@@ -940,31 +940,31 @@
             "count": 1
         },
         "r": {
-            "count": 4
+            "count": 10
         },
         "(": {
             "count": 1
         },
         "late": {
-            "count": 2
+            "count": 4
         },
         "buttered": {
-            "count": 3
+            "count": 6
         },
         "read": {
             "count": 1
         },
         "^": {
-            "count": 3
+            "count": 8
         },
         "she's": {
             "count": 14
         },
         "nice": {
-            "count": 9
+            "count": 17
         },
         "idea": {
-            "count": 2
+            "count": 4
         },
         "celebs": {
             "count": 1
@@ -973,13 +973,13 @@
             "count": 2
         },
         "actually": {
-            "count": 6
+            "count": 13
         },
         "meet": {
-            "count": 1
+            "count": 3
         },
         "peru": {
-            "count": 1
+            "count": 3
         },
         "ho": {
             "count": 1
@@ -997,55 +997,55 @@
             "count": 9
         },
         "sense": {
-            "count": 1
+            "count": 2
         },
         "looollllll": {
             "count": 1
         },
         "hello": {
-            "count": 3
+            "count": 7
         },
         "went": {
-            "count": 7
+            "count": 8
         },
         "brown": {
-            "count": 7
+            "count": 10
         },
         "ur": {
-            "count": 2
+            "count": 3
         },
         "happened": {
-            "count": 2
+            "count": 3
         },
         "dan": {
-            "count": 22
+            "count": 27
         },
         "y": {
-            "count": 2
+            "count": 9
         },
         "cant": {
-            "count": 2
+            "count": 14
         },
         "thinking": {
-            "count": 3
+            "count": 4
         },
         "girl": {
-            "count": 11
+            "count": 13
         },
         "groan": {
-            "count": 3
+            "count": 5
         },
         "relate": {
             "count": 1
         },
         "put": {
-            "count": 5
+            "count": 7
         },
         "infinite": {
             "count": 1
         },
         "day": {
-            "count": 2
+            "count": 10
         },
         "wasn't": {
             "count": 1
@@ -1063,31 +1063,31 @@
             "count": 1
         },
         "hey": {
-            "count": 2
+            "count": 9
         },
         "bc": {
-            "count": 2
+            "count": 9
         },
         "ran": {
-            "count": 2
+            "count": 4
         },
         "busy": {
-            "count": 2
+            "count": 4
         },
         "having": {
-            "count": 3
+            "count": 7
         },
         "pneumonia": {
-            "count": 2
+            "count": 4
         },
         "loooll": {
-            "count": 2
+            "count": 4
         },
         "bruh": {
-            "count": 6
+            "count": 7
         },
         "keep": {
-            "count": 2
+            "count": 6
         },
         "lion": {
             "count": 1
@@ -1096,7 +1096,7 @@
             "count": 1
         },
         "ok": {
-            "count": 9
+            "count": 26
         },
         "ragged": {
             "count": 1
@@ -1105,7 +1105,7 @@
             "count": 1
         },
         "eyes": {
-            "count": 1
+            "count": 2
         },
         "interview": {
             "count": 8
@@ -1114,34 +1114,34 @@
             "count": 1
         },
         "accept": {
-            "count": 2
+            "count": 4
         },
         "potato": {
-            "count": 2
+            "count": 5
         },
         "quality": {
             "count": 1
         },
         "sheepie": {
-            "count": 8
+            "count": 14
         },
         "smooth": {
             "count": 1
         },
         "public": {
-            "count": 2
+            "count": 5
         },
         "interest": {
             "count": 1
         },
         "stock": {
-            "count": 2
+            "count": 5
         },
         "png": {
-            "count": 2
+            "count": 4
         },
         "besides": {
-            "count": 1
+            "count": 2
         },
         "funnier": {
             "count": 1
@@ -1150,19 +1150,19 @@
             "count": 1
         },
         "noooooo": {
-            "count": 1
+            "count": 2
         },
         "interviewing": {
             "count": 1
         },
         "night": {
-            "count": 2
+            "count": 8
         },
         "policy": {
             "count": 1
         },
         "great": {
-            "count": 1
+            "count": 3
         },
         "definitely": {
             "count": 1
@@ -1171,7 +1171,7 @@
             "count": 1
         },
         "message": {
-            "count": 2
+            "count": 5
         },
         "wechat": {
             "count": 1
@@ -1180,22 +1180,22 @@
             "count": 1
         },
         "call": {
-            "count": 4
+            "count": 10
         },
         "didnt": {
-            "count": 7
+            "count": 19
         },
         "\"m8": {
             "count": 1
         },
         "shes": {
-            "count": 6
+            "count": 13
         },
         "17\"": {
             "count": 2
         },
         "smh": {
-            "count": 2
+            "count": 4
         },
         "dan's": {
             "count": 1
@@ -1210,16 +1210,16 @@
             "count": 1
         },
         "can’t": {
-            "count": 4
+            "count": 5
         },
         "fend": {
             "count": 1
         },
         "mari": {
-            "count": 5
+            "count": 9
         },
         "dans": {
-            "count": 1
+            "count": 2
         },
         "premade": {
             "count": 1
@@ -1228,19 +1228,19 @@
             "count": 1
         },
         "waiting": {
-            "count": 1
+            "count": 2
         },
         "legal": {
-            "count": 1
+            "count": 2
         },
         "last": {
-            "count": 3
+            "count": 12
         },
         "interviewee": {
             "count": 1
         },
         "pics": {
-            "count": 2
+            "count": 5
         },
         "\"dan": {
             "count": 1
@@ -1255,16 +1255,16 @@
             "count": 1
         },
         "post": {
-            "count": 1
+            "count": 4
         },
         "reddit": {
-            "count": 2
+            "count": 6
         },
         "scott": {
-            "count": 2
+            "count": 11
         },
         "told": {
-            "count": 3
+            "count": 7
         },
         "looooolllll": {
             "count": 1
@@ -1273,16 +1273,16 @@
             "count": 1
         },
         "bmw": {
-            "count": 3
+            "count": 5
         },
         "posted": {
             "count": 1
         },
         "whole": {
-            "count": 1
+            "count": 4
         },
         "story": {
-            "count": 1
+            "count": 2
         },
         "hahahahaahahahahahahah": {
             "count": 1
@@ -1303,16 +1303,16 @@
             "count": 3
         },
         "turning": {
-            "count": 1
+            "count": 3
         },
         "traction": {
-            "count": 2
+            "count": 4
         },
         "again\"": {
             "count": 1
         },
         "date": {
-            "count": 1
+            "count": 3
         },
         "17yo": {
             "count": 1
@@ -1321,25 +1321,25 @@
             "count": 1
         },
         "reading": {
-            "count": 2
+            "count": 4
         },
         "\"this": {
             "count": 1
         },
         "sounds": {
-            "count": 5
+            "count": 9
         },
         "liray\"": {
             "count": 1
         },
         "you’re": {
-            "count": 3
+            "count": 8
         },
         "immature": {
             "count": 1
         },
         "it’s": {
-            "count": 6
+            "count": 11
         },
         "example": {
             "count": 1
@@ -1351,13 +1351,13 @@
             "count": 1
         },
         "old": {
-            "count": 3
+            "count": 7
         },
         "fucked": {
-            "count": 2
+            "count": 6
         },
         "find": {
-            "count": 3
+            "count": 9
         },
         "creepy": {
             "count": 1
@@ -1366,7 +1366,7 @@
             "count": 1
         },
         "he’s": {
-            "count": 2
+            "count": 4
         },
         "mature": {
             "count": 1
@@ -1375,46 +1375,46 @@
             "count": 1
         },
         "that’s": {
-            "count": 3
+            "count": 5
         },
         "point": {
-            "count": 3
+            "count": 7
         },
         "omg": {
-            "count": 8
+            "count": 13
         },
         "finally": {
-            "count": 1
+            "count": 3
         },
         "understand": {
-            "count": 3
+            "count": 7
         },
         "peaked": {
             "count": 1
         },
         "high": {
-            "count": 1
+            "count": 2
         },
         "school": {
-            "count": 2
-        },
-        "kinda": {
-            "count": 3
-        },
-        "likes": {
-            "count": 1
-        },
-        "girls": {
-            "count": 5
-        },
-        "wants": {
-            "count": 7
-        },
-        "anything": {
             "count": 4
         },
+        "kinda": {
+            "count": 9
+        },
+        "likes": {
+            "count": 3
+        },
+        "girls": {
+            "count": 8
+        },
+        "wants": {
+            "count": 12
+        },
+        "anything": {
+            "count": 12
+        },
         "song": {
-            "count": 2
+            "count": 7
         },
         "starts": {
             "count": 1
@@ -1423,46 +1423,46 @@
             "count": 1
         },
         "id": {
-            "count": 1
+            "count": 2
         },
         "rather": {
             "count": 1
         },
         "crash": {
-            "count": 1
+            "count": 2
         },
         "frs": {
-            "count": 2
+            "count": 3
         },
         "future": {
             "count": 1
         },
         "cars": {
-            "count": 4
+            "count": 5
         },
         "max": {
-            "count": 1
+            "count": 4
         },
         "sings": {
             "count": 1
         },
         "kill": {
-            "count": 6
+            "count": 8
         },
         "experience": {
-            "count": 1
+            "count": 2
         },
         "drive": {
             "count": 9
         },
         "tcs": {
-            "count": 3
+            "count": 5
         },
         "mum": {
             "count": 6
         },
         "almost": {
-            "count": 3
+            "count": 6
         },
         "killed": {
             "count": 1
@@ -1492,7 +1492,7 @@
             "count": 2
         },
         "cold": {
-            "count": 1
+            "count": 4
         },
         "tires": {
             "count": 1
@@ -1501,37 +1501,37 @@
             "count": 1
         },
         "road": {
-            "count": 1
+            "count": 2
         },
         "r_i_p": {
             "count": 1
         },
         "youre": {
-            "count": 4
+            "count": 13
         },
         "doing": {
-            "count": 3
+            "count": 11
         },
         "audi": {
             "count": 2
         },
         "yea": {
-            "count": 4
+            "count": 8
         },
         "snow": {
-            "count": 2
+            "count": 4
         },
         "note": {
-            "count": 1
+            "count": 2
         },
         "self": {
             "count": 2
         },
         "anyway": {
-            "count": 1
+            "count": 2
         },
         "made": {
-            "count": 4
+            "count": 11
         },
         "pretzels": {
             "count": 1
@@ -1546,7 +1546,7 @@
             "count": 1
         },
         "side": {
-            "count": 2
+            "count": 3
         },
         "mirror": {
             "count": 1
@@ -1555,13 +1555,13 @@
             "count": 1
         },
         "remember": {
-            "count": 6
+            "count": 11
         },
         "exactly": {
-            "count": 1
+            "count": 2
         },
         "cause": {
-            "count": 13
+            "count": 18
         },
         "prius": {
             "count": 2
@@ -1576,31 +1576,31 @@
             "count": 1
         },
         "inside": {
-            "count": 2
+            "count": 3
         },
         "crying": {
             "count": 2
         },
         "didn’t": {
-            "count": 1
+            "count": 3
         },
         "start": {
-            "count": 1
+            "count": 3
         },
         "moved": {
-            "count": 1
+            "count": 2
         },
         "dat": {
-            "count": 1
+            "count": 7
         },
         "maxima": {
             "count": 1
         },
         "power": {
-            "count": 3
+            "count": 6
         },
         "steering": {
-            "count": 3
+            "count": 5
         },
         "failed": {
             "count": 1
@@ -1612,7 +1612,7 @@
             "count": 1
         },
         "sayin": {
-            "count": 1
+            "count": 2
         },
         "fault": {
             "count": 1
@@ -1621,19 +1621,19 @@
             "count": 2
         },
         "buy": {
-            "count": 3
+            "count": 9
         },
         "fiat": {
-            "count": 4
+            "count": 5
         },
         "drivable": {
             "count": 1
         },
         "without": {
-            "count": 1
+            "count": 2
         },
         "fix": {
-            "count": 2
+            "count": 4
         },
         "tony": {
             "count": 1
@@ -1642,22 +1642,22 @@
             "count": 1
         },
         "making": {
-            "count": 1
+            "count": 3
         },
         "turn": {
             "count": 2
         },
         "gets": {
-            "count": 1
+            "count": 2
         },
         "deal": {
-            "count": 1
+            "count": 2
         },
         "triggered": {
-            "count": 4
+            "count": 6
         },
         "fucking": {
-            "count": 14
+            "count": 38
         },
         "street": {
             "count": 1
@@ -1672,7 +1672,7 @@
             "count": 1
         },
         "down": {
-            "count": 4
+            "count": 8
         },
         "hill": {
             "count": 1
@@ -1681,7 +1681,7 @@
             "count": 1
         },
         "poor": {
-            "count": 1
+            "count": 2
         },
         "steal": {
             "count": 1
@@ -1696,10 +1696,10 @@
             "count": 1
         },
         "broke": {
-            "count": 2
+            "count": 6
         },
         "motorcycle": {
-            "count": 2
+            "count": 4
         },
         "you'll": {
             "count": 2
@@ -1720,19 +1720,19 @@
             "count": 1
         },
         "i’d": {
-            "count": 2
-        },
-        "noodle": {
-            "count": 1
-        },
-        "new": {
             "count": 4
         },
+        "noodle": {
+            "count": 2
+        },
+        "new": {
+            "count": 20
+        },
         "until": {
-            "count": 1
+            "count": 2
         },
         "two": {
-            "count": 1
+            "count": 2
         },
         "caskets": {
             "count": 1
@@ -1744,22 +1744,22 @@
             "count": 1
         },
         "head": {
-            "count": 2
+            "count": 4
         },
         "where's": {
             "count": 1
         },
         "picture": {
-            "count": 1
+            "count": 2
         },
         "guy": {
-            "count": 4
+            "count": 7
         },
         "husky": {
             "count": 1
         },
         "body": {
-            "count": 1
+            "count": 4
         },
         "weighs": {
             "count": 1
@@ -1768,10 +1768,10 @@
             "count": 1
         },
         "rear": {
-            "count": 2
+            "count": 4
         },
         "end": {
-            "count": 4
+            "count": 7
         },
         "coworker": {
             "count": 1
@@ -1789,7 +1789,7 @@
             "count": 1
         },
         "fall": {
-            "count": 1
+            "count": 3
         },
         "conversations": {
             "count": 1
@@ -1804,13 +1804,13 @@
             "count": 6
         },
         "buying": {
-            "count": 2
+            "count": 4
         },
         "\"prius\"": {
             "count": 1
         },
         "ikr": {
-            "count": 1
+            "count": 3
         },
         "buh": {
             "count": 1
@@ -1819,16 +1819,16 @@
             "count": 1
         },
         "nope": {
-            "count": 1
+            "count": 9
         },
         "saw": {
-            "count": 4
+            "count": 9
         },
         "myself": {
-            "count": 2
+            "count": 4
         },
         "friend": {
-            "count": 4
+            "count": 7
         },
         "bumper": {
             "count": 1
@@ -1840,25 +1840,25 @@
             "count": 1
         },
         "doesnt": {
-            "count": 3
+            "count": 11
         },
         "matter": {
-            "count": 1
+            "count": 2
         },
         "afford": {
-            "count": 1
+            "count": 2
         },
         "thats": {
-            "count": 7
+            "count": 22
         },
         "mercury": {
-            "count": 2
+            "count": 5
         },
         "cougar": {
             "count": 1
         },
         "found": {
-            "count": 3
+            "count": 6
         },
         "junk": {
             "count": 1
@@ -1867,13 +1867,13 @@
             "count": 1
         },
         "fixed": {
-            "count": 3
+            "count": 6
         },
         "mcdonald's": {
             "count": 1
         },
         "thru": {
-            "count": 2
+            "count": 4
         },
         "panic": {
             "count": 1
@@ -1885,10 +1885,10 @@
             "count": 1
         },
         "white": {
-            "count": 2
+            "count": 7
         },
         "trash": {
-            "count": 3
+            "count": 4
         },
         "places": {
             "count": 1
@@ -1900,55 +1900,55 @@
             "count": 1
         },
         "top": {
-            "count": 1
+            "count": 5
         },
         "speed": {
-            "count": 1
+            "count": 3
         },
         "mcdonald’s": {
             "count": 1
         },
         "called": {
-            "count": 3
+            "count": 7
         },
         "ex": {
-            "count": 2
+            "count": 4
         },
         "course": {
-            "count": 2
+            "count": 4
         },
         "away": {
-            "count": 3
+            "count": 6
         },
         "stranded": {
             "count": 1
         },
         "dude": {
-            "count": 6
+            "count": 10
         },
         "siq": {
-            "count": 2
+            "count": 4
         },
         "25l": {
             "count": 1
         },
         "v6": {
-            "count": 1
+            "count": 2
         },
         "turns": {
-            "count": 2
+            "count": 5
         },
         "transmission": {
             "count": 1
         },
         "classic": {
-            "count": 2
+            "count": 4
         },
         "actully": {
             "count": 1
         },
         "looks": {
-            "count": 5
+            "count": 9
         },
         "gangster": {
             "count": 1
@@ -1966,85 +1966,85 @@
             "count": 1
         },
         "mobile": {
-            "count": 1
+            "count": 2
         },
         "jenny's": {
             "count": 1
         },
         "ez": {
-            "count": 1
+            "count": 2
         },
         "span": {
             "count": 1
         },
         "months": {
-            "count": 1
+            "count": 3
         },
         "pulled": {
             "count": 1
         },
         "loooollll": {
-            "count": 2
+            "count": 4
         },
         "dis": {
-            "count": 1
+            "count": 2
         },
         "speeding": {
             "count": 1
         },
         "tickets": {
-            "count": 2
+            "count": 4
         },
         "none": {
             "count": 1
         },
         "😄": {
-            "count": 1
+            "count": 2
         },
         "friend's": {
             "count": 1
         },
         "dad": {
-            "count": 2
+            "count": 5
         },
         "da": {
-            "count": 3
+            "count": 10
         },
         "lived": {
-            "count": 1
+            "count": 2
         },
         "together": {
-            "count": 4
+            "count": 5
         },
         "btw": {
-            "count": 1
+            "count": 2
         },
         "cryin": {
             "count": 1
         },
         "gotten": {
-            "count": 1
-        },
-        "anywhere": {
             "count": 2
         },
+        "anywhere": {
+            "count": 4
+        },
         "except": {
-            "count": 1
+            "count": 2
         },
         "gold": {
-            "count": 1
+            "count": 3
         },
         "beach": {
             "count": 1
         },
         "oregon": {
-            "count": 2
+            "count": 4
         },
         "fuck": {
-            "count": 7
+            "count": 22
         },
         "state": {
-            "count": 1
+            "count": 2
         },
         "shouldn't": {
             "count": 3
@@ -2053,10 +2053,10 @@
             "count": 1
         },
         "traffic": {
-            "count": 2
+            "count": 4
         },
         "cam": {
-            "count": 2
+            "count": 4
         },
         "supreme": {
             "count": 1
@@ -2065,22 +2065,22 @@
             "count": 1
         },
         "party": {
-            "count": 1
+            "count": 2
         },
         "quitting": {
-            "count": 2
+            "count": 4
         },
         "knocked": {
             "count": 1
         },
         "tried": {
-            "count": 3
+            "count": 9
         },
         "pull": {
-            "count": 1
+            "count": 2
         },
         "blame": {
-            "count": 2
+            "count": 4
         },
         "loooollllll": {
             "count": 1
@@ -2098,7 +2098,7 @@
             "count": 1
         },
         "week": {
-            "count": 2
+            "count": 6
         },
         "tries": {
             "count": 1
@@ -2113,37 +2113,37 @@
             "count": 1
         },
         "okay": {
-            "count": 9
+            "count": 11
         },
         "mom": {
-            "count": 3
+            "count": 4
         },
         "blamed": {
             "count": 1
         },
         "yo": {
-            "count": 1
+            "count": 4
         },
         "literally": {
-            "count": 2
+            "count": 10
         },
         "hate": {
-            "count": 2
+            "count": 5
         },
         "beg": {
             "count": 1
         },
         "poop": {
-            "count": 3
+            "count": 4
         },
         "mcd": {
             "count": 1
         },
         "lot": {
-            "count": 2
+            "count": 6
         },
         "enter": {
-            "count": 1
+            "count": 2
         },
         "pissed": {
             "count": 1
@@ -2152,7 +2152,7 @@
             "count": 1
         },
         "lmao": {
-            "count": 5
+            "count": 27
         },
         "ice": {
             "count": 1
@@ -2167,7 +2167,7 @@
             "count": 2
         },
         "finish": {
-            "count": 1
+            "count": 2
         },
         "expressway": {
             "count": 1
@@ -2176,10 +2176,10 @@
             "count": 1
         },
         "hand": {
-            "count": 2
+            "count": 4
         },
         "goes": {
-            "count": 4
+            "count": 6
         },
         "this\"": {
             "count": 2
@@ -2188,25 +2188,25 @@
             "count": 1
         },
         "window": {
-            "count": 2
+            "count": 4
         },
         "mph": {
             "count": 1
         },
         "idk": {
-            "count": 7
+            "count": 13
         },
         "things": {
-            "count": 3
+            "count": 8
         },
         "loooolll": {
-            "count": 1
+            "count": 4
         },
         "lb": {
             "count": 1
         },
         "commute": {
-            "count": 1
+            "count": 2
         },
         "far": {
             "count": 4
@@ -2218,37 +2218,37 @@
             "count": 1
         },
         "mid": {
-            "count": 1
+            "count": 2
         },
         "aerial\"": {
             "count": 1
         },
         "omfg": {
-            "count": 1
+            "count": 6
         },
         "honda": {
             "count": 1
         },
         "pilot": {
-            "count": 1
+            "count": 3
         },
         "5mph": {
-            "count": 2
+            "count": 4
         },
         "hitch": {
             "count": 1
         },
         "loooool": {
-            "count": 1
+            "count": 3
         },
         "loool": {
-            "count": 3
+            "count": 9
         },
         "starman": {
             "count": 1
         },
         "memes": {
-            "count": 2
+            "count": 5
         },
         "\"lol": {
             "count": 1
@@ -2266,7 +2266,7 @@
             "count": 1
         },
         "measures": {
-            "count": 1
+            "count": 2
         },
         "hitting": {
             "count": 1
@@ -2290,7 +2290,7 @@
             "count": 1
         },
         "ready": {
-            "count": 4
+            "count": 10
         },
         "pinch": {
             "count": 1
@@ -2308,22 +2308,22 @@
             "count": 1
         },
         "random": {
-            "count": 4
+            "count": 9
         },
         "person": {
-            "count": 3
+            "count": 9
         },
         "mercy": {
-            "count": 1
+            "count": 2
         },
         "heal": {
             "count": 1
         },
         "doomfist": {
-            "count": 2
+            "count": 4
         },
         "runs": {
-            "count": 1
+            "count": 2
         },
         "“hey": {
             "count": 1
@@ -2332,52 +2332,52 @@
             "count": 1
         },
         "fly": {
-            "count": 1
+            "count": 4
         },
         "you”": {
-            "count": 2
+            "count": 4
         },
         "*disappears": {
             "count": 1
         },
         "around": {
-            "count": 2
+            "count": 10
         },
         "corner*": {
             "count": 1
         },
         "run": {
-            "count": 2
+            "count": 7
         },
         "faster": {
-            "count": 4
+            "count": 6
         },
         "“k": {
             "count": 1
         },
         "guess": {
-            "count": 3
+            "count": 6
         },
         "don’t": {
-            "count": 2
+            "count": 5
         },
         "healing”": {
             "count": 1
         },
         "“halp": {
-            "count": 2
+            "count": 4
         },
         "keem”": {
-            "count": 2
+            "count": 4
         },
         "“you": {
-            "count": 2
+            "count": 4
         },
         "expect": {
             "count": 1
         },
         "always": {
-            "count": 4
+            "count": 6
         },
         "track": {
             "count": 1
@@ -2392,10 +2392,10 @@
             "count": 1
         },
         "snap": {
-            "count": 2
+            "count": 5
         },
         "i’ve": {
-            "count": 2
+            "count": 5
         },
         "dribbling": {
             "count": 1
@@ -2419,7 +2419,7 @@
             "count": 1
         },
         "instead": {
-            "count": 2
+            "count": 6
         },
         "score": {
             "count": 1
@@ -2431,40 +2431,40 @@
             "count": 1
         },
         "wall": {
-            "count": 1
+            "count": 4
         },
         "yell": {
-            "count": 2
+            "count": 5
         },
         "dumb": {
-            "count": 1
+            "count": 2
         },
         "50%": {
             "count": 1
         },
         "rank": {
-            "count": 2
+            "count": 5
         },
         "ends": {
-            "count": 1
+            "count": 2
         },
         "minutes": {
             "count": 5
         },
         "dont": {
-            "count": 7
+            "count": 35
         },
         "1k": {
             "count": 1
         },
         "wheres": {
-            "count": 1
+            "count": 2
         },
         "overwatch": {
-            "count": 2
+            "count": 8
         },
         "event": {
-            "count": 2
+            "count": 5
         },
         "details": {
             "count": 1
@@ -2473,28 +2473,28 @@
             "count": 1
         },
         "hmmmm": {
-            "count": 1
+            "count": 2
         },
         "fun": {
-            "count": 6
+            "count": 9
         },
         "wordcloud": {
-            "count": 2
+            "count": 5
         },
         "think": {
-            "count": 10
+            "count": 29
         },
         "yet": {
-            "count": 2
+            "count": 11
         },
         "reep": {
-            "count": 4
+            "count": 10
         },
         "'s": {
             "count": 1
         },
         "lazy": {
-            "count": 3
+            "count": 5
         },
         "bum": {
             "count": 1
@@ -2509,7 +2509,7 @@
             "count": 1
         },
         "hahahaha": {
-            "count": 2
+            "count": 4
         },
         "9k": {
             "count": 1
@@ -2521,13 +2521,13 @@
             "count": 1
         },
         "yes": {
-            "count": 9
+            "count": 15
         },
         "prestige": {
-            "count": 3
+            "count": 5
         },
         "glitch": {
-            "count": 2
+            "count": 5
         },
         "moto": {
             "count": 1
@@ -2542,7 +2542,7 @@
             "count": 1
         },
         "sort": {
-            "count": 1
+            "count": 4
         },
         "count": {
             "count": 1
@@ -2554,10 +2554,10 @@
             "count": 1
         },
         "give": {
-            "count": 4
+            "count": 10
         },
         "pinned": {
-            "count": 1
+            "count": 2
         },
         "section": {
             "count": 1
@@ -2566,7 +2566,7 @@
             "count": 1
         },
         "thanks": {
-            "count": 3
+            "count": 8
         },
         ")": {
             "count": 1
@@ -2575,13 +2575,13 @@
             "count": 1
         },
         "3x": {
-            "count": 1
+            "count": 2
         },
         "nah": {
-            "count": 3
+            "count": 6
         },
         "ask": {
-            "count": 8
+            "count": 10
         },
         "question": {
             "count": 1
@@ -2590,7 +2590,7 @@
             "count": 1
         },
         "pepita": {
-            "count": 2
+            "count": 4
         },
         "cherry": {
             "count": 1
@@ -2620,7 +2620,7 @@
             "count": 1
         },
         "every": {
-            "count": 2
+            "count": 7
         },
         "subreddit": {
             "count": 1
@@ -2635,19 +2635,19 @@
             "count": 1
         },
         "sometimes": {
-            "count": 1
+            "count": 2
         },
         "angle": {
             "count": 1
         },
         "guys": {
-            "count": 2
+            "count": 12
         },
         "ass": {
-            "count": 2
+            "count": 5
         },
         "face": {
-            "count": 1
+            "count": 4
         },
         "impressive": {
             "count": 1
@@ -2662,7 +2662,7 @@
             "count": 1
         },
         "hear": {
-            "count": 4
+            "count": 7
         },
         "teacher": {
             "count": 1
@@ -2671,22 +2671,22 @@
             "count": 1
         },
         "goodjob": {
-            "count": 1
-        },
-        "lmk": {
             "count": 2
         },
+        "lmk": {
+            "count": 4
+        },
         "wut": {
-            "count": 1
+            "count": 2
         },
         "d": {
-            "count": 1
-        },
-        "mcdonalds": {
             "count": 3
         },
+        "mcdonalds": {
+            "count": 6
+        },
         "link": {
-            "count": 1
+            "count": 2
         },
         "bloodfaaaaaaaaaang": {
             "count": 1
@@ -2701,7 +2701,7 @@
             "count": 1
         },
         "wouldnt": {
-            "count": 1
+            "count": 3
         },
         "bald": {
             "count": 1
@@ -2710,7 +2710,7 @@
             "count": 1
         },
         "honestly": {
-            "count": 1
+            "count": 3
         },
         "poetic": {
             "count": 1
@@ -2749,28 +2749,28 @@
             "count": 1
         },
         "icon": {
-            "count": 1
+            "count": 2
         },
         "ive": {
-            "count": 1
+            "count": 4
         },
         "ganked": {
             "count": 1
         },
         "feels": {
-            "count": 1
+            "count": 2
         },
         "man": {
-            "count": 1
+            "count": 3
         },
         "pvp": {
             "count": 2
         },
         "level": {
-            "count": 3
+            "count": 8
         },
         "gear": {
-            "count": 1
+            "count": 2
         },
         "exaltedddd": {
             "count": 1
@@ -2779,13 +2779,13 @@
             "count": 1
         },
         "bitch": {
-            "count": 1
+            "count": 5
         },
         "cut": {
-            "count": 1
+            "count": 2
         },
         "stood": {
-            "count": 1
+            "count": 2
         },
         "pants": {
             "count": 2
@@ -2800,16 +2800,16 @@
             "count": 1
         },
         "tell": {
-            "count": 5
+            "count": 9
         },
         "sitting": {
-            "count": 3
+            "count": 6
         },
         "he's": {
             "count": 2
         },
         "left": {
-            "count": 2
+            "count": 4
         },
         "afraid": {
             "count": 1
@@ -2818,10 +2818,10 @@
             "count": 2
         },
         "ew": {
-            "count": 1
+            "count": 4
         },
         "butt": {
-            "count": 1
+            "count": 2
         },
         "watched": {
             "count": 2
@@ -2833,7 +2833,7 @@
             "count": 2
         },
         "netflix": {
-            "count": 3
+            "count": 4
         },
         "confused": {
             "count": 1
@@ -2851,7 +2851,7 @@
             "count": 1
         },
         "either": {
-            "count": 2
+            "count": 3
         },
         "monster": {
             "count": 1
@@ -2863,10 +2863,10 @@
             "count": 1
         },
         "motion": {
-            "count": 1
+            "count": 2
         },
         "sickness": {
-            "count": 1
+            "count": 3
         },
         "simulator": {
             "count": 1
@@ -2875,10 +2875,10 @@
             "count": 1
         },
         "safe": {
-            "count": 3
+            "count": 6
         },
         "home": {
-            "count": 4
+            "count": 19
         },
         "eithero": {
             "count": 1
@@ -2890,22 +2890,22 @@
             "count": 1
         },
         "cool": {
-            "count": 4
+            "count": 8
         },
         "theatres": {
             "count": 1
         },
         "throw": {
-            "count": 1
+            "count": 2
         },
         "show": {
-            "count": 1
+            "count": 3
         },
         "recommendations": {
             "count": 1
         },
         "ill": {
-            "count": 2
+            "count": 7
         },
         "trade": {
             "count": 1
@@ -2917,25 +2917,25 @@
             "count": 5
         },
         "catch": {
-            "count": 2
+            "count": 4
         },
         "whered": {
             "count": 1
         },
         "yours": {
-            "count": 1
+            "count": 2
         },
         "mexico": {
             "count": 1
         },
         "wo": {
-            "count": 2
+            "count": 4
         },
         "cao": {
-            "count": 2
+            "count": 4
         },
         "highly": {
-            "count": 1
+            "count": 2
         },
         "recommend": {
             "count": 2
@@ -2944,22 +2944,22 @@
             "count": 1
         },
         "welcome": {
-            "count": 3
+            "count": 8
         },
         "especially": {
             "count": 2
         },
         "next": {
-            "count": 2
+            "count": 11
         },
         "season": {
-            "count": 3
+            "count": 5
         },
         "announced": {
             "count": 1
         },
         "dm": {
-            "count": 2
+            "count": 3
         },
         "ep": {
             "count": 1
@@ -2980,7 +2980,7 @@
             "count": 2
         },
         "guessing": {
-            "count": 1
+            "count": 2
         },
         "brooklyn": {
             "count": 1
@@ -2989,22 +2989,22 @@
             "count": 1
         },
         "funny": {
-            "count": 1
+            "count": 2
         },
         "jk": {
-            "count": 1
+            "count": 3
         },
         "related": {
             "count": 1
         },
         "wrong": {
-            "count": 2
+            "count": 4
         },
         "send": {
             "count": 1
         },
         "done": {
-            "count": 4
+            "count": 9
         },
         "altered": {
             "count": 1
@@ -3013,7 +3013,7 @@
             "count": 1
         },
         "interesting": {
-            "count": 4
+            "count": 6
         },
         "ohhhhh": {
             "count": 1
@@ -3022,10 +3022,10 @@
             "count": 1
         },
         "won": {
-            "count": 1
+            "count": 2
         },
         "someone": {
-            "count": 5
+            "count": 11
         },
         "ot": {
             "count": 1
@@ -3040,19 +3040,19 @@
             "count": 1
         },
         "kek": {
-            "count": 1
+            "count": 5
         },
         "tagged": {
-            "count": 2
+            "count": 4
         },
         "meant": {
-            "count": 2
+            "count": 4
         },
         "watched(": {
             "count": 1
         },
         "movie": {
-            "count": 3
+            "count": 5
         },
         "costed": {
             "count": 1
@@ -3064,13 +3064,13 @@
             "count": 1
         },
         "moving": {
-            "count": 3
+            "count": 5
         },
         "pirates": {
             "count": 1
         },
         "movies": {
-            "count": 3
+            "count": 5
         },
         "cost": {
             "count": 1
@@ -3082,7 +3082,7 @@
             "count": 1
         },
         "weird": {
-            "count": 4
+            "count": 8
         },
         "mildly": {
             "count": 2
@@ -3118,10 +3118,10 @@
             "count": 1
         },
         "eating": {
-            "count": 1
+            "count": 3
         },
         "judge": {
-            "count": 3
+            "count": 7
         },
         "based": {
             "count": 1
@@ -3130,10 +3130,10 @@
             "count": 1
         },
         "long": {
-            "count": 1
+            "count": 15
         },
         "hurt": {
-            "count": 2
+            "count": 3
         },
         "airsofters": {
             "count": 1
@@ -3142,19 +3142,19 @@
             "count": 1
         },
         "key": {
-            "count": 1
+            "count": 2
         },
         "truth": {
-            "count": 1
+            "count": 2
         },
         "started": {
-            "count": 3
+            "count": 5
         },
         "playing": {
-            "count": 3
+            "count": 12
         },
         "actual": {
-            "count": 1
+            "count": 3
         },
         "activity": {
             "count": 2
@@ -3169,13 +3169,13 @@
             "count": 1
         },
         "hte": {
-            "count": 2
+            "count": 3
         },
         "follow": {
-            "count": 1
+            "count": 3
         },
         "line": {
-            "count": 1
+            "count": 3
         },
         "expecting": {
             "count": 1
@@ -3217,7 +3217,7 @@
             "count": 1
         },
         "t": {
-            "count": 1
+            "count": 23
         },
         "rex": {
             "count": 1
@@ -3241,7 +3241,7 @@
             "count": 1
         },
         "main": {
-            "count": 1
+            "count": 2
         },
         "warglaive": {
             "count": 1
@@ -3274,19 +3274,19 @@
             "count": 1
         },
         "lightforged": {
-            "count": 1
+            "count": 3
         },
         "lucky": {
             "count": 1
         },
         "rep": {
-            "count": 1
+            "count": 3
         },
         "amazing": {
-            "count": 1
+            "count": 3
         },
         "ah": {
-            "count": 1
+            "count": 2
         },
         "muich": {
             "count": 1
@@ -3295,10 +3295,10 @@
             "count": 1
         },
         "few": {
-            "count": 1
+            "count": 7
         },
         "k": {
-            "count": 1
+            "count": 3
         },
         "reps": {
             "count": 1
@@ -3310,22 +3310,22 @@
             "count": 1
         },
         "paladin": {
-            "count": 1
+            "count": 4
         },
         "useless": {
             "count": 1
         },
         "alliance": {
-            "count": 1
+            "count": 2
         },
         "ones": {
-            "count": 2
+            "count": 6
         },
         "owl": {
             "count": 1
         },
         "carpet": {
-            "count": 1
+            "count": 2
         },
         "colour": {
             "count": 1
@@ -3337,13 +3337,13 @@
             "count": 1
         },
         "fyi": {
-            "count": 2
+            "count": 3
         },
         "2min": {
             "count": 1
         },
         "case": {
-            "count": 1
+            "count": 2
         },
         "stalk": {
             "count": 1
@@ -3367,10 +3367,10 @@
             "count": 1
         },
         "dying": {
-            "count": 1
+            "count": 2
         },
         "bad": {
-            "count": 2
+            "count": 5
         },
         "\"skying\"": {
             "count": 1
@@ -3409,7 +3409,7 @@
             "count": 1
         },
         "small": {
-            "count": 2
+            "count": 3
         },
         "probeser": {
             "count": 1
@@ -3430,40 +3430,40 @@
             "count": 1
         },
         "drank": {
-            "count": 2
+            "count": 8
         },
         "awake": {
-            "count": 1
+            "count": 2
         },
         "enough": {
-            "count": 5
+            "count": 9
         },
         "lemme": {
-            "count": 1
+            "count": 2
         },
         "food": {
-            "count": 1
+            "count": 4
         },
         "coma": {
             "count": 1
         },
         "update": {
-            "count": 2
+            "count": 5
         },
         "live": {
             "count": 2
         },
         "lootbox": {
-            "count": 1
+            "count": 2
         },
         "grind": {
-            "count": 1
+            "count": 6
         },
         "interling": {
             "count": 1
         },
         "wot": {
-            "count": 2
+            "count": 7
         },
         "\"ok\"": {
             "count": 2
@@ -3475,13 +3475,13 @@
             "count": 1
         },
         "boy": {
-            "count": 3
+            "count": 7
         },
         "slip": {
-            "count": 1
+            "count": 2
         },
         "chinese": {
-            "count": 3
+            "count": 4
         },
         "porocess": {
             "count": 1
@@ -3508,7 +3508,7 @@
             "count": 1
         },
         "worst": {
-            "count": 3
+            "count": 5
         },
         "crazy": {
             "count": 1
@@ -3517,7 +3517,7 @@
             "count": 2
         },
         "dumplings": {
-            "count": 3
+            "count": 4
         },
         "tehe": {
             "count": 1
@@ -3532,7 +3532,7 @@
             "count": 1
         },
         "stuff": {
-            "count": 2
+            "count": 5
         },
         "known": {
             "count": 1
@@ -3544,7 +3544,7 @@
             "count": 1
         },
         "drunk": {
-            "count": 3
+            "count": 8
         },
         "autitstic": {
             "count": 1
@@ -3559,10 +3559,10 @@
             "count": 2
         },
         "voice": {
-            "count": 3
+            "count": 4
         },
         "bit": {
-            "count": 1
+            "count": 5
         },
         "shaky": {
             "count": 1
@@ -3571,7 +3571,7 @@
             "count": 1
         },
         "depression": {
-            "count": 4
+            "count": 5
         },
         "shows": {
             "count": 1
@@ -3592,7 +3592,7 @@
             "count": 1
         },
         "supposed": {
-            "count": 1
+            "count": 2
         },
         "tilting": {
             "count": 1
@@ -3619,10 +3619,10 @@
             "count": 1
         },
         "hwao": {
-            "count": 1
+            "count": 4
         },
         "paid": {
-            "count": 1
+            "count": 7
         },
         "courses": {
             "count": 1
@@ -3640,7 +3640,7 @@
             "count": 1
         },
         "stop": {
-            "count": 4
+            "count": 7
         },
         "cewl": {
             "count": 1
@@ -3658,7 +3658,7 @@
             "count": 1
         },
         "identify": {
-            "count": 1
+            "count": 2
         },
         "you\"": {
             "count": 2
@@ -3676,13 +3676,13 @@
             "count": 1
         },
         "says": {
-            "count": 2
+            "count": 5
         },
         "i'd": {
             "count": 1
         },
         "loaded": {
-            "count": 1
+            "count": 2
         },
         "talks": {
             "count": 1
@@ -3703,7 +3703,7 @@
             "count": 1
         },
         "years": {
-            "count": 1
+            "count": 4
         },
         "\"hopefully": {
             "count": 1
@@ -3712,7 +3712,7 @@
             "count": 1
         },
         "buys": {
-            "count": 1
+            "count": 2
         },
         "valuable": {
             "count": 1
@@ -3739,7 +3739,7 @@
             "count": 1
         },
         "artist": {
-            "count": 4
+            "count": 5
         },
         "dfjgndgfhjdhfdgs": {
             "count": 1
@@ -3748,7 +3748,7 @@
             "count": 2
         },
         "per": {
-            "count": 2
+            "count": 3
         },
         "counselor": {
             "count": 1
@@ -3757,13 +3757,13 @@
             "count": 6
         },
         "wanted": {
-            "count": 1
+            "count": 4
         },
         "study": {
-            "count": 5
+            "count": 6
         },
         "biology": {
-            "count": 3
+            "count": 4
         },
         "psyche": {
             "count": 1
@@ -3811,13 +3811,13 @@
             "count": 1
         },
         "streak": {
-            "count": 1
+            "count": 4
         },
         "dead": {
-            "count": 2
+            "count": 6
         },
         "dinner": {
-            "count": 1
+            "count": 3
         },
         "grilled": {
             "count": 1
@@ -3832,37 +3832,37 @@
             "count": 1
         },
         "ain’t": {
-            "count": 3
+            "count": 5
         },
         "hold": {
-            "count": 1
+            "count": 5
         },
         "arouuuund": {
             "count": 1
         },
         "days": {
-            "count": 1
+            "count": 6
         },
         "land": {
-            "count": 1
-        },
-        "sunday": {
             "count": 2
         },
+        "sunday": {
+            "count": 4
+        },
         "pm": {
-            "count": 1
+            "count": 4
         },
         "i’m": {
-            "count": 3
+            "count": 8
         },
         "monday": {
-            "count": 1
+            "count": 2
         },
         "ayyyy": {
             "count": 1
         },
         "<donetext337317999163998209>": {
-            "count": 3
+            "count": 5
         },
         "gurl": {
             "count": 1
@@ -3871,7 +3871,7 @@
             "count": 1
         },
         "subnautica": {
-            "count": 2
+            "count": 3
         },
         "scream": {
             "count": 1
@@ -3904,13 +3904,13 @@
             "count": 1
         },
         "isnt": {
-            "count": 1
+            "count": 4
         },
         "advice": {
             "count": 1
         },
         "world": {
-            "count": 1
+            "count": 3
         },
         "1)": {
             "count": 1
@@ -3931,7 +3931,7 @@
             "count": 2
         },
         "numbers": {
-            "count": 3
+            "count": 4
         },
         "care": {
             "count": 1
@@ -3940,16 +3940,16 @@
             "count": 1
         },
         "stay": {
-            "count": 1
+            "count": 3
         },
         "wife": {
-            "count": 1
+            "count": 2
         },
         "mom's": {
             "count": 1
         },
         "fan": {
-            "count": 1
+            "count": 2
         },
         "gorl": {
             "count": 1
@@ -3982,7 +3982,7 @@
             "count": 6
         },
         "hwat": {
-            "count": 1
+            "count": 4
         },
         "misery": {
             "count": 1
@@ -3991,7 +3991,7 @@
             "count": 1
         },
         "early": {
-            "count": 2
+            "count": 4
         },
         "substance": {
             "count": 1
@@ -4003,19 +4003,19 @@
             "count": 1
         },
         "shell": {
-            "count": 1
+            "count": 3
         },
         "specific": {
-            "count": 1
+            "count": 3
         },
         "words": {
-            "count": 2
+            "count": 5
         },
         "fields": {
             "count": 1
         },
         "genetics": {
-            "count": 3
+            "count": 5
         },
         "induce": {
             "count": 1
@@ -4033,19 +4033,19 @@
             "count": 2
         },
         "s": {
-            "count": 1
+            "count": 2
         },
         "c": {
-            "count": 2
+            "count": 3
         },
         "asked": {
-            "count": 2
+            "count": 3
         },
         "painting": {
-            "count": 2
+            "count": 3
         },
         "wanna": {
-            "count": 1
+            "count": 5
         },
         "painting\"": {
             "count": 1
@@ -4054,10 +4054,10 @@
             "count": 2
         },
         "screenshot": {
-            "count": 1
+            "count": 2
         },
         "beautiful": {
-            "count": 1
+            "count": 4
         },
         "talent": {
             "count": 1
@@ -4075,19 +4075,19 @@
             "count": 1
         },
         "thank": {
-            "count": 1
+            "count": 3
         },
         "you~": {
             "count": 1
         },
         "use": {
-            "count": 2
+            "count": 6
         },
         "color": {
-            "count": 1
+            "count": 2
         },
         "text": {
-            "count": 1
+            "count": 3
         },
         "tfti": {
             "count": 1
@@ -4102,28 +4102,28 @@
             "count": 1
         },
         "true": {
-            "count": 1
+            "count": 4
         },
         "fuckin": {
-            "count": 1
+            "count": 3
         },
         "pasadena": {
             "count": 1
         },
         "she’s": {
-            "count": 1
+            "count": 2
         },
         "whny": {
             "count": 1
         },
         "invite": {
-            "count": 1
+            "count": 2
         },
         "werkday": {
             "count": 1
         },
         "hahaha": {
-            "count": 2
+            "count": 3
         },
         "classroom": {
             "count": 1
@@ -4138,16 +4138,16 @@
             "count": 2
         },
         "style": {
-            "count": 3
+            "count": 4
         },
         "reminds": {
-            "count": 2
+            "count": 3
         },
         "lady": {
-            "count": 1
+            "count": 2
         },
         "worse": {
-            "count": 1
+            "count": 2
         },
         "jessus": {
             "count": 1
@@ -4156,7 +4156,7 @@
             "count": 2
         },
         "hahahahah": {
-            "count": 1
+            "count": 2
         },
         "colors": {
             "count": 1
@@ -4165,19 +4165,19 @@
             "count": 1
         },
         "giant": {
-            "count": 1
+            "count": 2
         },
         "lmfao": {
             "count": 1
         },
         "hell": {
-            "count": 1
+            "count": 2
         },
         "hypothamus": {
             "count": 2
         },
         "close": {
-            "count": 1
+            "count": 2
         },
         "bio-logy": {
             "count": 1
@@ -4198,7 +4198,7 @@
             "count": 1
         },
         "needs": {
-            "count": 1
+            "count": 2
         },
         "drop": {
             "count": 1
@@ -4252,7 +4252,7 @@
             "count": 2
         },
         "place": {
-            "count": 1
+            "count": 2
         },
         "appliedt": {
             "count": 1
@@ -4270,16 +4270,16 @@
             "count": 1
         },
         "will": {
-            "count": 2
+            "count": 18
         },
         "infect": {
             "count": 1
         },
         "cuckold": {
-            "count": 3
+            "count": 5
         },
         "couple": {
-            "count": 3
+            "count": 6
         },
         "ahfedujhnns": {
             "count": 1
@@ -4294,13 +4294,13 @@
             "count": 1
         },
         "real": {
-            "count": 1
+            "count": 6
         },
         "gud": {
-            "count": 1
+            "count": 4
         },
         "shishi": {
-            "count": 1
+            "count": 3
         },
         "strangers": {
             "count": 1
@@ -4318,7 +4318,7 @@
             "count": 1
         },
         "bet": {
-            "count": 1
+            "count": 2
         },
         "timer": {
             "count": 1
@@ -4336,7 +4336,7 @@
             "count": 1
         },
         "contact": {
-            "count": 1
+            "count": 2
         },
         "people\"": {
             "count": 1
@@ -4366,13 +4366,13 @@
             "count": 1
         },
         "class": {
-            "count": 2
+            "count": 4
         },
         "met": {
             "count": 1
         },
         "hat": {
-            "count": 2
+            "count": 3
         },
         "wore": {
             "count": 1
@@ -4384,13 +4384,13 @@
             "count": 1
         },
         "mins": {
-            "count": 1
+            "count": 3
         },
         "rat": {
             "count": 1
         },
         "haha": {
-            "count": 1
+            "count": 2
         },
         "putting": {
             "count": 1
@@ -4399,7 +4399,7 @@
             "count": 2
         },
         "hair": {
-            "count": 3
+            "count": 10
         },
         "\"pls": {
             "count": 1
@@ -4408,7 +4408,7 @@
             "count": 1
         },
         "bye": {
-            "count": 1
+            "count": 2
         },
         "absolutely": {
             "count": 1
@@ -4453,7 +4453,7 @@
             "count": 1
         },
         "house": {
-            "count": 1
+            "count": 8
         },
         "jackbox": {
             "count": 1
@@ -4480,25 +4480,25 @@
             "count": 1
         },
         "ow": {
-            "count": 1
+            "count": 13
         },
         "happens": {
-            "count": 1
+            "count": 2
         },
         "toniteeeeeeeeeeee": {
             "count": 1
         },
         "open": {
-            "count": 1
+            "count": 6
         },
         "downloading": {
-            "count": 1
+            "count": 2
         },
         "background": {
             "count": 1
         },
         "👀": {
-            "count": 1
+            "count": 4
         },
         "neeed": {
             "count": 1
@@ -4507,10 +4507,10 @@
             "count": 1
         },
         "ima": {
-            "count": 1
+            "count": 2
         },
         "lololol": {
-            "count": 1
+            "count": 3
         },
         "<rollsafe337309491370655744>": {
             "count": 1
@@ -4519,19 +4519,19 @@
             "count": 1
         },
         "ye": {
-            "count": 1
+            "count": 2
         },
         "looooooooooooool": {
             "count": 1
         },
         "tits": {
-            "count": 1
+            "count": 2
         },
         "arent": {
-            "count": 1
+            "count": 3
         },
         "big": {
-            "count": 1
+            "count": 3
         },
         "fake": {
             "count": 1
@@ -4543,16 +4543,16 @@
             "count": 1
         },
         "sweet": {
-            "count": 1
+            "count": 2
         },
         "check": {
-            "count": 1
+            "count": 3
         },
         "❤": {
-            "count": 1
+            "count": 2
         },
         "kids": {
-            "count": 1
+            "count": 6
         },
         "won’t": {
             "count": 1
@@ -4561,7 +4561,7 @@
             "count": 1
         },
         "kid": {
-            "count": 1
+            "count": 4
         },
         "add": {
             "count": 1
@@ -4579,16 +4579,16 @@
             "count": 1
         },
         "letting": {
-            "count": 2
+            "count": 3
         },
         "die": {
-            "count": 2
+            "count": 6
         },
         "asking": {
             "count": 1
         },
         "instagram": {
-            "count": 1
+            "count": 2
         },
         "wokring": {
             "count": 1
@@ -4639,12 +4639,4473 @@
             "count": 1
         },
         "slep": {
-            "count": 1
+            "count": 2
         },
         "troll": {
-            "count": 1
+            "count": 2
         },
         "offer": {
+            "count": 1
+        },
+        "schedule": {
+            "count": 2
+        },
+        "viewing": {
+            "count": 2
+        },
+        "hire": {
+            "count": 4
+        },
+        "somebody": {
+            "count": 3
+        },
+        "fiverr": {
+            "count": 1
+        },
+        "name": {
+            "count": 7
+        },
+        "aloha": {
+            "count": 1
+        },
+        "snackbar": {
+            "count": 1
+        },
+        "theres": {
+            "count": 6
+        },
+        "glencoe": {
+            "count": 1
+        },
+        "listing": {
+            "count": 1
+        },
+        "1600mo": {
+            "count": 1
+        },
+        "hoa": {
+            "count": 1
+        },
+        "wilshire": {
+            "count": 1
+        },
+        "functional": {
+            "count": 2
+        },
+        "space": {
+            "count": 4
+        },
+        "3bd": {
+            "count": 1
+        },
+        "woah": {
+            "count": 1
+        },
+        "garden": {
+            "count": 1
+        },
+        "via": {
+            "count": 1
+        },
+        "avoira": {
+            "count": 1
+        },
+        "af": {
+            "count": 1
+        },
+        "looooooll": {
+            "count": 1
+        },
+        "hung": {
+            "count": 1
+        },
+        "waow": {
+            "count": 1
+        },
+        "view": {
+            "count": 1
+        },
+        "changed": {
+            "count": 1
+        },
+        "sat": {
+            "count": 3
+        },
+        "bed": {
+            "count": 6
+        },
+        "gym": {
+            "count": 1
+        },
+        "stand": {
+            "count": 4
+        },
+        "scotts": {
+            "count": 1
+        },
+        "shirt": {
+            "count": 1
+        },
+        "maam": {
+            "count": 1
+        },
+        "you’ve": {
+            "count": 1
+        },
+        "reached": {
+            "count": 1
+        },
+        "respect": {
+            "count": 1
+        },
+        "polite": {
+            "count": 1
+        },
+        "sir": {
+            "count": 2
+        },
+        "mr": {
+            "count": 1
+        },
+        "shouldnt": {
+            "count": 3
+        },
+        "whats": {
+            "count": 5
+        },
+        "youll": {
+            "count": 3
+        },
+        "couldnt": {
+            "count": 1
+        },
+        "baht": {
+            "count": 23
+        },
+        "broken": {
+            "count": 2
+        },
+        "spammed": {
+            "count": 1
+        },
+        "hmmm": {
+            "count": 2
+        },
+        "测试": {
+            "count": 16
+        },
+        "asian": {
+            "count": 1
+        },
+        "watttt": {
+            "count": 1
+        },
+        "yooo": {
+            "count": 1
+        },
+        "pharah": {
+            "count": 4
+        },
+        "skin": {
+            "count": 8
+        },
+        "genji": {
+            "count": 1
+        },
+        "tonight": {
+            "count": 3
+        },
+        "bois": {
+            "count": 1
+        },
+        "zarya": {
+            "count": 1
+        },
+        "😭": {
+            "count": 6
+        },
+        "loot": {
+            "count": 1
+        },
+        "boxes": {
+            "count": 4
+        },
+        "edge": {
+            "count": 1
+        },
+        "testing": {
+            "count": 1
+        },
+        "vaccines": {
+            "count": 1
+        },
+        "set": {
+            "count": 4
+        },
+        "length": {
+            "count": 1
+        },
+        "havent": {
+            "count": 2
+        },
+        "arcade": {
+            "count": 4
+        },
+        "aaaaaa": {
+            "count": 1
+        },
+        "evangelist": {
+            "count": 1
+        },
+        "children": {
+            "count": 2
+        },
+        "widow": {
+            "count": 6
+        },
+        "aiite": {
+            "count": 1
+        },
+        "slutty": {
+            "count": 2
+        },
+        "enuf": {
+            "count": 1
+        },
+        "imo": {
+            "count": 1
+        },
+        "backslashes": {
+            "count": 1
+        },
+        "filter": {
+            "count": 1
+        },
+        "slashes": {
+            "count": 1
+        },
+        "chance": {
+            "count": 2
+        },
+        "lny": {
+            "count": 1
+        },
+        "dva": {
+            "count": 1
+        },
+        "characters": {
+            "count": 1
+        },
+        "logging": {
+            "count": 1
+        },
+        "wont": {
+            "count": 2
+        },
+        "regular": {
+            "count": 1
+        },
+        "wtv": {
+            "count": 1
+        },
+        "quiz": {
+            "count": 1
+        },
+        "hog": {
+            "count": 1
+        },
+        "emote": {
+            "count": 2
+        },
+        "pulls": {
+            "count": 1
+        },
+        "pachimari": {
+            "count": 1
+        },
+        "plush": {
+            "count": 1
+        },
+        "yoooooo": {
+            "count": 1
+        },
+        "shitty": {
+            "count": 2
+        },
+        "korean": {
+            "count": 1
+        },
+        "mccree": {
+            "count": 1
+        },
+        "missing": {
+            "count": 3
+        },
+        "cosplay": {
+            "count": 2
+        },
+        "haven’t": {
+            "count": 1
+        },
+        "squeaky": {
+            "count": 1
+        },
+        "chloe": {
+            "count": 1
+        },
+        "deloitte": {
+            "count": 1
+        },
+        "building": {
+            "count": 3
+        },
+        "namewhere": {
+            "count": 1
+        },
+        "company": {
+            "count": 5
+        },
+        "we’re": {
+            "count": 1
+        },
+        "losing": {
+            "count": 1
+        },
+        "p": {
+            "count": 2
+        },
+        "workpop": {
+            "count": 1
+        },
+        ">": {
+            "count": 4
+        },
+        "idiot": {
+            "count": 1
+        },
+        "drug": {
+            "count": 1
+        },
+        "create": {
+            "count": 1
+        },
+        "european": {
+            "count": 1
+        },
+        "rec": {
+            "count": 1
+        },
+        "europe": {
+            "count": 4
+        },
+        "hurry": {
+            "count": 1
+        },
+        "compliance": {
+            "count": 1
+        },
+        "annoying": {
+            "count": 1
+        },
+        "series": {
+            "count": 1
+        },
+        "telling": {
+            "count": 2
+        },
+        "meeee": {
+            "count": 1
+        },
+        "mang": {
+            "count": 3
+        },
+        "gov": {
+            "count": 1
+        },
+        "azure": {
+            "count": 2
+        },
+        "trust": {
+            "count": 2
+        },
+        "comes": {
+            "count": 2
+        },
+        "infra": {
+            "count": 1
+        },
+        "data": {
+            "count": 1
+        },
+        "regulation": {
+            "count": 1
+        },
+        "qa": {
+            "count": 1
+        },
+        "specifically": {
+            "count": 2
+        },
+        "resemble": {
+            "count": 1
+        },
+        "catholic": {
+            "count": 1
+        },
+        "nuns": {
+            "count": 1
+        },
+        "job": {
+            "count": 3
+        },
+        "theyre": {
+            "count": 11
+        },
+        "dassault": {
+            "count": 1
+        },
+        "barclays": {
+            "count": 1
+        },
+        "govt": {
+            "count": 1
+        },
+        "contractor-hardware": {
+            "count": 1
+        },
+        "installations": {
+            "count": 1
+        },
+        "suck": {
+            "count": 1
+        },
+        "labour": {
+            "count": 1
+        },
+        "market": {
+            "count": 2
+        },
+        "mix": {
+            "count": 1
+        },
+        "displaced": {
+            "count": 1
+        },
+        "obstructive": {
+            "count": 1
+        },
+        "regulations": {
+            "count": 1
+        },
+        "prevent": {
+            "count": 2
+        },
+        "straightforward": {
+            "count": 1
+        },
+        "ostensibly": {
+            "count": 1
+        },
+        "individual": {
+            "count": 1
+        },
+        "pilots": {
+            "count": 1
+        },
+        "conquer": {
+            "count": 1
+        },
+        "fear": {
+            "count": 1
+        },
+        "hallo": {
+            "count": 3
+        },
+        "bic": {
+            "count": 1
+        },
+        "la": {
+            "count": 3
+        },
+        "joker": {
+            "count": 1
+        },
+        "😮": {
+            "count": 2
+        },
+        "cum": {
+            "count": 1
+        },
+        "visit": {
+            "count": 1
+        },
+        "sarkis": {
+            "count": 1
+        },
+        "g0d": {
+            "count": 1
+        },
+        "<hookahgod337302075002191882>": {
+            "count": 1
+        },
+        "hopefully": {
+            "count": 1
+        },
+        "anaheim": {
+            "count": 1
+        },
+        "store": {
+            "count": 1
+        },
+        "flying": {
+            "count": 2
+        },
+        "sd": {
+            "count": 1
+        },
+        "stores": {
+            "count": 1
+        },
+        "excellent": {
+            "count": 1
+        },
+        "frame": {
+            "count": 1
+        },
+        "thaaaanks": {
+            "count": 1
+        },
+        "yoooou": {
+            "count": 1
+        },
+        "hes": {
+            "count": 4
+        },
+        "t0nite": {
+            "count": 1
+        },
+        "m": {
+            "count": 1
+        },
+        "g": {
+            "count": 3
+        },
+        "scatt": {
+            "count": 1
+        },
+        "upload": {
+            "count": 1
+        },
+        "linkedin": {
+            "count": 1
+        },
+        "usc": {
+            "count": 1
+        },
+        "grad": {
+            "count": 1
+        },
+        "added": {
+            "count": 1
+        },
+        "coffee": {
+            "count": 1
+        },
+        "ambushed": {
+            "count": 1
+        },
+        "save": {
+            "count": 2
+        },
+        "pussy": {
+            "count": 1
+        },
+        "rest": {
+            "count": 2
+        },
+        "kidnapped": {
+            "count": 1
+        },
+        "police": {
+            "count": 1
+        },
+        "lifeguard": {
+            "count": 1
+        },
+        "indian": {
+            "count": 1
+        },
+        "scandulous": {
+            "count": 1
+        },
+        "lexy": {
+            "count": 1
+        },
+        "^^": {
+            "count": 1
+        },
+        "racist": {
+            "count": 4
+        },
+        "typical": {
+            "count": 1
+        },
+        "whitey": {
+            "count": 1
+        },
+        "response": {
+            "count": 1
+        },
+        "ding": {
+            "count": 3
+        },
+        "dong": {
+            "count": 1
+        },
+        "corvette": {
+            "count": 1
+        },
+        "rid": {
+            "count": 1
+        },
+        "trophy": {
+            "count": 1
+        },
+        "evora": {
+            "count": 1
+        },
+        "makes": {
+            "count": 2
+        },
+        "engine": {
+            "count": 1
+        },
+        "w": {
+            "count": 1
+        },
+        "trunk": {
+            "count": 1
+        },
+        "v8": {
+            "count": 2
+        },
+        "35l": {
+            "count": 1
+        },
+        "usednew": {
+            "count": 1
+        },
+        "bot": {
+            "count": 3
+        },
+        "prefix": {
+            "count": 2
+        },
+        "++": {
+            "count": 4
+        },
+        "++fortunecow": {
+            "count": 1
+        },
+        "fortunecow": {
+            "count": 2
+        },
+        "yeehaw": {
+            "count": 3
+        },
+        "110k": {
+            "count": 1
+        },
+        "otherwise": {
+            "count": 2
+        },
+        "probs": {
+            "count": 1
+        },
+        "50-80": {
+            "count": 1
+        },
+        "jag": {
+            "count": 1
+        },
+        "*": {
+            "count": 1
+        },
+        "hacking": {
+            "count": 2
+        },
+        "disable": {
+            "count": 1
+        },
+        "abilities": {
+            "count": 1
+        },
+        "ability": {
+            "count": 1
+        },
+        "requires": {
+            "count": 1
+        },
+        "button": {
+            "count": 2
+        },
+        "press": {
+            "count": 1
+        },
+        "disabled": {
+            "count": 3
+        },
+        "list\n\ngenji": {
+            "count": 1
+        },
+        "-": {
+            "count": 5
+        },
+        "jumpwall": {
+            "count": 1
+        },
+        "climb\npharah": {
+            "count": 1
+        },
+        "hover": {
+            "count": 1
+        },
+        "jets\nhanzo": {
+            "count": 1
+        },
+        "climb\nlucio": {
+            "count": 1
+        },
+        "currently": {
+            "count": 2
+        },
+        "running": {
+            "count": 5
+        },
+        "crossfade": {
+            "count": 2
+        },
+        "disabled\nmercy": {
+            "count": 1
+        },
+        "angelic": {
+            "count": 1
+        },
+        "descent": {
+            "count": 1
+        },
+        "sombra": {
+            "count": 3
+        },
+        "ariel": {
+            "count": 1
+        },
+        "atom": {
+            "count": 1
+        },
+        "liray": {
+            "count": 6
+        },
+        "caterham": {
+            "count": 1
+        },
+        "unless": {
+            "count": 1
+        },
+        "significant": {
+            "count": 1
+        },
+        "boys": {
+            "count": 1
+        },
+        "lucio": {
+            "count": 1
+        },
+        "auto-heal": {
+            "count": 1
+        },
+        "auto-speed": {
+            "count": 1
+        },
+        "become": {
+            "count": 2
+        },
+        "duck": {
+            "count": 1
+        },
+        "v": {
+            "count": 4
+        },
+        "quack": {
+            "count": 1
+        },
+        "boop": {
+            "count": 1
+        },
+        "hacked": {
+            "count": 1
+        },
+        "huh": {
+            "count": 3
+        },
+        "incoming": {
+            "count": 1
+        },
+        "sombras": {
+            "count": 1
+        },
+        "everywhere": {
+            "count": 1
+        },
+        "sign": {
+            "count": 1
+        },
+        "ryan": {
+            "count": 2
+        },
+        "teamwork": {
+            "count": 1
+        },
+        "salt": {
+            "count": 1
+        },
+        "looking": {
+            "count": 3
+        },
+        "purple": {
+            "count": 3
+        },
+        "probably": {
+            "count": 5
+        },
+        "ghost": {
+            "count": 1
+        },
+        "baibai": {
+            "count": 1
+        },
+        "deez": {
+            "count": 2
+        },
+        "family": {
+            "count": 3
+        },
+        "mika": {
+            "count": 1
+        },
+        "h0ly": {
+            "count": 1
+        },
+        "victory": {
+            "count": 1
+        },
+        "pose": {
+            "count": 2
+        },
+        "wao": {
+            "count": 3
+        },
+        "predownloaded": {
+            "count": 2
+        },
+        "train": {
+            "count": 1
+        },
+        "remote": {
+            "count": 1
+        },
+        "clip": {
+            "count": 1
+        },
+        "whiffing": {
+            "count": 1
+        },
+        "ori": {
+            "count": 1
+        },
+        "ult": {
+            "count": 2
+        },
+        "april": {
+            "count": 1
+        },
+        "everything": {
+            "count": 4
+        },
+        "squidward": {
+            "count": 1
+        },
+        "hasnt": {
+            "count": 11
+        },
+        "typed": {
+            "count": 11
+        },
+        "gross": {
+            "count": 1
+        },
+        "secret": {
+            "count": 2
+        },
+        "stranger": {
+            "count": 1
+        },
+        "woulda": {
+            "count": 1
+        },
+        "games": {
+            "count": 5
+        },
+        "casual": {
+            "count": 1
+        },
+        "pothers": {
+            "count": 1
+        },
+        "join": {
+            "count": 2
+        },
+        "nutz": {
+            "count": 1
+        },
+        "req": {
+            "count": 1
+        },
+        "group": {
+            "count": 1
+        },
+        "chat": {
+            "count": 2
+        },
+        "spider": {
+            "count": 1
+        },
+        "tat": {
+            "count": 1
+        },
+        "dress": {
+            "count": 1
+        },
+        "red": {
+            "count": 2
+        },
+        "maker": {
+            "count": 1
+        },
+        "nekkid": {
+            "count": 2
+        },
+        "neckbeards": {
+            "count": 1
+        },
+        "hates": {
+            "count": 1
+        },
+        "pink": {
+            "count": 1
+        },
+        "jackets": {
+            "count": 1
+        },
+        "thigh": {
+            "count": 1
+        },
+        "dark": {
+            "count": 4
+        },
+        "meat": {
+            "count": 1
+        },
+        "wha": {
+            "count": 1
+        },
+        "tall": {
+            "count": 1
+        },
+        "woaw": {
+            "count": 1
+        },
+        "gb": {
+            "count": 1
+        },
+        "yesterday": {
+            "count": 2
+        },
+        "download": {
+            "count": 2
+        },
+        "mb": {
+            "count": 1
+        },
+        "internet": {
+            "count": 2
+        },
+        "kbps": {
+            "count": 1
+        },
+        "tbh": {
+            "count": 1
+        },
+        "mostly": {
+            "count": 2
+        },
+        "concrete": {
+            "count": 1
+        },
+        "router": {
+            "count": 2
+        },
+        "don": {
+            "count": 2
+        },
+        "etherner": {
+            "count": 1
+        },
+        "blender": {
+            "count": 3
+        },
+        "rendering": {
+            "count": 3
+        },
+        "software": {
+            "count": 2
+        },
+        "ethernet": {
+            "count": 5
+        },
+        "cord": {
+            "count": 1
+        },
+        "help": {
+            "count": 7
+        },
+        "uhhhhhhh": {
+            "count": 1
+        },
+        "goodman": {
+            "count": 1
+        },
+        "obviously": {
+            "count": 1
+        },
+        "wasnt": {
+            "count": 7
+        },
+        "aldecosea": {
+            "count": 1
+        },
+        "adults": {
+            "count": 1
+        },
+        "compounded": {
+            "count": 1
+        },
+        "situation": {
+            "count": 2
+        },
+        "\n\nthis": {
+            "count": 1
+        },
+        "stressful": {
+            "count": 1
+        },
+        "react": {
+            "count": 1
+        },
+        "ways": {
+            "count": 1
+        },
+        "living": {
+            "count": 3
+        },
+        "room": {
+            "count": 6
+        },
+        "redid": {
+            "count": 1
+        },
+        "floors": {
+            "count": 1
+        },
+        "outlet": {
+            "count": 1
+        },
+        "wires": {
+            "count": 1
+        },
+        "flooring": {
+            "count": 1
+        },
+        "¯_ツ_¯": {
+            "count": 1
+        },
+        "lootboxes": {
+            "count": 1
+        },
+        "once": {
+            "count": 1
+        },
+        "🤔": {
+            "count": 7
+        },
+        "competitive": {
+            "count": 1
+        },
+        "capture": {
+            "count": 1
+        },
+        "flag": {
+            "count": 1
+        },
+        "wowie": {
+            "count": 2
+        },
+        "wonder": {
+            "count": 1
+        },
+        "kims": {
+            "count": 1
+        },
+        "-w": {
+            "count": 19
+        },
+        "britain": {
+            "count": 1
+        },
+        "cow": {
+            "count": 2
+        },
+        "horse": {
+            "count": 1
+        },
+        "bull": {
+            "count": 1
+        },
+        "calf": {
+            "count": 1
+        },
+        "daisy": {
+            "count": 1
+        },
+        "charles": {
+            "count": 3
+        },
+        "manson": {
+            "count": 1
+        },
+        "charlie": {
+            "count": 1
+        },
+        "chaplin": {
+            "count": 1
+        },
+        "barkley": {
+            "count": 1
+        },
+        "lul": {
+            "count": 4
+        },
+        "grayson": {
+            "count": 1
+        },
+        "whodat": {
+            "count": 1
+        },
+        "oops": {
+            "count": 1
+        },
+        "galileo": {
+            "count": 1
+        },
+        "cable": {
+            "count": 3
+        },
+        "plug": {
+            "count": 1
+        },
+        "feet": {
+            "count": 3
+        },
+        "[": {
+            "count": 1
+        },
+        "cables": {
+            "count": 1
+        },
+        "mine": {
+            "count": 4
+        },
+        "master": {
+            "count": 1
+        },
+        "bedroom": {
+            "count": 2
+        },
+        "hall": {
+            "count": 2
+        },
+        "ft": {
+            "count": 1
+        },
+        "fettucini": {
+            "count": 3
+        },
+        "cords": {
+            "count": 2
+        },
+        "htem": {
+            "count": 1
+        },
+        "flat": {
+            "count": 1
+        },
+        "fetuccini": {
+            "count": 1
+        },
+        "noodles": {
+            "count": 2
+        },
+        "tangle": {
+            "count": 1
+        },
+        "less": {
+            "count": 2
+        },
+        "ooooo": {
+            "count": 1
+        },
+        "doors": {
+            "count": 1
+        },
+        "easier": {
+            "count": 1
+        },
+        "ronery": {
+            "count": 3
+        },
+        "waifu": {
+            "count": 3
+        },
+        "boiiiiii": {
+            "count": 1
+        },
+        "waifus": {
+            "count": 1
+        },
+        "waifuinfo": {
+            "count": 1
+        },
+        "proud": {
+            "count": 1
+        },
+        "<3<3<3": {
+            "count": 1
+        },
+        "asians": {
+            "count": 1
+        },
+        "“i": {
+            "count": 2
+        },
+        "much”": {
+            "count": 1
+        },
+        "studied": {
+            "count": 1
+        },
+        "austin": {
+            "count": 1
+        },
+        "east": {
+            "count": 1
+        },
+        "california": {
+            "count": 1
+        },
+        "skins": {
+            "count": 3
+        },
+        "lords": {
+            "count": 1
+        },
+        "noooooooooo": {
+            "count": 1
+        },
+        "baaaaaaaaaad": {
+            "count": 1
+        },
+        "farming": {
+            "count": 1
+        },
+        "crashed": {
+            "count": 1
+        },
+        "staights": {
+            "count": 2
+        },
+        "heteros": {
+            "count": 1
+        },
+        "omgggg": {
+            "count": 1
+        },
+        "skinnnn": {
+            "count": 1
+        },
+        "boiz": {
+            "count": 1
+        },
+        "othelio": {
+            "count": 1
+        },
+        "ophelia": {
+            "count": 1
+        },
+        "diamonds": {
+            "count": 1
+        },
+        "ordinal": {
+            "count": 1
+        },
+        "anne": {
+            "count": 2
+        },
+        "frank": {
+            "count": 2
+        },
+        "diary": {
+            "count": 1
+        },
+        "change": {
+            "count": 4
+        },
+        "honk": {
+            "count": 2
+        },
+        "tfish": {
+            "count": 4
+        },
+        "🎣": {
+            "count": 4
+        },
+        "|": {
+            "count": 11
+        },
+        "**zanyth**": {
+            "count": 4
+        },
+        "**you": {
+            "count": 4
+        },
+        "caught": {
+            "count": 5
+        },
+        "🐟**": {
+            "count": 1
+        },
+        "💴": {
+            "count": 4
+        },
+        "**10**": {
+            "count": 4
+        },
+        "casting": {
+            "count": 4
+        },
+        "🛒**": {
+            "count": 1
+        },
+        "minnesota": {
+            "count": 1
+        },
+        "mount": {
+            "count": 2
+        },
+        "ella": {
+            "count": 1
+        },
+        "mountain": {
+            "count": 1
+        },
+        "etna": {
+            "count": 1
+        },
+        "🐠**": {
+            "count": 2
+        },
+        "zippo": {
+            "count": 1
+        },
+        "seventy": {
+            "count": 1
+        },
+        "joseph": {
+            "count": 1
+        },
+        "cardinal": {
+            "count": 1
+        },
+        "soccer": {
+            "count": 1
+        },
+        "football": {
+            "count": 1
+        },
+        "basketball": {
+            "count": 1
+        },
+        "baseball": {
+            "count": 1
+        },
+        "boxing": {
+            "count": 1
+        },
+        "bellow": {
+            "count": 1
+        },
+        "bellows": {
+            "count": 1
+        },
+        "legendary": {
+            "count": 2
+        },
+        "orisa": {
+            "count": 1
+        },
+        "whre": {
+            "count": 1
+        },
+        "hi": {
+            "count": 15
+        },
+        "biq": {
+            "count": 1
+        },
+        "pivk": {
+            "count": 1
+        },
+        "dindin": {
+            "count": 1
+        },
+        "stopped": {
+            "count": 2
+        },
+        "problem": {
+            "count": 1
+        },
+        "hawaii": {
+            "count": 1
+        },
+        "yaaaaaaaaaas": {
+            "count": 1
+        },
+        "final": {
+            "count": 1
+        },
+        "fantasy": {
+            "count": 2
+        },
+        "xv": {
+            "count": 1
+        },
+        "pocket": {
+            "count": 1
+        },
+        "edition": {
+            "count": 1
+        },
+        "urself": {
+            "count": 1
+        },
+        "uncomfortable": {
+            "count": 5
+        },
+        "cuz": {
+            "count": 3
+        },
+        "miss": {
+            "count": 3
+        },
+        "girlfriend": {
+            "count": 1
+        },
+        "triage": {
+            "count": 1
+        },
+        "consulting": {
+            "count": 1
+        },
+        "handle": {
+            "count": 1
+        },
+        "unpaid": {
+            "count": 1
+        },
+        "insurance": {
+            "count": 1
+        },
+        "claims": {
+            "count": 1
+        },
+        "hearing": {
+            "count": 1
+        },
+        "medical": {
+            "count": 1
+        },
+        "cases": {
+            "count": 1
+        },
+        "oo": {
+            "count": 2
+        },
+        "heaven": {
+            "count": 1
+        },
+        "gap": {
+            "count": 1
+        },
+        "older": {
+            "count": 1
+        },
+        "jas": {
+            "count": 1
+        },
+        "pronouns": {
+            "count": 2
+        },
+        "commencement": {
+            "count": 1
+        },
+        "dental": {
+            "count": 1
+        },
+        "skewl": {
+            "count": 1
+        },
+        "tuition": {
+            "count": 1
+        },
+        "funded": {
+            "count": 1
+        },
+        "humself": {
+            "count": 2
+        },
+        "human": {
+            "count": 1
+        },
+        "hir": {
+            "count": 1
+        },
+        "nickle": {
+            "count": 1
+        },
+        "everytime": {
+            "count": 1
+        },
+        "misgendered": {
+            "count": 1
+        },
+        "able": {
+            "count": 1
+        },
+        "pay": {
+            "count": 2
+        },
+        "loans": {
+            "count": 1
+        },
+        "anybody": {
+            "count": 1
+        },
+        "quickplay": {
+            "count": 1
+        },
+        "comp": {
+            "count": 3
+        },
+        "meeting": {
+            "count": 2
+        },
+        "equipment": {
+            "count": 1
+        },
+        "manager": {
+            "count": 2
+        },
+        "eqm": {
+            "count": 1
+        },
+        "halp": {
+            "count": 1
+        },
+        "pusseh": {
+            "count": 1
+        },
+        "anders": {
+            "count": 4
+        },
+        "baht*": {
+            "count": 1
+        },
+        "werent": {
+            "count": 1
+        },
+        "doall": {
+            "count": 1
+        },
+        "perform": {
+            "count": 1
+        },
+        "workshop": {
+            "count": 1
+        },
+        "dish": {
+            "count": 1
+        },
+        "washing": {
+            "count": 1
+        },
+        "informal": {
+            "count": 1
+        },
+        "easy": {
+            "count": 1
+        },
+        "blue": {
+            "count": 1
+        },
+        "tape": {
+            "count": 1
+        },
+        "large": {
+            "count": 3
+        },
+        "gay": {
+            "count": 4
+        },
+        "attacked": {
+            "count": 1
+        },
+        "gona": {
+            "count": 1
+        },
+        "tired": {
+            "count": 1
+        },
+        "teach": {
+            "count": 3
+        },
+        "zelda": {
+            "count": 1
+        },
+        "motivator": {
+            "count": 1
+        },
+        "itsfood": {
+            "count": 1
+        },
+        "toss": {
+            "count": 3
+        },
+        "treat": {
+            "count": 1
+        },
+        "acrobatics": {
+            "count": 1
+        },
+        "toy": {
+            "count": 1
+        },
+        "lets": {
+            "count": 1
+        },
+        "achieved": {
+            "count": 1
+        },
+        "tubby": {
+            "count": 1
+        },
+        "launch": {
+            "count": 2
+        },
+        "failure": {
+            "count": 1
+        },
+        "corgi": {
+            "count": 1
+        },
+        "chronicles": {
+            "count": 1
+        },
+        "fat": {
+            "count": 2
+        },
+        "arival": {
+            "count": 1
+        },
+        "lunch": {
+            "count": 2
+        },
+        "prances": {
+            "count": 1
+        },
+        "zorldo": {
+            "count": 2
+        },
+        "feed": {
+            "count": 4
+        },
+        "crates": {
+            "count": 1
+        },
+        "boyos": {
+            "count": 1
+        },
+        "inspect": {
+            "count": 1
+        },
+        "move": {
+            "count": 3
+        },
+        "door": {
+            "count": 1
+        },
+        "laugh": {
+            "count": 1
+        },
+        "fill": {
+            "count": 1
+        },
+        "bowls": {
+            "count": 1
+        },
+        "quieter": {
+            "count": 1
+        },
+        "ayy": {
+            "count": 2
+        },
+        "toon": {
+            "count": 1
+        },
+        "wooh": {
+            "count": 1
+        },
+        "empowered": {
+            "count": 1
+        },
+        "rift": {
+            "count": 1
+        },
+        "core": {
+            "count": 1
+        },
+        "order": {
+            "count": 3
+        },
+        "resources": {
+            "count": 1
+        },
+        "grats": {
+            "count": 2
+        },
+        "🆙": {
+            "count": 7
+        },
+        "**blake": {
+            "count": 1
+        },
+        "leveled": {
+            "count": 7
+        },
+        "up**": {
+            "count": 7
+        },
+        "birthday": {
+            "count": 1
+        },
+        "noooo": {
+            "count": 1
+        },
+        "gift": {
+            "count": 1
+        },
+        "gather": {
+            "count": 1
+        },
+        "info": {
+            "count": 1
+        },
+        "google": {
+            "count": 4
+        },
+        "search": {
+            "count": 2
+        },
+        "todays": {
+            "count": 1
+        },
+        "summary": {
+            "count": 1
+        },
+        "brought": {
+            "count": 1
+        },
+        "hhahahahhaha": {
+            "count": 1
+        },
+        "fukcing": {
+            "count": 1
+        },
+        "dank": {
+            "count": 1
+        },
+        "lolololol": {
+            "count": 1
+        },
+        "arm": {
+            "count": 1
+        },
+        "extra": {
+            "count": 1
+        },
+        "fettucine": {
+            "count": 1
+        },
+        "tomorrow": {
+            "count": 4
+        },
+        "interwebs": {
+            "count": 1
+        },
+        "weekend": {
+            "count": 2
+        },
+        "lel": {
+            "count": 2
+        },
+        "deliver": {
+            "count": 1
+        },
+        "sundays": {
+            "count": 2
+        },
+        "amazon": {
+            "count": 3
+        },
+        ">c": {
+            "count": 1
+        },
+        "superior": {
+            "count": 1
+        },
+        "usps": {
+            "count": 1
+        },
+        "delivers": {
+            "count": 1
+        },
+        "uwu": {
+            "count": 1
+        },
+        "millennials": {
+            "count": 1
+        },
+        "avocado": {
+            "count": 1
+        },
+        "inflation": {
+            "count": 1
+        },
+        "bandit": {
+            "count": 1
+        },
+        "cat": {
+            "count": 1
+        },
+        "impossibru": {
+            "count": 1
+        },
+        "lame": {
+            "count": 2
+        },
+        "raybot": {
+            "count": 1
+        },
+        "idiots": {
+            "count": 1
+        },
+        "filtered": {
+            "count": 1
+        },
+        "stopwords": {
+            "count": 1
+        },
+        "problaby": {
+            "count": 1
+        },
+        "seem": {
+            "count": 1
+        },
+        "searches": {
+            "count": 1
+        },
+        "false": {
+            "count": 1
+        },
+        "ago": {
+            "count": 2
+        },
+        "dicks": {
+            "count": 1
+        },
+        "rays": {
+            "count": 1
+        },
+        "wekeend": {
+            "count": 1
+        },
+        "exporting": {
+            "count": 1
+        },
+        "channel": {
+            "count": 1
+        },
+        "sheepies": {
+            "count": 1
+        },
+        "shaming": {
+            "count": 1
+        },
+        "wanting": {
+            "count": 1
+        },
+        "outside": {
+            "count": 1
+        },
+        "lake": {
+            "count": 1
+        },
+        "mother": {
+            "count": 2
+        },
+        "fucker": {
+            "count": 1
+        },
+        "blizzard": {
+            "count": 3
+        },
+        "das": {
+            "count": 1
+        },
+        "att": {
+            "count": 1
+        },
+        "short": {
+            "count": 1
+        },
+        "boobies": {
+            "count": 1
+        },
+        "pushup": {
+            "count": 1
+        },
+        "bras": {
+            "count": 1
+        },
+        "ridiculous": {
+            "count": 1
+        },
+        "biased": {
+            "count": 1
+        },
+        "scrape": {
+            "count": 1
+        },
+        "exp": {
+            "count": 1
+        },
+        "lolool": {
+            "count": 1
+        },
+        "thx": {
+            "count": 1
+        },
+        "artifacts": {
+            "count": 1
+        },
+        "dungeon": {
+            "count": 2
+        },
+        "quests": {
+            "count": 4
+        },
+        "queue": {
+            "count": 3
+        },
+        "dungeons": {
+            "count": 1
+        },
+        "quest": {
+            "count": 1
+        },
+        "mage": {
+            "count": 1
+        },
+        "finished": {
+            "count": 1
+        },
+        "highmountain": {
+            "count": 1
+        },
+        "azsuna": {
+            "count": 1
+        },
+        "valsharah": {
+            "count": 1
+        },
+        "woehtout": {
+            "count": 1
+        },
+        "supplemental": {
+            "count": 1
+        },
+        "zone": {
+            "count": 1
+        },
+        "unlock": {
+            "count": 3
+        },
+        "argus": {
+            "count": 3
+        },
+        "touched": {
+            "count": 1
+        },
+        "suramar": {
+            "count": 1
+        },
+        "heirlooms": {
+            "count": 1
+        },
+        "🤣": {
+            "count": 1
+        },
+        "smile": {
+            "count": 1
+        },
+        "lily": {
+            "count": 1
+        },
+        "nametag": {
+            "count": 1
+        },
+        "looooooooool": {
+            "count": 2
+        },
+        "**liray": {
+            "count": 1
+        },
+        "ezl": {
+            "count": 1
+        },
+        "yfe": {
+            "count": 1
+        },
+        "psycho": {
+            "count": 1
+        },
+        "woman": {
+            "count": 1
+        },
+        "chance”": {
+            "count": 1
+        },
+        "bud": {
+            "count": 1
+        },
+        "srs": {
+            "count": 1
+        },
+        "lawmakers": {
+            "count": 1
+        },
+        "focusing": {
+            "count": 1
+        },
+        "tide": {
+            "count": 1
+        },
+        "pods": {
+            "count": 1
+        },
+        "died": {
+            "count": 2
+        },
+        "whyyyyy": {
+            "count": 1
+        },
+        "boobs": {
+            "count": 2
+        },
+        "focus": {
+            "count": 2
+        },
+        "wouldn’t": {
+            "count": 2
+        },
+        "taken": {
+            "count": 2
+        },
+        "shoes": {
+            "count": 1
+        },
+        "clearly": {
+            "count": 1
+        },
+        "else’s": {
+            "count": 1
+        },
+        "nononono": {
+            "count": 1
+        },
+        "quite": {
+            "count": 3
+        },
+        "grindr": {
+            "count": 1
+        },
+        "jokes": {
+            "count": 3
+        },
+        "=": {
+            "count": 1
+        },
+        "ashley": {
+            "count": 1
+        },
+        "five": {
+            "count": 1
+        },
+        "return": {
+            "count": 1
+        },
+        "evening": {
+            "count": 1
+        },
+        "**zanyth": {
+            "count": 1
+        },
+        "zoomzoom": {
+            "count": 1
+        },
+        "puppo": {
+            "count": 1
+        },
+        "looooool": {
+            "count": 3
+        },
+        "captain": {
+            "count": 3
+        },
+        "noice": {
+            "count": 1
+        },
+        "falcon": {
+            "count": 3
+        },
+        "heavy": {
+            "count": 1
+        },
+        "npnp": {
+            "count": 1
+        },
+        "congrats": {
+            "count": 1
+        },
+        "citation": {
+            "count": 2
+        },
+        "aka": {
+            "count": 1
+        },
+        "airsoft": {
+            "count": 1
+        },
+        "customers": {
+            "count": 1
+        },
+        "somehow": {
+            "count": 1
+        },
+        "managed": {
+            "count": 1
+        },
+        "crop": {
+            "count": 1
+        },
+        "logo": {
+            "count": 1
+        },
+        "image": {
+            "count": 1
+        },
+        "pizza": {
+            "count": 6
+        },
+        "studio": {
+            "count": 1
+        },
+        "hired": {
+            "count": 1
+        },
+        "chatted": {
+            "count": 1
+        },
+        "support": {
+            "count": 1
+        },
+        "stud": {
+            "count": 3
+        },
+        "nam": {
+            "count": 1
+        },
+        "emails": {
+            "count": 1
+        },
+        "purpose": {
+            "count": 1
+        },
+        "s04": {
+            "count": 1
+        },
+        "threw": {
+            "count": 1
+        },
+        "entire": {
+            "count": 1
+        },
+        "collectively": {
+            "count": 1
+        },
+        "decided": {
+            "count": 1
+        },
+        "single": {
+            "count": 1
+        },
+        "bathroom": {
+            "count": 1
+        },
+        "stall": {
+            "count": 1
+        },
+        "occupied": {
+            "count": 1
+        },
+        "dafuq": {
+            "count": 1
+        },
+        "eeeeeeee": {
+            "count": 1
+        },
+        "february": {
+            "count": 1
+        },
+        "tay": {
+            "count": 1
+        },
+        "lookin": {
+            "count": 1
+        },
+        "fierce": {
+            "count": 1
+        },
+        "slay": {
+            "count": 1
+        },
+        "bae": {
+            "count": 2
+        },
+        "hahhahaha": {
+            "count": 1
+        },
+        "upppp": {
+            "count": 1
+        },
+        "boosting": {
+            "count": 1
+        },
+        "artifact": {
+            "count": 3
+        },
+        "filled": {
+            "count": 2
+        },
+        "additional": {
+            "count": 1
+        },
+        "relics": {
+            "count": 1
+        },
+        "unlimited": {
+            "count": 1
+        },
+        "ppower": {
+            "count": 1
+        },
+        "levels": {
+            "count": 1
+        },
+        "budget": {
+            "count": 1
+        },
+        "weapon": {
+            "count": 1
+        },
+        "smore": {
+            "count": 1
+        },
+        "cookies": {
+            "count": 1
+        },
+        "yera": {
+            "count": 1
+        },
+        "meh": {
+            "count": 1
+        },
+        "finishing": {
+            "count": 2
+        },
+        "dinnner": {
+            "count": 1
+        },
+        "tn": {
+            "count": 1
+        },
+        "skinny": {
+            "count": 1
+        },
+        "jerry": {
+            "count": 2
+        },
+        "hoi": {
+            "count": 1
+        },
+        "negative": {
+            "count": 1
+        },
+        "houston": {
+            "count": 1
+        },
+        "hwhy": {
+            "count": 1
+        },
+        "convincing": {
+            "count": 1
+        },
+        "agrees": {
+            "count": 1
+        },
+        "launcher": {
+            "count": 2
+        },
+        "miracle": {
+            "count": 1
+        },
+        "som": {
+            "count": 2
+        },
+        "estuff": {
+            "count": 1
+        },
+        "shower": {
+            "count": 2
+        },
+        ">[": {
+            "count": 1
+        },
+        "reeeeeeeep": {
+            "count": 1
+        },
+        "slot": {
+            "count": 1
+        },
+        "vodka": {
+            "count": 1
+        },
+        "wakka*": {
+            "count": 1
+        },
+        "wodka": {
+            "count": 1
+        },
+        "depends": {
+            "count": 1
+        },
+        "nani": {
+            "count": 1
+        },
+        "nyani": {
+            "count": 1
+        },
+        "tesla": {
+            "count": 1
+        },
+        "wtff": {
+            "count": 1
+        },
+        "like50": {
+            "count": 1
+        },
+        "nooooo": {
+            "count": 1
+        },
+        "dronk": {
+            "count": 1
+        },
+        "trashy": {
+            "count": 1
+        },
+        "yuou": {
+            "count": 1
+        },
+        "jizzing": {
+            "count": 1
+        },
+        "mclaren": {
+            "count": 2
+        },
+        "def": {
+            "count": 1
+        },
+        "linked": {
+            "count": 1
+        },
+        "**charuri": {
+            "count": 1
+        },
+        "anyoner": {
+            "count": 1
+        },
+        "bubble": {
+            "count": 1
+        },
+        "drinking": {
+            "count": 1
+        },
+        "near": {
+            "count": 1
+        },
+        "valentines": {
+            "count": 1
+        },
+        "knwows": {
+            "count": 1
+        },
+        "nooo": {
+            "count": 1
+        },
+        "christ": {
+            "count": 1
+        },
+        "loveee": {
+            "count": 1
+        },
+        "kira": {
+            "count": 1
+        },
+        "kiraa": {
+            "count": 1
+        },
+        "haaaot": {
+            "count": 1
+        },
+        "cheeeksn": {
+            "count": 1
+        },
+        "omtm": {
+            "count": 1
+        },
+        "otms": {
+            "count": 1
+        },
+        "tim": {
+            "count": 1
+        },
+        "tams8": {
+            "count": 1
+        },
+        "godadfdd": {
+            "count": 1
+        },
+        "yall": {
+            "count": 1
+        },
+        "chatting": {
+            "count": 1
+        },
+        "watsonnn": {
+            "count": 1
+        },
+        "charu": {
+            "count": 6
+        },
+        "influenza": {
+            "count": 1
+        },
+        "infunza": {
+            "count": 1
+        },
+        "whew": {
+            "count": 1
+        },
+        "shots": {
+            "count": 2
+        },
+        "halo": {
+            "count": 1
+        },
+        "grinding": {
+            "count": 2
+        },
+        "min": {
+            "count": 1
+        },
+        "pkc": {
+            "count": 1
+        },
+        "oooooo": {
+            "count": 1
+        },
+        "gogoo": {
+            "count": 1
+        },
+        "type": {
+            "count": 2
+        },
+        "charus": {
+            "count": 1
+        },
+        "magic": {
+            "count": 1
+        },
+        "asdf": {
+            "count": 1
+        },
+        "poo": {
+            "count": 1
+        },
+        "typing": {
+            "count": 3
+        },
+        "asdasd": {
+            "count": 3
+        },
+        "asd": {
+            "count": 1
+        },
+        "asdasdasd": {
+            "count": 1
+        },
+        "asda": {
+            "count": 1
+        },
+        "sdasdasdas": {
+            "count": 1
+        },
+        "dasdasdasda": {
+            "count": 1
+        },
+        "friday": {
+            "count": 3
+        },
+        "coworkers": {
+            "count": 1
+        },
+        "gr8": {
+            "count": 2
+        },
+        "dedication": {
+            "count": 1
+        },
+        "slack": {
+            "count": 3
+        },
+        "develop": {
+            "count": 1
+        },
+        "culture": {
+            "count": 2
+        },
+        "adding": {
+            "count": 1
+        },
+        "doge": {
+            "count": 2
+        },
+        "emoji": {
+            "count": 2
+        },
+        "shushu": {
+            "count": 1
+        },
+        "leader": {
+            "count": 1
+        },
+        "yuh": {
+            "count": 2
+        },
+        "joining": {
+            "count": 1
+        },
+        "accomplishment": {
+            "count": 1
+        },
+        "feeling": {
+            "count": 1
+        },
+        "nvm": {
+            "count": 1
+        },
+        "wings": {
+            "count": 1
+        },
+        "char": {
+            "count": 4
+        },
+        "sobering": {
+            "count": 1
+        },
+        "legendaries": {
+            "count": 1
+        },
+        "😂": {
+            "count": 2
+        },
+        "gayyyy": {
+            "count": 1
+        },
+        "impression": {
+            "count": 2
+        },
+        "dem": {
+            "count": 1
+        },
+        "l00t": {
+            "count": 1
+        },
+        "monieeees": {
+            "count": 1
+        },
+        "chickn": {
+            "count": 1
+        },
+        "unlocked": {
+            "count": 1
+        },
+        "lightforge": {
+            "count": 1
+        },
+        "draenei": {
+            "count": 2
+        },
+        "armies": {
+            "count": 1
+        },
+        "light": {
+            "count": 2
+        },
+        "somewhere": {
+            "count": 1
+        },
+        "shiny": {
+            "count": 1
+        },
+        "runes": {
+            "count": 1
+        },
+        "foreheads": {
+            "count": 1
+        },
+        "void": {
+            "count": 1
+        },
+        "elf": {
+            "count": 4
+        },
+        "belfie": {
+            "count": 1
+        },
+        "meanwhile": {
+            "count": 2
+        },
+        "blood": {
+            "count": 2
+        },
+        "opposed": {
+            "count": 1
+        },
+        "druid": {
+            "count": 1
+        },
+        "transmogs": {
+            "count": 1
+        },
+        "hahaa": {
+            "count": 1
+        },
+        "dull": {
+            "count": 1
+        },
+        "morning": {
+            "count": 4
+        },
+        "gayyyyyyy": {
+            "count": 1
+        },
+        "expensive": {
+            "count": 1
+        },
+        "meals": {
+            "count": 1
+        },
+        "tradition": {
+            "count": 2
+        },
+        "meal": {
+            "count": 1
+        },
+        "fair": {
+            "count": 1
+        },
+        "allied": {
+            "count": 1
+        },
+        "races": {
+            "count": 1
+        },
+        "brand": {
+            "count": 1
+        },
+        "parmesan": {
+            "count": 1
+        },
+        "cheese": {
+            "count": 2
+        },
+        "mold": {
+            "count": 1
+        },
+        "ugh": {
+            "count": 1
+        },
+        "mad": {
+            "count": 2
+        },
+        "spent": {
+            "count": 2
+        },
+        "peeling": {
+            "count": 1
+        },
+        "pee": {
+            "count": 1
+        },
+        "agas": {
+            "count": 1
+        },
+        "peel": {
+            "count": 2
+        },
+        "ags": {
+            "count": 1
+        },
+        "egs": {
+            "count": 1
+        },
+        "pcik": {
+            "count": 1
+        },
+        "nbd": {
+            "count": 1
+        },
+        "quiet": {
+            "count": 1
+        },
+        "werk": {
+            "count": 1
+        },
+        "lives": {
+            "count": 1
+        },
+        "sauce": {
+            "count": 1
+        },
+        "ordered": {
+            "count": 2
+        },
+        "heater": {
+            "count": 2
+        },
+        "heat": {
+            "count": 1
+        },
+        "dudddeeee": {
+            "count": 1
+        },
+        "ruined": {
+            "count": 1
+        },
+        "package": {
+            "count": 1
+        },
+        "chocolate": {
+            "count": 2
+        },
+        "croissants": {
+            "count": 1
+        },
+        "uncensored": {
+            "count": 2
+        },
+        "version": {
+            "count": 1
+        },
+        "peacefully": {
+            "count": 1
+        },
+        "croiseant": {
+            "count": 1
+        },
+        "sends": {
+            "count": 2
+        },
+        "eh": {
+            "count": 1
+        },
+        "brossainss": {
+            "count": 1
+        },
+        "notices": {
+            "count": 1
+        },
+        "ohw": {
+            "count": 1
+        },
+        "national": {
+            "count": 2
+        },
+        "mornign": {
+            "count": 1
+        },
+        "tuff": {
+            "count": 1
+        },
+        "waht": {
+            "count": 1
+        },
+        "took": {
+            "count": 3
+        },
+        "whie": {
+            "count": 1
+        },
+        "defense": {
+            "count": 1
+        },
+        "against": {
+            "count": 3
+        },
+        "sword": {
+            "count": 1
+        },
+        "gun": {
+            "count": 1
+        },
+        "ops": {
+            "count": 1
+        },
+        "concerned": {
+            "count": 1
+        },
+        "bu": {
+            "count": 1
+        },
+        "twy": {
+            "count": 1
+        },
+        "justlegt": {
+            "count": 1
+        },
+        "fingers": {
+            "count": 1
+        },
+        "typ": {
+            "count": 1
+        },
+        "fryly": {
+            "count": 1
+        },
+        "sleepy": {
+            "count": 1
+        },
+        "brandy": {
+            "count": 2
+        },
+        "write": {
+            "count": 1
+        },
+        "pick": {
+            "count": 4
+        },
+        "foby": {
+            "count": 1
+        },
+        "brongy": {
+            "count": 1
+        },
+        "garnk": {
+            "count": 1
+        },
+        "betroll": {
+            "count": 1
+        },
+        "ype": {
+            "count": 1
+        },
+        "e": {
+            "count": 1
+        },
+        "translation": {
+            "count": 1
+        },
+        "drink": {
+            "count": 1
+        },
+        "gita": {
+            "count": 1
+        },
+        "sojjay": {
+            "count": 1
+        },
+        "emario": {
+            "count": 1
+        },
+        "wnight": {
+            "count": 1
+        },
+        "ax": {
+            "count": 1
+        },
+        "july": {
+            "count": 1
+        },
+        "4th": {
+            "count": 1
+        },
+        "5th-9th": {
+            "count": 1
+        },
+        "czanx": {
+            "count": 1
+        },
+        "drl;;": {
+            "count": 1
+        },
+        "cancer;;p;;;;;": {
+            "count": 1
+        },
+        "fin": {
+            "count": 1
+        },
+        "danter": {
+            "count": 1
+        },
+        "orleans": {
+            "count": 3
+        },
+        "scared": {
+            "count": 1
+        },
+        "nuts": {
+            "count": 1
+        },
+        "fbinstagram": {
+            "count": 1
+        },
+        "nsa": {
+            "count": 1
+        },
+        "helpful": {
+            "count": 1
+        },
+        "santa": {
+            "count": 1
+        },
+        "monica": {
+            "count": 1
+        },
+        "islam": {
+            "count": 1
+        },
+        "schools": {
+            "count": 1
+        },
+        "trump": {
+            "count": 1
+        },
+        "ban": {
+            "count": 1
+        },
+        "samoyeds": {
+            "count": 1
+        },
+        "“the": {
+            "count": 1
+        },
+        "chows”": {
+            "count": 1
+        },
+        "replied": {
+            "count": 1
+        },
+        "interested": {
+            "count": 1
+        },
+        "archives": {
+            "count": 1
+        },
+        "socom": {
+            "count": 1
+        },
+        "evaluate": {
+            "count": 1
+        },
+        "sig": {
+            "count": 1
+        },
+        "sauer’s": {
+            "count": 1
+        },
+        "mcx": {
+            "count": 1
+        },
+        "partner": {
+            "count": 1
+        },
+        "hickys": {
+            "count": 1
+        },
+        "blockchain": {
+            "count": 1
+        },
+        "powered": {
+            "count": 1
+        },
+        "dating": {
+            "count": 1
+        },
+        "platform": {
+            "count": 1
+        },
+        "gogogo": {
+            "count": 1
+        },
+        "owo": {
+            "count": 1
+        },
+        "prebuilts": {
+            "count": 2
+        },
+        "someitmes": {
+            "count": 1
+        },
+        "lool": {
+            "count": 1
+        },
+        "purchase": {
+            "count": 2
+        },
+        "directly": {
+            "count": 2
+        },
+        "nvidia": {
+            "count": 2
+        },
+        "form": {
+            "count": 1
+        },
+        "gaming": {
+            "count": 1
+        },
+        "rigs": {
+            "count": 1
+        },
+        "oem": {
+            "count": 1
+        },
+        "nzxt": {
+            "count": 1
+        },
+        "cards": {
+            "count": 4
+        },
+        "fe": {
+            "count": 1
+        },
+        "jóhann": {
+            "count": 1
+        },
+        "jóhannsson": {
+            "count": 1
+        },
+        "dies": {
+            "count": 1
+        },
+        "‘the": {
+            "count": 1
+        },
+        "theory": {
+            "count": 1
+        },
+        "everything’": {
+            "count": 1
+        },
+        "composer": {
+            "count": 1
+        },
+        "frequently": {
+            "count": 1
+        },
+        "mentioned": {
+            "count": 1
+        },
+        "instances": {
+            "count": 3
+        },
+        "balls": {
+            "count": 2
+        },
+        "exact": {
+            "count": 1
+        },
+        "smashing": {
+            "count": 1
+        },
+        "mention": {
+            "count": 2
+        },
+        "talked": {
+            "count": 1
+        },
+        "chatty": {
+            "count": 1
+        },
+        "muh": {
+            "count": 1
+        },
+        "frands": {
+            "count": 1
+        },
+        "gamers": {
+            "count": 1
+        },
+        "belligerent": {
+            "count": 1
+        },
+        "crypto": {
+            "count": 2
+        },
+        "mining": {
+            "count": 1
+        },
+        "graphics": {
+            "count": 2
+        },
+        "😬": {
+            "count": 1
+        },
+        "tl": {
+            "count": 2
+        },
+        "c9": {
+            "count": 2
+        },
+        "2nd": {
+            "count": 1
+        },
+        "tsm": {
+            "count": 2
+        },
+        "vs": {
+            "count": 1
+        },
+        "cg": {
+            "count": 2
+        },
+        "1st": {
+            "count": 1
+        },
+        "mike": {
+            "count": 1
+        },
+        "sejuani": {
+            "count": 1
+        },
+        "row": {
+            "count": 1
+        },
+        "zven": {
+            "count": 1
+        },
+        "lvl": {
+            "count": 1
+        },
+        "apollo": {
+            "count": 1
+        },
+        "turned": {
+            "count": 2
+        },
+        "perfect": {
+            "count": 2
+        },
+        "vday": {
+            "count": 1
+        },
+        "weather": {
+            "count": 1
+        },
+        "airlining": {
+            "count": 1
+        },
+        "rent": {
+            "count": 1
+        },
+        "jet": {
+            "count": 1
+        },
+        "mikeyeung": {
+            "count": 1
+        },
+        "trolling": {
+            "count": 4
+        },
+        "2x": {
+            "count": 1
+        },
+        "voted": {
+            "count": 1
+        },
+        "inting": {
+            "count": 1
+        },
+        "hauntzer": {
+            "count": 2
+        },
+        "sold": {
+            "count": 1
+        },
+        "zeal": {
+            "count": 1
+        },
+        "bork": {
+            "count": 1
+        },
+        "mithy": {
+            "count": 1
+        },
+        "stoopwatch": {
+            "count": 1
+        },
+        "bjerg": {
+            "count": 1
+        },
+        "ulted": {
+            "count": 2
+        },
+        "braum": {
+            "count": 1
+        },
+        "gg": {
+            "count": 1
+        },
+        "l": {
+            "count": 4
+        },
+        "3k": {
+            "count": 2
+        },
+        "champs": {
+            "count": 1
+        },
+        "skarner": {
+            "count": 1
+        },
+        "pooped": {
+            "count": 1
+        },
+        "confirmed": {
+            "count": 1
+        },
+        "scrimming": {
+            "count": 1
+        },
+        "skarnercorkiez": {
+            "count": 1
+        },
+        "accused": {
+            "count": 1
+        },
+        "lamo": {
+            "count": 1
+        },
+        "1mi": {
+            "count": 1
+        },
+        "ea": {
+            "count": 1
+        },
+        "lengua": {
+            "count": 5
+        },
+        "unfortunately": {
+            "count": 1
+        },
+        "azada": {
+            "count": 1
+        },
+        "pastor": {
+            "count": 1
+        },
+        "chicken": {
+            "count": 1
+        },
+        "chorizo": {
+            "count": 1
+        },
+        "barbacoa": {
+            "count": 2
+        },
+        "cueritos": {
+            "count": 1
+        },
+        "buche": {
+            "count": 1
+        },
+        "cabeza": {
+            "count": 1
+        },
+        "taco": {
+            "count": 2
+        },
+        "underseasoned": {
+            "count": 1
+        },
+        "freaking": {
+            "count": 1
+        },
+        "bomb": {
+            "count": 1
+        },
+        "ty": {
+            "count": 1
+        },
+        "niece": {
+            "count": 2
+        },
+        "patrick": {
+            "count": 1
+        },
+        "star": {
+            "count": 1
+        },
+        "rims": {
+            "count": 1
+        },
+        "pl": {
+            "count": 1
+        },
+        "agree": {
+            "count": 1
+        },
+        "child": {
+            "count": 1
+        },
+        "knew": {
+            "count": 1
+        },
+        "stamp": {
+            "count": 1
+        },
+        "pubg": {
+            "count": 1
+        },
+        "koreaaa": {
+            "count": 1
+        },
+        "comment": {
+            "count": 1
+        },
+        "cardcaptor": {
+            "count": 1
+        },
+        "sakura": {
+            "count": 1
+        },
+        "marshmallow": {
+            "count": 2
+        },
+        "puff": {
+            "count": 1
+        },
+        "fomr": {
+            "count": 1
+        },
+        "ghostbusters": {
+            "count": 1
+        },
+        "streamer": {
+            "count": 1
+        },
+        "na": {
+            "count": 1
+        },
+        "noo": {
+            "count": 1
+        },
+        "🙀": {
+            "count": 1
+        },
+        "hehehehehhehe": {
+            "count": 1
+        },
+        "pillsbury": {
+            "count": 1
+        },
+        "heathen": {
+            "count": 1
+        },
+        "puffs": {
+            "count": 1
+        },
+        "aoe": {
+            "count": 1
+        },
+        "gam": {
+            "count": 2
+        },
+        "wololo": {
+            "count": 1
+        },
+        "bitches": {
+            "count": 1
+        },
+        "ohai": {
+            "count": 1
+        },
+        "worried": {
+            "count": 1
+        },
+        "during": {
+            "count": 2
+        },
+        "mardi": {
+            "count": 1
+        },
+        "gras": {
+            "count": 2
+        },
+        "lolwat": {
+            "count": 1
+        },
+        "rly": {
+            "count": 1
+        },
+        "loud": {
+            "count": 1
+        },
+        "snapchat": {
+            "count": 1
+        },
+        "pic": {
+            "count": 1
+        },
+        "gave": {
+            "count": 1
+        },
+        "glass": {
+            "count": 1
+        },
+        "freak": {
+            "count": 1
+        },
+        "streaks": {
+            "count": 1
+        },
+        "**pr": {
+            "count": 1
+        },
+        "important": {
+            "count": 1
+        },
+        "commitment": {
+            "count": 1
+        },
+        "neediness": {
+            "count": 1
+        },
+        "may": {
+            "count": 2
+        },
+        "tomato": {
+            "count": 1
+        },
+        "bottom": {
+            "count": 1
+        },
+        "plenty": {
+            "count": 1
+        },
+        "airport": {
+            "count": 1
+        },
+        "byeeeeee": {
+            "count": 1
+        },
+        "sheep": {
+            "count": 1
+        },
+        "aoe2": {
+            "count": 1
+        },
+        "freddie": {
+            "count": 1
+        },
+        "vroom": {
+            "count": 2
+        },
+        "chill": {
+            "count": 1
+        },
+        "drone": {
+            "count": 1
+        },
+        "sketchycrab": {
+            "count": 1
+        },
+        "tag": {
+            "count": 2
+        },
+        "rekt": {
+            "count": 2
+        },
+        "banned": {
+            "count": 1
+        },
+        "fag": {
+            "count": 1
+        },
+        "pst": {
+            "count": 1
+        },
+        "spawn": {
+            "count": 1
+        },
+        "torb": {
+            "count": 1
+        },
+        "**krampus": {
+            "count": 1
+        },
+        "report": {
+            "count": 2
+        },
+        "hahhaha": {
+            "count": 1
+        },
+        "nicholas": {
+            "count": 1
+        },
+        "cage": {
+            "count": 1
+        },
+        "passport": {
+            "count": 1
+        },
+        "chilling": {
+            "count": 1
+        },
+        "bruce": {
+            "count": 2
+        },
+        "kf2": {
+            "count": 1
+        },
+        "ggs": {
+            "count": 1
+        },
+        "itneresction": {
+            "count": 1
+        },
+        "scraped": {
+            "count": 1
+        },
+        "x5": {
+            "count": 1
+        },
+        "dining": {
+            "count": 1
+        },
+        "terrace": {
+            "count": 1
+        },
+        "shouldve": {
+            "count": 1
+        },
+        "raced": {
+            "count": 1
+        },
+        "selling": {
+            "count": 1
+        },
+        "wii": {
+            "count": 1
+        },
+        "facebook": {
+            "count": 2
+        },
+        "sell": {
+            "count": 1
+        },
+        "burn": {
+            "count": 1
+        },
+        "leftover": {
+            "count": 1
+        },
+        "computers": {
+            "count": 1
+        },
+        "kitchen": {
+            "count": 1
+        },
+        "mail": {
+            "count": 2
+        },
+        "parts": {
+            "count": 1
+        },
+        "decent": {
+            "count": 1
+        },
+        "kappa": {
+            "count": 1
+        },
+        "swear": {
+            "count": 1
+        },
+        "zanyth": {
+            "count": 2
+        },
+        "box": {
+            "count": 1
+        },
+        "delivery": {
+            "count": 1
+        },
+        "pickup": {
+            "count": 1
+        },
+        "rough": {
+            "count": 1
+        },
+        "six": {
+            "count": 1
+        },
+        "payed": {
+            "count": 1
+        },
+        "statement": {
+            "count": 1
+        },
+        "jon": {
+            "count": 1
+        },
+        "office": {
+            "count": 3
+        },
+        "race": {
+            "count": 1
+        },
+        "patiently": {
+            "count": 1
+        },
+        "british": {
+            "count": 1
+        },
+        "rails": {
+            "count": 1
+        },
+        "kept": {
+            "count": 1
+        },
+        "sing": {
+            "count": 1
+        },
+        "queen": {
+            "count": 1
+        },
+        "staring": {
+            "count": 1
+        },
+        "black": {
+            "count": 3
+        },
+        "tracksuit": {
+            "count": 1
+        },
+        "doe": {
+            "count": 1
+        },
+        "wiat": {
+            "count": 1
+        },
+        "payday": {
+            "count": 1
+        },
+        "coming": {
+            "count": 1
+        },
+        "switch": {
+            "count": 3
+        },
+        "desperate": {
+            "count": 2
+        },
+        "kirby": {
+            "count": 1
+        },
+        "uhhh": {
+            "count": 2
+        },
+        "cross": {
+            "count": 2
+        },
+        "playform": {
+            "count": 1
+        },
+        "consoles": {
+            "count": 1
+        },
+        "pc": {
+            "count": 2
+        },
+        "puck": {
+            "count": 1
+        },
+        "fettuccine": {
+            "count": 1
+        },
+        "thst": {
+            "count": 1
+        },
+        "lllololol": {
+            "count": 1
+        },
+        "log": {
+            "count": 1
+        },
+        "straight": {
+            "count": 1
+        },
+        "inventory": {
+            "count": 1
+        },
+        "nobody": {
+            "count": 1
+        },
+        "knows": {
+            "count": 1
+        },
+        "postmaster": {
+            "count": 5
+        },
+        "zzzzz": {
+            "count": 1
+        },
+        "illidari": {
+            "count": 1
+        },
+        "grillidari": {
+            "count": 1
+        },
+        "service": {
+            "count": 1
+        },
+        "civ": {
+            "count": 3
+        },
+        "expansion": {
+            "count": 2
+        },
+        "goodbye": {
+            "count": 1
+        },
+        "cruel": {
+            "count": 1
+        },
+        "weeks": {
+            "count": 2
+        },
+        "olympics": {
+            "count": 1
+        },
+        "*have*": {
+            "count": 1
+        },
+        "skate": {
+            "count": 1
+        },
+        "means": {
+            "count": 1
+        },
+        "figure": {
+            "count": 2
+        },
+        "skating": {
+            "count": 1
+        },
+        "argussian": {
+            "count": 1
+        },
+        "reach": {
+            "count": 1
+        },
+        "pak": {
+            "count": 1
+        },
+        "hahahahaha": {
+            "count": 1
+        },
+        "turtles": {
+            "count": 1
+        },
+        "showed": {
+            "count": 1
+        },
+        "laughed": {
+            "count": 1
+        },
+        "mode": {
+            "count": 1
+        },
+        "jetlagged": {
+            "count": 1
+        },
+        "plus": {
+            "count": 1
+        },
+        "popped": {
+            "count": 1
+        },
+        "edibles": {
+            "count": 1
+        },
+        "itll": {
+            "count": 1
+        },
+        "sneak": {
+            "count": 1
+        },
+        "gimmie": {
+            "count": 1
+        },
+        "lolololololol": {
+            "count": 1
+        },
+        "brb": {
+            "count": 1
+        },
+        "sec": {
+            "count": 1
+        },
+        "appearing": {
+            "count": 1
+        },
+        "offline": {
+            "count": 2
+        },
+        "discord": {
+            "count": 1
+        },
+        "lying": {
+            "count": 1
+        },
+        "du": {
+            "count": 1
+        },
+        "hek": {
+            "count": 1
+        },
+        "painter": {
+            "count": 1
+        },
+        "**minty": {
+            "count": 1
+        },
+        "sister": {
+            "count": 1
+        },
+        "compared": {
+            "count": 1
+        },
+        "painted": {
+            "count": 1
+        },
+        "housewives": {
+            "count": 1
+        },
+        "invisible": {
+            "count": 1
+        },
+        "hanzo": {
+            "count": 2
+        },
+        "uninvite": {
+            "count": 1
+        },
+        "-_-": {
+            "count": 1
+        },
+        "sry": {
+            "count": 1
+        },
+        "sloop": {
+            "count": 1
+        },
+        "baiiiiii": {
+            "count": 1
+        },
+        "heels": {
+            "count": 1
+        },
+        "wrip": {
+            "count": 1
+        },
+        "trial": {
+            "count": 1
+        },
+        "lawyer": {
+            "count": 1
+        },
+        "gina": {
+            "count": 1
+        },
+        "jones": {
+            "count": 1
+        },
+        "braunfels": {
+            "count": 1
+        },
+        "quash": {
+            "count": 1
+        },
+        "friesenhahn’s": {
+            "count": 1
+        },
+        "indictment": {
+            "count": 1
+        },
+        "arguing": {
+            "count": 1
+        },
+        "limit": {
+            "count": 1
+        },
+        "discriminated": {
+            "count": 1
+        },
+        "alcoholics": {
+            "count": 2
+        },
+        "district": {
+            "count": 1
+        },
+        "jack": {
+            "count": 1
+        },
+        "robison": {
+            "count": 1
+        },
+        "denied": {
+            "count": 1
+        },
+        "request": {
+            "count": 1
+        },
+        "daily": {
+            "count": 1
+        },
+        "laws": {
+            "count": 1
+        },
+        "discriminate": {
+            "count": 1
+        },
+        "protected": {
+            "count": 1
+        },
+        "wallet": {
+            "count": 1
+        },
+        "cries": {
+            "count": 1
+        },
+        "h": {
+            "count": 2
+        },
+        "oooooomgggg": {
+            "count": 1
+        },
+        "photo": {
+            "count": 1
+        },
+        "mystery": {
+            "count": 1
+        },
+        "hunt": {
+            "count": 1
+        },
+        "discover": {
+            "count": 1
+        },
+        "sun": {
+            "count": 2
+        },
+        "circles": {
+            "count": 2
+        },
+        "hwo": {
+            "count": 1
+        },
+        "solve": {
+            "count": 1
+        },
+        "fuckign": {
+            "count": 1
+        },
+        "devs": {
+            "count": 1
+        },
+        "bug": {
+            "count": 2
+        },
+        "tldr": {
+            "count": 1
+        },
+        "argued": {
+            "count": 1
+        },
+        "disability": {
+            "count": 1
+        },
+        "skycode": {
+            "count": 1
+        },
+        "arg": {
+            "count": 1
+        },
+        "24th": {
+            "count": 1
+        },
+        "hero": {
+            "count": 1
+        },
+        "meme": {
+            "count": 1
+        },
+        "arminius213": {
+            "count": 1
+        },
+        "points": {
+            "count": 1
+        },
+        "\ncop": {
+            "count": 1
+        },
+        "halfway": {
+            "count": 1
+        },
+        "apartment": {
+            "count": 3
+        },
+        "complex": {
+            "count": 1
+        },
+        "sponsor": {
+            "count": 1
+        },
+        "hadn’t": {
+            "count": 1
+        },
+        "woman’s": {
+            "count": 1
+        },
+        "cheap": {
+            "count": 1
+        },
+        "lights": {
+            "count": 1
+        },
+        "haunted": {
+            "count": 1
+        },
+        "vibe": {
+            "count": 1
+        },
+        "tracks": {
+            "count": 1
+        },
+        "semi": {
+            "count": 1
+        },
+        "darkness": {
+            "count": 1
+        },
+        "written": {
+            "count": 1
+        },
+        "swaths": {
+            "count": 1
+        },
+        "paint": {
+            "count": 1
+        },
+        "phrase": {
+            "count": 2
+        },
+        "“don’t": {
+            "count": 1
+        },
+        "asleep”": {
+            "count": 1
+        },
+        "copied": {
+            "count": 1
+        },
+        "several": {
+            "count": 1
+        },
+        "smaller": {
+            "count": 1
+        },
+        "permanent": {
+            "count": 1
+        },
+        "marker": {
+            "count": 1
+        },
+        "spots": {
+            "count": 1
+        },
+        "haunting": {
+            "count": 1
+        },
+        "dreams": {
+            "count": 1
+        },
+        "asleep": {
+            "count": 1
+        },
+        "noped": {
+            "count": 1
+        },
+        "filed": {
+            "count": 1
+        },
+        "persons": {
+            "count": 1
+        },
+        "schizophrenia": {
+            "count": 1
+        },
+        "spoopy": {
+            "count": 1
+        },
+        "keeeeem": {
+            "count": 1
+        },
+        "wake": {
+            "count": 1
+        },
+        "steve": {
+            "count": 2
+        },
+        "jobs": {
+            "count": 1
+        },
+        "returned": {
+            "count": 1
+        },
+        "sincerelly": {
+            "count": 1
+        },
+        "dome": {
+            "count": 3
+        },
+        "iv": {
+            "count": 1
+        },
+        "passed": {
+            "count": 1
+        },
+        "yelled": {
+            "count": 1
+        },
+        "personal": {
+            "count": 1
+        },
+        "prefer": {
+            "count": 1
+        },
+        "shiba": {
+            "count": 1
+        },
+        "snorlax": {
+            "count": 1
+        },
+        "nickname": {
+            "count": 1
+        },
+        "rayquaza": {
+            "count": 1
+        },
+        "privileges": {
+            "count": 1
+        },
+        "oppressed": {
+            "count": 1
+        },
+        "ranked": {
+            "count": 1
+        },
+        "above": {
+            "count": 1
+        },
+        "slightly": {
+            "count": 1
+        },
+        "yaaaas": {
+            "count": 1
+        },
+        "uuuuuuuuuuup": {
+            "count": 1
+        },
+        "slept": {
+            "count": 2
+        },
+        "whoo": {
+            "count": 1
+        },
+        "t-pain": {
+            "count": 1
+        },
+        "follows": {
+            "count": 1
+        },
+        "roadhog": {
+            "count": 1
+        },
+        "tracer": {
+            "count": 1
+        },
+        "though": {
+            "count": 1
+        },
+        "fb": {
+            "count": 1
+        },
+        "pictures": {
+            "count": 2
+        },
+        "members": {
+            "count": 1
+        },
+        "browse": {
+            "count": 1
+        },
+        "constantly": {
+            "count": 1
+        },
+        "remove": {
+            "count": 1
+        },
+        "fewer": {
+            "count": 1
+        },
+        "posts": {
+            "count": 1
+        },
+        "camden": {
+            "count": 2
+        },
+        "difficult": {
+            "count": 1
+        },
+        "victoria": {
+            "count": 1
+        },
+        "royal": {
+            "count": 1
+        },
+        "gtfo": {
+            "count": 1
+        },
+        "threshold": {
+            "count": 1
+        },
+        "era": {
+            "count": 1
+        },
+        "avoid": {
+            "count": 1
+        },
+        "age": {
+            "count": 2
+        },
+        "2nite": {
+            "count": 1
+        },
+        "cancer": {
+            "count": 1
+        },
+        "dunno": {
+            "count": 2
+        },
+        "hokay": {
+            "count": 1
+        },
+        "resets": {
+            "count": 1
+        },
+        "mondays": {
+            "count": 1
+        },
+        "resetting": {
+            "count": 1
+        },
+        "patched": {
+            "count": 1
+        },
+        "kevinnnnnnn": {
+            "count": 1
+        },
+        "ekarb": {
+            "count": 2
+        },
+        "doggo": {
+            "count": 1
+        },
+        "floof": {
+            "count": 2
+        },
+        "bucks": {
+            "count": 1
+        },
+        "nuggies": {
+            "count": 1
+        },
+        "backwords": {
+            "count": 1
+        },
+        "brake": {
+            "count": 1
+        },
+        "iobiag": {
+            "count": 1
+        },
+        "tru": {
+            "count": 1
+        },
+        "havet": {
+            "count": 1
+        },
+        "bought": {
+            "count": 2
+        },
+        "rngesus": {
+            "count": 2
+        },
+        "pray": {
+            "count": 1
+        },
+        "mar": {
+            "count": 1
+        },
+        "5th": {
+            "count": 1
+        },
+        "month": {
+            "count": 1
+        },
+        "parka": {
+            "count": 1
+        },
+        "build": {
+            "count": 1
+        },
+        "igloo": {
+            "count": 1
+        },
+        "jumped": {
+            "count": 1
+        },
+        "freezer": {
+            "count": 1
+        },
+        "warm": {
+            "count": 1
+        },
+        "degree": {
+            "count": 1
+        },
+        "phone": {
+            "count": 2
+        },
+        "madre": {
+            "count": 1
+        },
+        "civ6": {
+            "count": 1
+        },
+        "excuse": {
+            "count": 1
+        },
+        "luv": {
+            "count": 1
+        },
+        "wish": {
+            "count": 1
+        },
+        "hai": {
+            "count": 1
+        },
+        "errrmmm": {
+            "count": 1
+        },
+        "headset": {
+            "count": 2
+        },
+        "nightmare": {
+            "count": 1
+        },
+        "machine": {
             "count": 1
         }
     }

@@ -1,17 +1,18 @@
 import { discordBot, fs, cloudStore, stopword} from "../bot.js";
 
 export function addToCloud(message, userID, channelID) {
-	if (channelID == 308643303014793216) {
-		if (userID != 194260124263514112) {
-			if (!message.startsWith("WordCloud") && !message.startsWith(".pick")){
-				var filteredMsg = message.replace(/[,.?!$:)(\\"-'/]+/g, '').toLowerCase();
-				var filterArr = filteredMsg.split(' ');
+	if (channelID == 308643303014793216 || channelID == 349718076360622080) { //main channel or bot_testing
+		if (userID != 194260124263514112) {	//not sheepbot
+			if (!message.startsWith("WordCloud") && !message.startsWith(".pick")){ //dont take wordcloud messages or flowerpicking
+				var filteredMsg = message.replace(/[,.?!#%{}$@:)(\\"-'/]+/g, '').toLowerCase(); //take out all symbols + convert to lowercase
+				var filterArr = filteredMsg.split(' '); 
 				var strArr = stopword.removeStopwords(filterArr);
 				strArr.forEach(function (word) {
-					if (isNaN(word)) {
+					if (isNaN(word) && word.length < 15) { //don't process numbers or anything longer than 15 chars 
 						if (!word.length) {
 							return;
 						}
+						//todo: refactor
 						if (word.includes("http")) {
 							return;
 						}
@@ -124,12 +125,19 @@ export default function generateCloud(channelID, arg) {
 		}
 	} else {
 		arg = arg.toLowerCase();
-		var wordFreq = cloudStore[arg].count;
-		var msg = "WordCloud: The frequency of \"" + arg + "\" in this channel is " + wordFreq + ".";
-		discordBot.sendMessage({
-		    to: channelID,
-		    message: msg
-		});
+		if (cloudStore[arg]) {
+			var wordFreq = cloudStore[arg].count;
+			var msg = "WordCloud: The frequency of \"" + arg + "\" in this channel is " + wordFreq + ".";
+			discordBot.sendMessage({
+			    to: channelID,
+			    message: msg
+			});
+		} else {
+			discordBot.sendMessage({
+			    to: channelID,
+			    message: "Word hasn't been typed"
+			});
+		}
 	}
 }
 
