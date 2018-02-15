@@ -131,11 +131,9 @@ function processTextMessage(user, userID, channelID, message, event) {
         handleAllowance(userID, channelID, message);
     }
     if (config.summonEnabled) {
-        console.log("here");
-        if (channelID == 308643303014793216){
+        if (channelID == 349718076360622080){
             console.log(message);
             if (message.startsWith("$summon")) {
-                console.log("ding dong");
                 var person = message.substring(8);
                 console.log(person);
                 summonUser(channelID, person);
