@@ -12,10 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "babel-register": "^6.26.0",
-    "discord.io": "github:Woor/discord.io#gateway_v6",
+    "discord.io": "github:woor/discord.io#gateway_v6",
     "express": "^4.16.2",
     "gaussian": "^1.1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "minimist": "^1.2.0",
     "morgan": "^1.9.0",
     "rimraf": "^2.6.2"

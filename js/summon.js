@@ -1,12 +1,12 @@
-import { Discord, discordBot, channelID, config, responded } from "../bot.js";
+import { Discord, discordBot, channelID, config, responded,users } from "../bot.js";
 
-export default function summonUser(channelID, person) {
+export default function summonUser(channelID, person, userID) {
     console.log("test");
     var delay = 2000;
     async function sendMsg() {
         await sleep(delay);
         discordBot.sendMessage({
-            to: channelID,
+            to: 349718076360622080,
             message: "<@" + person + ">"
         });
     }
