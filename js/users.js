@@ -19,7 +19,8 @@ function addUser (user, userID) {
         "name": user,
         "permission": 2,
         "presence": "active",
-        "inactivity": 0
+        "inactivity": 0,
+        "responded" : 0
     };
     updateUsers();
 }

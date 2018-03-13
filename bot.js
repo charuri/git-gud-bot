@@ -13,7 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
-import summonUser from "./js/summon.js";
+import summonUser, {cancelSummon} from "./js/summon.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -37,7 +37,6 @@ export var discordBot;
 var startTime = new Date();
 
 
-export var responded = new Map();
 // gogogogogogo
 init();
 
@@ -133,19 +132,21 @@ function processTextMessage(user, userID, channelID, message, event) {
         handleAllowance(userID, channelID, message);
     }
     if (config.summonEnabled) {
-        if (channelID == 349718076360622080){
             console.log(message);
-            var person = message.substring(message.lastIndexOf("<") + 2, message.lastIndexOf(">"));
+            var ind = message.lastIndexOf("!") != -1 ? message.lastIndexOf("!") : message.lastIndexOf(("@"));
+            //console.log(message.lastIndexOf("!"));
+            var person = message.substring(ind + 1, message.lastIndexOf(">"));
+            //console.log(person);
             if (message.startsWith("$summon")) {
-                responded.set(person, false);
-                console.log("1" + responded.get(person));
                 summonUser(channelID, person, userID);
             } 
-        }
-        if (channelID == 349718076360622080) {
-            if (message == "WHAT") {
-                responded.set(userID.toString(), true);
-                console.log("2" + responded.get(userID.toString()));
+            if (message.startsWith("$cancelSummon")) {
+                cancelSummon(person);
+            }
+        if (channelID == 337716572640772097) {
+            if (message == "WHAT" && !users[userID.toString()].responded) {
+                cancelSummon(userID.toString());
+                console.log("summoned!");
             }
         }
         
