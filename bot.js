@@ -133,20 +133,16 @@ function processTextMessage(user, userID, channelID, message, event) {
         handleAllowance(userID, channelID, message);
     }
     if (config.summonEnabled) {
-        if (channelID == 349718076360622080){
+        if (channelID == 308643303014793216){
             console.log(message);
-            var person = message.substring(message.lastIndexOf("<")+2, message.lastIndexOf(">"));
+            var person = message.substring(10, message.lastIndexOf(">"));
             if (message.startsWith("$summon")) {
                 responded.set(person, false);
-                console.log("1" + responded.get(person));
-                summonUser(channelID, person, userID);
+                console.log("1" + responded.get());
+                summonUser(channelID, person);person
             } else if (message == "WHAT") {
                 responded.set(userID.toString(), true);
                 console.log("2" + responded.get(userID.toString()));
-            } else if (message == "$cancelsummon") {
-                responded.forEach(function(value, key, map) {
-                    responded.set(key, true);
-                });
             }
         }
         
