@@ -13,6 +13,7 @@ import refreshScanLoop from "./js/airwatch.js";
 import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
+import summonUser, {cancelSummon} from "./js/summon.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -34,6 +35,7 @@ export var discordBot;
 
 // bot uptime tracking
 var startTime = new Date();
+
 
 // gogogogogogo
 init();
@@ -128,5 +130,25 @@ function processTextMessage(user, userID, channelID, message, event) {
     // allowance
     if (config.allowanceEnabled) {
         handleAllowance(userID, channelID, message);
+    }
+    if (config.summonEnabled) {
+            console.log(message);
+            var ind = message.lastIndexOf("!") != -1 ? message.lastIndexOf("!") : message.lastIndexOf(("@"));
+            //console.log(message.lastIndexOf("!"));
+            var person = message.substring(ind + 1, message.lastIndexOf(">"));
+            //console.log(person);
+            if (message.startsWith("$summon")) {
+                summonUser(channelID, person, userID);
+            } 
+            if (message.startsWith("$cancelSummon")) {
+                cancelSummon(person);
+            }
+        if (channelID == 337716572640772097) {
+            if (message == "WHAT" && !users[userID.toString()].responded) {
+                cancelSummon(userID.toString());
+                console.log("summoned!");
+            }
+        }
+        
     }
 }
