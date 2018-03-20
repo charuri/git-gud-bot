@@ -45,13 +45,11 @@ function sleep (time) {
 
 export default function handleSummon(userID, channelID, message, event) {
     var person = event.d.mentions[0] ? event.d.mentions[0].id : 0;
-    if (message.startsWith("$summon")) {
+    if (message.startsWith("$summon") && person) {
         summonUser(channelID, person);
     } 
-    if (message.startsWith("$cancelSummon")) { //format is $cancelSummon @person
-        if (person) {
-            cancelSummon(person);
-        }
+    if (message.startsWith("$cancelSummon") && person) { //format is $cancelSummon @person
+        cancelSummon(person);
     }
     if (channelID == 337716572640772097) {
         if (message == "WHAT" && users[userID.toString()].responded != 0) {
