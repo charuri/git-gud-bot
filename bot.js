@@ -132,7 +132,6 @@ function processTextMessage(user, userID, channelID, message, event) {
         handleAllowance(userID, channelID, message);
     }
     if (config.summonEnabled) {
-            console.log(message);
             var ind = message.lastIndexOf("!") != -1 ? message.lastIndexOf("!") : message.lastIndexOf(("@"));
             //console.log(message.lastIndexOf("!"));
             var person = message.substring(ind + 1, message.lastIndexOf(">"));

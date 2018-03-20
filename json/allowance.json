@@ -5,35 +5,28 @@
             "permission": 2,
             "presence": "active",
             "inactivity": 1,
-            "responded" : true
+            "responded": true
         },
         "319339050706141184": {
             "name": "lulugazzoo",
             "permission": 2,
             "presence": "active",
             "inactivity": 0,
-            "responded" : true
+            "responded": true
         },
         "121315234420883456": {
             "name": "hijlkmno",
             "permission": 2,
             "presence": "active",
             "inactivity": 2,
-            "responded" : true
-        },
-        "107751955127898112": {
-            "name": "Ray",
-            "permission": 2,
-            "presence": "active",
-            "inactivity": 0,
-            "responded" : true
+            "responded": true
         },
         "122845207233429504": {
             "name": "hummusgoat",
             "permission": 2,
             "presence": "active",
             "inactivity": 0,
-            "responded" : true
+            "responded": true
         }
     }
 }
