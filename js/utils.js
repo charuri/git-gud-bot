@@ -32,6 +32,6 @@ export default function updateFlagParams() {
     console.log("reset time: " + config.resetTime);
     console.log("allowance amount: " + config.allowance);
     console.log("airsoft snipe URL: " + config.url);
-    console.log("summon: " + config.summon);
+    console.log("summon: " + config.summonEnabled);
     console.log("\n");
 }
