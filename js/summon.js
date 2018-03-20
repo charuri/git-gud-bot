@@ -1,19 +1,16 @@
 import { Discord, discordBot, channelID, config, users } from "../bot.js";
 import { updateUsers } from "./users.js";
 
-export default function summonUser(channelID, person, userID) {
-    //console.log("hi test");
+function summonUser(channelID, person) {
     var delay = 2000;
-    //console.log(person);
     users[person].responded = 1;
     updateUsers();
     async function sendMsg() {
-        //console.log(channelID);
-        await sleep(delay);
         discordBot.sendMessage({
             to: "337716572640772097",
             message: "<@" + person + "> you are being summoned! Respond \"WHAT\" in this channel to cancel summon"
         });
+        await sleep(delay);
         //timeout of 50 msgs
         if (users[person].responded == 50) {
             cancelSummon(person);
@@ -24,24 +21,43 @@ export default function summonUser(channelID, person, userID) {
             });
             return;
         }
-        users[person].responded++;
-        updateUsers();
+        
     }
     async function sum() {
         while(users[person].responded != 0) {
-            //console.log("3 " + false);
+            users[person].responded++;
+            updateUsers();
             await sendMsg();
         }
     }
     sum();
 }
 
-export function cancelSummon(userID) {
+function cancelSummon(userID) {
     users[userID].responded = 0;
     updateUsers();
 }
 
 function sleep (time) {
-    console.log("sleeping for " + time);
     return new Promise((resolve) => setTimeout(resolve, time));
 }
+
+
+export default function handleSummon(userID, channelID, message, event) {
+    var person = event.d.mentions[0] ? event.d.mentions[0].id : 0;
+    if (message.startsWith("$summon")) {
+        summonUser(channelID, person);
+    } 
+    if (message.startsWith("$cancelSummon")) { //format is $cancelSummon @person
+        if (person) {
+            cancelSummon(person);
+        }
+    }
+    if (channelID == 337716572640772097) {
+        if (message == "WHAT" && users[userID.toString()].responded != 0) {
+            cancelSummon(userID.toString());
+        }
+    }
+}
+        
+            
