@@ -89,12 +89,12 @@ function createDiscordBot() {
 // run message watchers
 function processTextMessage(user, userID, channelID, message, event) {
     // logging
-    // console.log("user ", user);
+     // console.log("user ", user);
     // console.log("userID ", userID);
     // console.log("channelID ", channelID);
     // console.log("message ", message);
-    // // console.log("event ", event);
-    // // console.log("event embeds" , event.d.embeds);
+     // console.log("event ", event);
+     // console.log("event embeds" , event.d.embeds);
     // console.log("\n");
 
     if (config.chorobotEnabled) {

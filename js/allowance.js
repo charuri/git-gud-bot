@@ -15,6 +15,9 @@ export default function handleAllowance (userID, channelID, message) {
             fillBucket();
         }
     }
+    if (message.startsWith("$setAllowance")) {
+        changeAllowance(parseInt(message.substring(14)));
+    }
 }
 
 // gives the user allowance if it's their first time messaging in the server
@@ -40,6 +43,25 @@ function giveAllowance (userID, channelID) {
         updateAllowance();
     }
 }
+
+function changeAllowance (amount) {
+    if (checkPermissions(userID, channelID)) {
+        config.allowance = amount;
+        updateConfig();
+    }
+    
+}
+
+function updateConfig () {
+    var updateFile = { config: config };
+    fs.writeFile('./json/config.json', JSON.stringify(updateFile, null, 4), (error) => {
+        /* handle error */
+        if (error) {
+            console.log("There has been an error updating config.json: ", error);
+        }
+    });
+}
+
 
 // timer that resets the allowance every day at 00:00:00
 export function allowanceTimer () {
