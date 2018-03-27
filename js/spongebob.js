@@ -19,7 +19,7 @@ export default function mockify(message, channelID) {
         }
     }
 
-    output = "***```fix\n" + output.substr(6) + "```***";
+    output = "<:spongemock:337308048156786688>***```fix\n" + output.substr(6) + "```***";
 
     // TODO: figure out how to send event embeds instead of message
     discordBot.sendMessage({
