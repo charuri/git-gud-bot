@@ -19,7 +19,7 @@ export default function owo(message, channelID) {
         }
     }
 
-    output = "**```fix\n" + "OwO " + output.substr(6) + " UwU *starts twerking* kawaii!!!!!```**";
+    output = "**```fix\n" + "OwO " + output.substr(5) + " UwU *starts twerking* kawaii!!!!!```**";
 
     // TODO: figure out how to send event embeds instead of message
     discordBot.sendMessage({
