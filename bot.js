@@ -14,6 +14,7 @@ import pickFlower from "./js/flowerPicking.js";
 import mockify from "./js/spongebob.js";
 import handleChannels from "./js/channels.js";
 import handleSummon from "./js/summon.js";
+import owo from "./js/owo.js";
 import handleAllowance, {
     allowanceTimer
 }
@@ -124,6 +125,12 @@ function processTextMessage(user, userID, channelID, message, event) {
     if (config.mockingEnabled) {
         if (message.startsWith("$mock")) {
             mockify(message, channelID);
+        }
+    }
+
+    if (config.owoEnabled) {
+        if (message.startsWith("$owo")) {
+            owo(message, channelID);
         }
     }
 

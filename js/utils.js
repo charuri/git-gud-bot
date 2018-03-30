@@ -19,6 +19,7 @@ export default function updateFlagParams() {
     config.allowance = args.hasOwnProperty('allowance') ? args.allowance : config.allowance;
     config.url = args.hasOwnProperty('url') ? args.url : config.url;
     config.summonEnabled = args.x;
+    config.owoEnabled = args.o;
 
     console.log("chorobot enabled: " + config.chorobotEnabled);
     console.log("airsoft snipe enabled: " + config.airsoftSnipeEnabled);
@@ -33,5 +34,6 @@ export default function updateFlagParams() {
     console.log("allowance amount: " + config.allowance);
     console.log("airsoft snipe URL: " + config.url);
     console.log("summon: " + config.summonEnabled);
+    console.log("owo: " + config.owoEnabled);
     console.log("\n");
 }
